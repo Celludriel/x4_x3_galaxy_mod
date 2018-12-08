@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<macros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <macro name="x3_galaxy_macro" class="galaxy">
+    <component ref="standardgalaxy" />
+    <connections>
+      <connection name="Cluster_Argon_Prime_connection" ref="clusters">
+        <macro ref="Cluster_Argon_Prime_macro" connection="galaxy" />
+      </connection>
+    </connections>
+    <properties>
+      <identification name="effect_universe" owner="argongovernment" />
+    </properties>
+  </macro>
+</macros>
