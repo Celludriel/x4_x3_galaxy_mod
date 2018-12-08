@@ -4,11 +4,11 @@
     <component ref="standardgalaxy" />
     <connections>
       <connection name="Cluster_Argon_Prime_connection" ref="clusters">
+		<offset>
+			<position x="0" y="0" z="0" />
+		</offset>	  
         <macro ref="Cluster_Argon_Prime_macro" connection="galaxy" />
       </connection>
     </connections>
-    <properties>
-      <identification name="effect_universe" owner="argongovernment" />
-    </properties>
   </macro>
 </macros>
