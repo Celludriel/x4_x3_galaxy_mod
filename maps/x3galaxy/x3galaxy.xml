@@ -3,10 +3,7 @@
   <macro name="x3g_galaxy_macro" class="galaxy">
     <component ref="standardgalaxy" />
     <connections>
-      <connection name="x3g_Cluster_Argon_Prime_connection" ref="clusters">
-		<offset>
-			<position x="0" y="0" z="0" />
-		</offset>	  
+      <connection name="x3g_Cluster_Argon_Prime_connection" ref="clusters">  
         <macro ref="x3g_Cluster_Argon_Prime_macro" connection="galaxy" />
       </connection>
     </connections>

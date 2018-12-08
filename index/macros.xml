@@ -5,5 +5,5 @@
 	<entry name="x3g_galaxy_macro" value="extensions\x3galaxy\maps\x3galaxy\x3galaxy"/>
 	<entry name="x3g_Cluster_Argon_Prime_macro" value="extensions\x3galaxy\maps\x3galaxy\x3cluster"/>	
 	<entry name="x3g_Cluster_Argon_Prime_Sector01_macro" value="extensions\x3galaxy\maps\x3galaxy\x3sector"/>
-	<entry name="x3g_Argon_Prime_Sector01_Zone_macro" value="extensions\x3galaxy\maps\x3galaxy\x3zone"/>
+	<entry name="x3g_Cluster_Argon_Prime_Sector01_Zone01_macro" value="extensions\x3galaxy\maps\x3galaxy\x3zone"/>
 </index>
