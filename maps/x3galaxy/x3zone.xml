@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <macros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <macro name="tzoneCluster_Argon_Prime_Sector01_Zone_macro" class="zone">
+  <macro name="x3g_Argon_Prime_Sector01_Zone_macro" class="zone">
     <component ref="standardzone" />
     <connections>
     </connections>

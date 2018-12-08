@@ -1,10 +1,10 @@
 <?xml version="1.0"?>
 <macros xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <macro name="Cluster_Argon_Prime_macro" class="cluster">
+  <macro name="x3g_Cluster_Argon_Prime_macro" class="cluster">
     <component ref="standardcluster" />
     <connections>
-      <connection name="Cluster_Argon_Prime_Sector01_connection" ref="sectors">
-        <macro ref="Cluster_Argon_Prime_Sector01_macro" connection="cluster" />
+      <connection name="x3g_Cluster_Argon_Prime_Sector01_connection" ref="sectors">
+        <macro ref="x3g_Cluster_Argon_Prime_Sector01_macro" connection="cluster" />
       </connection>
       <connection ref="content">
         <macro>

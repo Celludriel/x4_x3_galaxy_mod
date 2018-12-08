@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <gamestarts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="gamestarts.xsd">
   <gamestart id="x3_galaxy_gamestart" name="The X3 Galaxy" description="Something familiar" image="gamestart_2" group="3" >
-    <location galaxy="x3_galaxy_macro" zone="tzoneCluster_Argon_Prime_Sector01_Zone_macro">
+    <location galaxy="x3g_galaxy_macro" zone="x3g_Argon_Prime_Sector01_Zone_macro">
       <position x="0" y="0" z="0" />
       <rotation yaw="0" pitch="0" roll="0" />
     </location>
