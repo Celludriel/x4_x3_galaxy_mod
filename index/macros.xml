@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- ?xml-stylesheet href="index.xsl" type="text\xsl" ? -->
 <index>
 	<!-- x3 galaxy -->
-	<entry name="x3g_galaxy_macro" value="extensions\x3galaxy\maps\x3galaxy\x3galaxy"/>
-	<entry name="x3g_Cluster_Argon_Prime_macro" value="extensions\x3galaxy\maps\x3galaxy\x3cluster"/>	
-	<entry name="x3g_Cluster_Argon_Prime_Sector01_macro" value="extensions\x3galaxy\maps\x3galaxy\x3sector"/>
-	<entry name="x3g_Cluster_Argon_Prime_Sector01_Zone01_macro" value="extensions\x3galaxy\maps\x3galaxy\x3zone"/>
+	<entry name="x3g_galaxy_macro" value="extensions\x3galaxy\maps\x3galaxy\galaxy"/>
+	<entry name="x3g_cluster_*" value="extensions\x3galaxy\maps\x3galaxy\clusters"/>	
+	<entry name="x3g_cluster_01_sector*" value="extensions\x3galaxy\maps\x3galaxy\sectors"/>
+	<entry name="x3g_zone*" value="extensions\x3galaxy\maps\x3galaxy\zones"/>
 </index>
