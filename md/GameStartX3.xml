@@ -17,22 +17,10 @@
             <position x="500" y="0" z="0"/>
             <rotation yaw="190deg" pitch="20deg" roll="10deg"/>
           </create_ship>
-          <!--<create_object name="$satellite" macro="[macro.eq_arg_satellite_01_macro, macro.eq_arg_satellite_02_macro].random" owner="faction.player" sector="$sectors.{$i}">
+          <create_object name="$satellite" macro="[macro.eq_arg_satellite_01_macro, macro.eq_arg_satellite_02_macro].random" owner="faction.player" sector="$sectors.{$i}">
             <safepos max="15km"/>
-          </create_object>-->
+          </create_object>
         </do_all>
-        <!--Some stuff-->
-        <find_sector macro="macro.esc_cluster_01_sector001_macro" required="true" name="$coreZone"/>
-        <set_owner object="$coreZone" faction="faction.hatikvah"/>
-        <set_faction_known faction="faction.alliance" known="true" />
-        <set_faction_known faction="faction.antigone" known="true" />
-        <set_faction_known faction="faction.argon" known="true" />
-        <set_faction_known faction="faction.hatikvah" known="true" />
-        <set_faction_known faction="faction.holyorder" known="true" />
-        <set_faction_known faction="faction.ministry" known="true"/>
-        <set_faction_known faction="faction.scaleplate" known="true" />
-        <set_faction_known faction="faction.teladi" known="true" />
-        <set_faction_known faction="faction.xenon" known="true" />
       </actions>
     </cue>
   </cues>
