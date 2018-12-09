@@ -3,6 +3,28 @@
   <macro name="x3g_zone001_cluster_01_sector001_macro" class="zone">
     <component ref="standardzone" />
     <connections>
+      <connection name="x3g_gate_c01s001z001_c01s002z001_connection" ref="gates">
+        <offset>
+          <position x="10000" y="500" z="0" />
+        </offset>
+        <macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+      </connection>	
+    </connections>
+  </macro>  
+  <macro name="x3g_zone001_cluster_01_sector002_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
+      <connection name="x3g_gate_c01s002z001_c01s001z001_connection" ref="gates">
+        <offset>
+          <position x="10000" y="500" z="0" />
+        </offset>
+        <macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+      </connection>	
+    </connections>
+  </macro>  
+  <macro name="x3g_zone001_cluster_01_sector003_macro" class="zone">
+    <component ref="standardzone" />
+    <connections>
     </connections>
   </macro>
 </macros>

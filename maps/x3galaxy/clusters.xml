@@ -5,6 +5,18 @@
     <connections>
       <connection name="x3g_cluster_01_sector001_connection" ref="sectors">  
         <macro ref="x3g_cluster_01_sector001_macro" connection="cluster" />
+      </connection>      
+	  <connection name="x3g_cluster_01_sector002_connection" ref="sectors">
+	    <offset>
+          <position x="-21113958" y="0" z="7381814.5" />
+        </offset>
+        <macro ref="x3g_cluster_01_sector002_macro" connection="cluster" />
+      </connection>
+	  <connection name="x3g_cluster_01_sector003_connection" ref="sectors">
+        <offset>
+          <position x="38620000" y="0" z="53635320" />
+        </offset>	  
+        <macro ref="x3g_cluster_01_sector003_macro" connection="cluster" />
       </connection>
       <connection ref="content">
         <macro>

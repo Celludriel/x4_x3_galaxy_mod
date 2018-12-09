@@ -9,6 +9,9 @@
 		</offset>	  
         <macro ref="x3g_cluster_01_macro" connection="galaxy" />
       </connection>
+	  <connection name="x3g_gate_c01s001z001_c01s002z001" ref="destination" path="../x3g_cluster_01_connection/x3g_cluster_01_sector001_connection/x3g_zone001_cluster_01_sector001_connection/x3g_gate_c01s001z001_c01s002z001_connection">
+	    <macro connection="destination" path="../../../../../x3g_cluster_01_connection/x3g_cluster_01_sector001_connection/x3g_zone001_cluster_01_sector002_connection/x3g_gate_c01s002z001_c01s001z001_connection" />
+	  </connection>	  
     </connections>
   </macro>
 </macros>
