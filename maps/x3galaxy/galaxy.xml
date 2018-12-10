@@ -3,15 +3,96 @@
   <macro name="x3g_galaxy_macro" class="galaxy">
     <component ref="standardgalaxy" />
     <connections>
-      <connection name="x3g_cluster_01_connection" ref="clusters">
-		<offset>
-			<position x="0" y="0" z="0" />
-		</offset>	  
-        <macro ref="x3g_cluster_01_macro" connection="galaxy" />
+      <connection name="x3g_cluster01_connection" ref="clusters">
+        <offset>
+          <position x="0" y="0" z="0" />
+        </offset>
+        <macro ref="x3g_cluster01_macro" connection="galaxy" />
       </connection>
-	  <connection name="x3g_gate_c01s001z001_c01s002z001" ref="destination" path="../x3g_cluster_01_connection/x3g_cluster_01_sector001_connection/x3g_zone001_cluster_01_sector001_connection/x3g_gate_c01s001z001_c01s002z001_connection">
-	    <macro connection="destination" path="../../../../../x3g_cluster_01_connection/x3g_cluster_01_sector001_connection/x3g_zone001_cluster_01_sector002_connection/x3g_gate_c01s002z001_c01s001z001_connection" />
-	  </connection>	  
+      <connection name="x3g_cluster02_connection" ref="clusters">
+        <offset>
+          <position x="15000000" y="0" z="8660000" />
+        </offset>
+        <macro ref="x3g_cluster02_macro" connection="galaxy" />
+      </connection>
+      <connection name="x3g_cluster03_connection" ref="clusters">
+        <offset>
+          <position x="30000000" y="0" z="0" />
+        </offset>
+        <macro ref="x3g_cluster03_macro" connection="galaxy" />
+      </connection>
+      <connection name="x3g_cluster04_connection" ref="clusters">
+        <offset>
+          <position x="0" y="0" z="-17320000" />
+        </offset>
+        <macro ref="x3g_cluster04_macro" connection="galaxy" />
+      </connection>
+      <connection name="x3g_cluster05_connection" ref="clusters">
+        <offset>
+          <position x="15000000" y="0" z="-8660000" />
+        </offset>
+        <macro ref="x3g_cluster05_macro" connection="galaxy" />
+      </connection>
+      <connection name="x3g_cluster06_connection" ref="clusters">
+        <offset>
+          <position x="30000000" y="0" z="-17320000" />
+        </offset>
+        <macro ref="x3g_cluster06_macro" connection="galaxy" />
+      </connection>
+      <connection name="x3g_cluster07_connection" ref="clusters">
+        <offset>
+          <position x="0" y="0" z="-34640000" />
+        </offset>
+        <macro ref="x3g_cluster07_macro" connection="galaxy" />
+      </connection>
+      <connection name="x3g_cluster08_connection" ref="clusters">
+        <offset>
+          <position x="15000000" y="0" z="-25980000" />
+        </offset>
+        <macro ref="x3g_cluster08_macro" connection="galaxy" />
+      </connection>
+      <connection name="x3g_cluster09_connection" ref="clusters">
+        <offset>
+          <position x="30000000" y="0" z="-34640000" />
+        </offset>
+        <macro ref="x3g_cluster09_macro" connection="galaxy" />
+      </connection>
+      <connection name="x3g_cluster10_connection" ref="clusters">
+        <offset>
+          <position x="0" y="0" z="-51960000" />
+        </offset>
+        <macro ref="x3g_cluster10_macro" connection="galaxy" />
+      </connection>
+      <connection name="x3g_cluster11_connection" ref="clusters">
+        <offset>
+          <position x="15000000" y="0" z="-43300000" />
+        </offset>
+        <macro ref="x3g_cluster11_macro" connection="galaxy" />
+      </connection>
+      <connection name="x3g_cluster12_connection" ref="clusters">
+        <offset>
+          <position x="30000000" y="0" z="-51960000" />
+        </offset>
+        <macro ref="x3g_cluster12_macro" connection="galaxy" />
+      </connection>
+      <connection name="x3g_cluster13_connection" ref="clusters">
+        <offset>
+          <position x="0" y="0" z="-69280000" />
+        </offset>
+        <macro ref="x3g_cluster13_macro" connection="galaxy" />
+      </connection>
+      <connection name="x3g_cluster14_connection" ref="clusters">
+        <offset>
+          <position x="15000000" y="0" z="-60620000" />
+        </offset>
+        <macro ref="x3g_cluster14_macro" connection="galaxy" />
+      </connection>
+      <connection name="x3g_cluster15_connection" ref="clusters">
+        <offset>
+          <position x="30000000" y="0" z="-69280000" />
+        </offset>
+        <macro ref="x3g_cluster15_macro" connection="galaxy" />
+      </connection>
     </connections>
   </macro>
 </macros>

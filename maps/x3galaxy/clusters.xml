@@ -1,26 +1,196 @@
 <?xml version="1.0" encoding="utf-8"?>
 <macros>
-  <macro name="x3g_cluster_01_macro" class="cluster">
+    <macro name="x3g_cluster01_macro" class="cluster">
     <component ref="standardcluster" />
     <connections>
-      <connection name="x3g_cluster_01_sector001_connection" ref="sectors">  
-        <macro ref="x3g_cluster_01_sector001_macro" connection="cluster" />
+      <connection name="x3g_cluster01_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster01_sector001_macro" connection="cluster" />
       </connection>      
-	  <connection name="x3g_cluster_01_sector002_connection" ref="sectors">
-	    <offset>
-          <position x="-21113958" y="0" z="7381814.5" />
-        </offset>
-        <macro ref="x3g_cluster_01_sector002_macro" connection="cluster" />
-      </connection>
-	  <connection name="x3g_cluster_01_sector003_connection" ref="sectors">
-        <offset>
-          <position x="38620000" y="0" z="53635320" />
-        </offset>	  
-        <macro ref="x3g_cluster_01_sector003_macro" connection="cluster" />
-      </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="Cluster_01" />
+          <component connection="space" ref="cluster_black_wlight" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster02_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster02_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster02_sector001_macro" connection="cluster" />
+      </connection>      
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="cluster_black_wlight" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster03_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster03_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster03_sector001_macro" connection="cluster" />
+      </connection>      
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="cluster_black_wlight" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster04_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster04_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster04_sector001_macro" connection="cluster" />
+      </connection>      
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="cluster_black_wlight" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster05_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster05_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster05_sector001_macro" connection="cluster" />
+      </connection>      
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="cluster_black_wlight" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster06_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster06_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster06_sector001_macro" connection="cluster" />
+      </connection>      
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="cluster_black_wlight" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster07_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster07_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster07_sector001_macro" connection="cluster" />
+      </connection>      
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="cluster_black_wlight" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster08_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster08_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster08_sector001_macro" connection="cluster" />
+      </connection>      
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="cluster_black_wlight" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster09_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster09_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster09_sector001_macro" connection="cluster" />
+      </connection>      
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="cluster_black_wlight" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster10_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster10_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster10_sector001_macro" connection="cluster" />
+      </connection>      
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="cluster_black_wlight" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster11_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster11_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster11_sector001_macro" connection="cluster" />
+      </connection>      
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="cluster_black_wlight" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster12_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster12_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster12_sector001_macro" connection="cluster" />
+      </connection>      
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="cluster_black_wlight" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster13_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster13_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster13_sector001_macro" connection="cluster" />
+      </connection>      
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="cluster_black_wlight" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster14_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster14_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster14_sector001_macro" connection="cluster" />
+      </connection>      
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="cluster_black_wlight" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster15_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster15_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster15_sector001_macro" connection="cluster" />
+      </connection>      
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="cluster_black_wlight" />
         </macro>
       </connection>
     </connections>
