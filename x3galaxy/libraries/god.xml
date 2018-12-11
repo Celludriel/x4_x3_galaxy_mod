@@ -6,7 +6,557 @@
   <remove sel="/god/products"/>
   <add sel="/god">
     <objects></objects>
-    <stations></stations>
-    <products></products>
+    <stations>
+		<defaults>
+		  <location newzonechance="0.25" coreboundaryzoneheight="40000">
+			<corerange max="1.3"/>
+		  </location>
+		  <modules production="5" storage="10" />
+		  <quota zone="3" />
+		</defaults>	
+		<station id="shipyard_argon_01" race="argon" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster08_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="argon" tags="[shipyard]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="wharf_argon_01" race="argon" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster08_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="argon" tags="[wharf]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="equipmentdock_argon_01" race="argon" owner="argon" type="factory">		
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster08_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="argon" tags="[equipmentdock]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="arg_defence_cluster01_sector001" race="argon" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster01_sector001_macro" />
+		  <station>
+			<select faction="argon" tags="[defence]" />
+		  </station>
+		</station>		
+		<station id="arg_defence_cluster02_sector001" race="argon" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster02_sector001_macro" />
+		  <station>
+			<select faction="argon" tags="[defence]" />
+		  </station>
+		</station>		
+		<station id="arg_defence_cluster03_sector001" race="argon" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster03_sector001_macro" />
+		  <station>
+			<select faction="argon" tags="[defence]" />
+		  </station>
+		</station>		
+		<station id="arg_defence_cluster04_sector001" race="argon" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster04_sector001_macro" />
+		  <station>
+			<select faction="argon" tags="[defence]" />
+		  </station>
+		</station>		
+		<station id="arg_defence_cluster05_sector001" race="argon" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster05_sector001_macro" />
+		  <station>
+			<select faction="argon" tags="[defence]" />
+		  </station>
+		</station>		
+		<station id="arg_defence_cluster06_sector001" race="argon" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster06_sector001_macro" />
+		  <station>
+			<select faction="argon" tags="[defence]" />
+		  </station>
+		</station>		
+		<station id="arg_defence_cluster07_sector001" race="argon" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster07_sector001_macro" />
+		  <station>
+			<select faction="argon" tags="[defence]" />
+		  </station>
+		</station>		
+		<station id="arg_defence_cluster09_sector001" race="argon" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster09_sector001_macro" />
+		  <station>
+			<select faction="argon" tags="[defence]" />
+		  </station>
+		</station>		
+		<station id="arg_defence_cluster10_sector001" race="argon" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster10_sector001_macro" />
+		  <station>
+			<select faction="argon" tags="[defence]" />
+		  </station>
+		</station>		
+		<station id="arg_defence_cluster11_sector001" race="argon" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster11_sector001_macro" />
+		  <station>
+			<select faction="argon" tags="[defence]" />
+		  </station>
+		</station>		
+		<station id="arg_defence_cluster12_sector001" race="argon" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster12_sector001_macro" />
+		  <station>
+			<select faction="argon" tags="[defence]" />
+		  </station>
+		</station>		
+		<station id="arg_defence_cluster13_sector001" race="argon" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster13_sector001_macro" />
+		  <station>
+			<select faction="argon" tags="[defence]" />
+		  </station>
+		</station>		
+		<station id="arg_defence_cluster14_sector001" race="argon" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster14_sector001_macro" />
+		  <station>
+			<select faction="argon" tags="[defence]" />
+		  </station>
+		</station>		
+		<station id="arg_defence_cluster15_sector001" race="argon" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster15_sector001_macro" />
+		  <station>
+			<select faction="argon" tags="[defence]" />
+		  </station>
+		</station>		
+	</stations>
+    <products>
+		<!-- Argon Economy -->
+		<product id="arg_advancedcomposites" ware="advancedcomposites" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="2" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.75" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="advancedcomposites" race="argon" faction="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_advancedelectronics" ware="advancedelectronics" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="2" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.75" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="advancedelectronics" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_antimattercells" ware="antimattercells" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="2" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<region ware="hydrogen" max="80000" />
+		  </location>
+		  <module>
+			<select ware="antimattercells" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_antimatterconverters" ware="antimatterconverters" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="2" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.75" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="antimatterconverters" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_claytronics" ware="claytronics" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="6" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.75" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="claytronics" race="argon" />
+		  </module>
+		</product>
+
+		<product id="arg_dronecomponents" ware="dronecomponents" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="2" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.75" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="dronecomponents" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_energycells" ware="energycells" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="10" sector="6" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.6" maxbound="false" />
+			<sunlight min="1" max="3" />
+		  </location>
+		  <module>
+			<select ware="energycells" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_engineparts" ware="engineparts" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="2" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.75" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="engineparts" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_fieldcoils" ware="fieldcoils" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="2" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.75" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="fieldcoils" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_foodrations" ware="foodrations" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="8" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.75" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="foodrations" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_graphene" ware="graphene" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="6" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<region ware="methane" max="80000" />
+		  </location>
+		  <module>
+			<select ware="graphene" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_hullparts" ware="hullparts" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="16" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.75" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="hullparts" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_meat" ware="meat" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="2" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.25" />
+		  </location>
+		  <module>
+			<select ware="meat" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_medicalsupplies" ware="medicalsupplies" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="18" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.75" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="medicalsupplies" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_microchips" ware="microchips" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="8" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.75" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="microchips" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_missilecomponents" ware="missilecomponents" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="2" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.75" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="missilecomponents" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_plasmaconductors" ware="plasmaconductors" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="4" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.5" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="plasmaconductors" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_quantumtubes" ware="quantumtubes" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="4" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.5" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="quantumtubes" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_refinedmetals" ware="refinedmetals" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="6" sector="4" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<region ware="ore" max="80000" />
+			<economy max="0.5" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="refinedmetals" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_scanningarrays" ware="scanningarrays" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="2" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.5" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="scanningarrays" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_shieldcomponents" ware="shieldcomponents" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="2" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.75" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="shieldcomponents" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_siliconwafers" ware="siliconwafers" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="6" sector="4" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<region ware="silicon" max="80000"/>
+			<economy max="0.5" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="siliconwafers" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_smartchips" ware="smartchips" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="2" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.75" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="smartchips" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_spacefuel" ware="spacefuel" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="2" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[antigone, hatikvah]" relation="self" comparison="ge" solitary="true" excluderinghighway="true">
+			<economy max="0.5" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="spacefuel" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="pir_spacefuel" ware="spacefuel" owner="hatikvah" type="factory">
+		  <quotas>
+			<quota galaxy="12" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[ownerless]" solitary="true" />
+		  <module>
+			<select ware="spacefuel" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_spices" ware="spices" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="6" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.25" />
+		  </location>
+		  <module>
+			<select ware="spices" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_superfluidcoolant" ware="superfluidcoolant" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="2" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<region ware="helium" max="80000" />
+		  </location>
+		  <module>
+			<select ware="superfluidcoolant" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_turretcomponents" ware="turretcomponents" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="2" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.75" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="turretcomponents" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_water" ware="water" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="4" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<region ware="ice" max="80000" />
+		  </location>
+		  <module>
+			<select ware="water" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_weaponcomponents" ware="weaponcomponents" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="2" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.75" maxbound="false" />
+		  </location>
+		  <module>
+			<select ware="weaponcomponents" race="argon"/>
+		  </module>
+		</product>
+
+		<product id="arg_wheat" ware="wheat" owner="argon" type="factory">
+		  <quotas>
+			<quota galaxy="4" />
+		  </quotas>
+		  <location class="galaxy" macro="xu_ep2_universe_macro" faction="[argon, hatikvah]" relation="self" comparison="ge">
+			<economy max="0.25" />
+		  </location>
+		  <module>
+			<select ware="wheat" race="argon"/>
+		  </module>
+		</product>	
+	</products>
   </add>
 </diff>

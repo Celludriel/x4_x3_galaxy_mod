@@ -5,7 +5,7 @@
     <connections>
       <connection name="x3g_cluster01_sector001_connection" ref="sectors">  
         <macro ref="x3g_cluster01_sector001_macro" connection="cluster" />
-      </connection>      
+      </connection>
       <connection ref="content">
         <macro>
           <component connection="space" ref="cluster_black_wlight" />

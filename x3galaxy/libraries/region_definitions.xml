@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<regions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="region_definitions.xsd">
+  <!--
+  The following definitions can be referenced by their name in region macros in the map, but if you follow a naming scheme the game will also dynamically place regions.
+  If you use the name "globalregion_<cluster_macro_name>", a region will be placed in the middle of the cluster.
+  If you use the name "globalregion_<sector_macro_name>", a region will be placed in the middle of the sector.
+  If you define a cluster-wide region it's recommended to omit the <boundary> node, making the region effectively infinite in size.
+  If you define a sector-wide region it's recommended to use this boundary:
+    <boundary class="sphere">
+      <size r="1000000" />
+    </boundary>
+  This should be large enough for practical purposes, but not overlap any other sectors in the same cluster.
+  -->
+</regions>
