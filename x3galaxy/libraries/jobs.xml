@@ -675,7 +675,7 @@
 		</orders>
 		<category faction="argon" tags="[military, carrier]" size="ship_xl"/>
 		<quota galaxy="1"/>
-		<location class="zone" macro="Zone002_Cluster_14_Sector001_macro" faction="argon" relation="self" comparison="exact"/>
+		<location class="zone" macro="x3g_zone001_cluster08_sector001_macro" faction="argon" relation="self" comparison="exact"/>
 		<!--<location class="galaxy" macro="x3g_galaxy_macro" faction="argon" relation="self" comparison="ge"/>-->
 		<environment buildatshipyard="true"/>
 		<ship>

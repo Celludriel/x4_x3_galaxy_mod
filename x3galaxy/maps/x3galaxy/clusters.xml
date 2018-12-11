@@ -8,7 +8,7 @@
       </connection>
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_black_wlight" />
+          <component connection="space" ref="Cluster_01" />
         </macro>
       </connection>
     </connections>
@@ -21,7 +21,7 @@
       </connection>      
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_black_wlight" />
+          <component connection="space" ref="Cluster_01" />
         </macro>
       </connection>
     </connections>
@@ -34,7 +34,7 @@
       </connection>      
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_black_wlight" />
+          <component connection="space" ref="Cluster_01" />
         </macro>
       </connection>
     </connections>
@@ -47,7 +47,7 @@
       </connection>      
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_black_wlight" />
+          <component connection="space" ref="Cluster_01" />
         </macro>
       </connection>
     </connections>
@@ -60,7 +60,7 @@
       </connection>      
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_black_wlight" />
+          <component connection="space" ref="Cluster_01" />
         </macro>
       </connection>
     </connections>
@@ -73,7 +73,7 @@
       </connection>      
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_black_wlight" />
+          <component connection="space" ref="Cluster_01" />
         </macro>
       </connection>
     </connections>
@@ -86,7 +86,7 @@
       </connection>      
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_black_wlight" />
+          <component connection="space" ref="Cluster_01" />
         </macro>
       </connection>
     </connections>
@@ -96,10 +96,58 @@
     <connections>
       <connection name="x3g_cluster08_sector001_connection" ref="sectors">  
         <macro ref="x3g_cluster08_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster08_region001_connection" ref="regions">
+        <offset>
+          <position x="0" y="0" z="150000" />
+		  <rotation yaw="0" pitch="0" roll="0"/>		  
+        </offset>	  
+        <macro name="x3g_cluster08_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>       
+	  <connection name="x3g_cluster08_region002_connection" ref="regions">
+        <offset>
+          <position x="150000" y="0" z="0" />
+		  <rotation yaw="90" pitch="0" roll="0"/>		  
+        </offset>	  
+        <macro name="x3g_cluster08_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>       
+	  <connection name="x3g_cluster08_region003_connection" ref="regions">
+        <offset>
+          <position x="0" y="0" z="-150000" />
+		  <rotation yaw="180" pitch="0" roll="0"/>		  		  
+        </offset>	  
+        <macro name="x3g_cluster08_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>       
+	  <connection name="x3g_cluster08_region004_connection" ref="regions">	  
+        <offset>
+          <position x="-150000" y="0" z="0" />
+		  <rotation yaw="270" pitch="0" roll="0"/>		  
+        </offset>	  
+        <macro name="x3g_cluster08_region004_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_nvidium_belt" />
+          </properties>
+        </macro>
       </connection>      
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_black_wlight" />
+          <component connection="space" ref="Cluster_01" />
         </macro>
       </connection>
     </connections>
@@ -112,7 +160,7 @@
       </connection>      
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_black_wlight" />
+          <component connection="space" ref="Cluster_01" />
         </macro>
       </connection>
     </connections>
@@ -125,7 +173,7 @@
       </connection>      
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_black_wlight" />
+          <component connection="space" ref="Cluster_01" />
         </macro>
       </connection>
     </connections>
@@ -138,7 +186,7 @@
       </connection>      
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_black_wlight" />
+          <component connection="space" ref="Cluster_01" />
         </macro>
       </connection>
     </connections>
@@ -151,7 +199,7 @@
       </connection>      
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_black_wlight" />
+          <component connection="space" ref="Cluster_01" />
         </macro>
       </connection>
     </connections>
@@ -164,7 +212,7 @@
       </connection>      
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_black_wlight" />
+          <component connection="space" ref="Cluster_01" />
         </macro>
       </connection>
     </connections>
@@ -177,7 +225,7 @@
       </connection>      
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_black_wlight" />
+          <component connection="space" ref="Cluster_01" />
         </macro>
       </connection>
     </connections>
@@ -190,7 +238,7 @@
       </connection>      
       <connection ref="content">
         <macro>
-          <component connection="space" ref="cluster_black_wlight" />
+          <component connection="space" ref="Cluster_01" />
         </macro>
       </connection>
     </connections>

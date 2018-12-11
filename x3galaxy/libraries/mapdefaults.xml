@@ -1,138 +1,227 @@
 <?xml version="1.0" encoding="utf-8"?>
 <defaults xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="libraries.xsd">
+  <dataset macro="x3g_cluster01_macro">
+    <properties>
+      <identification name="Three Worlds" description="Three Worlds" />
+      <sounds>
+        <music ref="music_cluster_01" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.25" />
+    </properties>
+  </dataset>
   <dataset macro="x3g_cluster01_sector001_macro">
     <properties>
-      <identification name="Three Worlds" description="Cluster 01" />
+      <identification name="Three Worlds" description="Three Worlds" />
+    </properties>
+  </dataset>
+  
+  <dataset macro="x3g_cluster02_macro">
+    <properties>
+      <identification name="Power Circle" description="Power Circle" />
       <sounds>
-        <music ref="music_cluster_14" />
+        <music ref="music_cluster_01" />
       </sounds>
-      <area sunlight="1" economy="0.75" security="0.75" />
+      <area sunlight="1" economy="0.5" security="0.25" />
     </properties>
   </dataset>
   <dataset macro="x3g_cluster02_sector001_macro">
     <properties>
       <identification name="Power Circle" description="Cluster 02" />
-      <sounds>
-        <music ref="music_cluster_14" />
-      </sounds>
-      <area sunlight="1" economy="0.75" security="0.75" />
     </properties>
   </dataset>
+
+  <dataset macro="x3g_cluster03_macro">
+    <properties>
+      <identification name="Antigone Memorial" description="Antigone Memorial" />
+      <sounds>
+        <music ref="music_cluster_01" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.25" />
+    </properties>
+  </dataset>  
   <dataset macro="x3g_cluster03_sector001_macro">
     <properties>
-      <identification name="Antigone Memorial" description="Cluster 03" />
-      <sounds>
-        <music ref="music_cluster_14" />
-      </sounds>
-      <area sunlight="1" economy="0.75" security="0.75" />
+      <identification name="Antigone Memorial" description="Antigone Memorial" />
     </properties>
   </dataset>
+  
+  <dataset macro="x3g_cluster04_macro">
+    <properties>
+      <identification name="Cloudbase North West" description="Cloudbase North West" />
+      <sounds>
+        <music ref="music_cluster_01" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.25" />
+    </properties>
+  </dataset>    
   <dataset macro="x3g_cluster04_sector001_macro">
     <properties>
-      <identification name="Cloudbase North West" description="Cluster 04" />
-      <sounds>
-        <music ref="music_cluster_14" />
-      </sounds>
-      <area sunlight="1" economy="0.75" security="0.75" />
+      <identification name="Cloudbase North West" description="Cloudbase North West" />
     </properties>
   </dataset>
+  
+  <dataset macro="x3g_cluster05_macro">
+    <properties>
+      <identification name="Herron's Nebula" description="Herron's Nebula" />
+      <sounds>
+        <music ref="music_cluster_01" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.25" />
+    </properties>
+  </dataset>   
   <dataset macro="x3g_cluster05_sector001_macro">
     <properties>
-      <identification name="Herron's Nebula" description="Cluster 05" />
-      <sounds>
-        <music ref="music_cluster_14" />
-      </sounds>
-      <area sunlight="1" economy="0.75" security="0.75" />
+      <identification name="Herron's Nebula" description="Herron's Nebula" />
     </properties>
   </dataset>
+  
+  <dataset macro="x3g_cluster06_macro">
+    <properties>
+      <identification name="The Hole" description="The Hole" />
+      <sounds>
+        <music ref="music_cluster_01" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.25" />
+    </properties>
+  </dataset>   
   <dataset macro="x3g_cluster06_sector001_macro">
     <properties>
-      <identification name="The Hole" description="Cluster 06" />
-      <sounds>
-        <music ref="music_cluster_14" />
-      </sounds>
-      <area sunlight="1" economy="0.75" security="0.75" />
+      <identification name="The Hole" description="The Hole" />
     </properties>
   </dataset>
+  
+  <dataset macro="x3g_cluster07_macro">
+    <properties>
+      <identification name="Ringo Moon" description="Ringo Moon" />
+      <sounds>
+        <music ref="music_cluster_01" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.25" />
+    </properties>
+  </dataset>    
   <dataset macro="x3g_cluster07_sector001_macro">
     <properties>
-      <identification name="Ringo Moon" description="Cluster 07" />
-      <sounds>
-        <music ref="music_cluster_14" />
-      </sounds>
-      <area sunlight="1" economy="0.75" security="0.75" />
+      <identification name="Ringo Moon" description="Ringo Moon" />
     </properties>
   </dataset>
+  
+  <dataset macro="x3g_cluster08_macro">
+    <properties>
+      <identification name="Argon Prime" description="Argon Prime" />
+      <sounds>
+        <music ref="music_cluster_01" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.25" />
+    </properties>
+  </dataset>    
   <dataset macro="x3g_cluster08_sector001_macro">
     <properties>
-      <identification name="Argon Prime" description="Cluster 08" />
-      <sounds>
-        <music ref="music_cluster_14" />
-      </sounds>
-      <area sunlight="1" economy="0.75" security="0.75" />
+      <identification name="Argon Prime" description="Argon Prime" />
     </properties>
   </dataset>
+
+  <dataset macro="x3g_cluster09_macro">
+    <properties>
+      <identification name="The Wall" description="The Wall" />
+      <sounds>
+        <music ref="music_cluster_01" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.25" />
+    </properties>
+  </dataset>   
   <dataset macro="x3g_cluster09_sector001_macro">
     <properties>
-      <identification name="The Wall" description="Cluster 09" />
-      <sounds>
-        <music ref="music_cluster_14" />
-      </sounds>
-      <area sunlight="1" economy="0.75" security="0.75" />
+      <identification name="The Wall" description="The Wall" />
     </properties>
   </dataset>
+  
+  <dataset macro="x3g_cluster10_macro">
+    <properties>
+      <identification name="Red Light" description="Red Light" />
+      <sounds>
+        <music ref="music_cluster_01" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.25" />
+    </properties>
+  </dataset>   
   <dataset macro="x3g_cluster10_sector001_macro">
     <properties>
-      <identification name="Red Light" description="Cluster 10" />
-      <sounds>
-        <music ref="music_cluster_14" />
-      </sounds>
-      <area sunlight="1" economy="0.75" security="0.75" />
+      <identification name="Red Light" description="Red Light" />
     </properties>
   </dataset>
+  
+  <dataset macro="x3g_cluster11_macro">
+    <properties>
+      <identification name="Home of Light" description="Home of Light" />
+      <sounds>
+        <music ref="music_cluster_01" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.25" />
+    </properties>
+  </dataset>   
   <dataset macro="x3g_cluster11_sector001_macro">
     <properties>
-      <identification name="Home of Light" description="Cluster 11" />
-      <sounds>
-        <music ref="music_cluster_14" />
-      </sounds>
-      <area sunlight="1" economy="0.75" security="0.75" />
+      <identification name="Home of Light" description="Home of Light" />
     </properties>
   </dataset>
+  
+  <dataset macro="x3g_cluster12_macro">
+    <properties>
+      <identification name="President's End" description="President's End" />
+      <sounds>
+        <music ref="music_cluster_01" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.25" />
+    </properties>
+  </dataset>   
   <dataset macro="x3g_cluster12_sector001_macro">
     <properties>
-      <identification name="President's End" description="Cluster 12" />
-      <sounds>
-        <music ref="music_cluster_14" />
-      </sounds>
-      <area sunlight="1" economy="0.75" security="0.75" />
+      <identification name="President's End" description="President's End" />
     </properties>
   </dataset>
+  
+  <dataset macro="x3g_cluster13_macro">
+    <properties>
+      <identification name="Cloudbase South West" description="Cloudbase South West" />
+      <sounds>
+        <music ref="music_cluster_01" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.25" />
+    </properties>
+  </dataset>  
   <dataset macro="x3g_cluster13_sector001_macro">
     <properties>
-      <identification name="Cloudbase South West" description="Cluster 13" />
-      <sounds>
-        <music ref="music_cluster_14" />
-      </sounds>
-      <area sunlight="1" economy="0.75" security="0.75" />
+      <identification name="Cloudbase South West" description="Cloudbase South West" />
     </properties>
   </dataset>
+  
+  <dataset macro="x3g_cluster14_macro">
+    <properties>
+      <identification name="Ore Belt" description="Ore Belt" />
+      <sounds>
+        <music ref="music_cluster_01" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.25" />
+    </properties>
+  </dataset>   
   <dataset macro="x3g_cluster14_sector001_macro">
     <properties>
-      <identification name="Ore Belt" description="Cluster 14" />
-      <sounds>
-        <music ref="music_cluster_14" />
-      </sounds>
-      <area sunlight="1" economy="0.75" security="0.75" />
+      <identification name="Ore Belt" description="Ore Belt" />
     </properties>
   </dataset>
+  
+  <dataset macro="x3g_cluster15_macro">
+    <properties>
+      <identification name="Cloudbase South East" description="Cloudbase South East" />
+      <sounds>
+        <music ref="music_cluster_01" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.25" />
+    </properties>
+  </dataset>    
   <dataset macro="x3g_cluster15_sector001_macro">
     <properties>
-      <identification name="Cloudbase South East" description="Cluster 15" />
-      <sounds>
-        <music ref="music_cluster_14" />
-      </sounds>
-      <area sunlight="1" economy="0.75" security="0.75" />
+      <identification name="Cloudbase South East" description="Cloudbase South East" />
     </properties>
   </dataset>
 </defaults>
