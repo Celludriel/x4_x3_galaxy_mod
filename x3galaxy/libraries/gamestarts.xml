@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <gamestarts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="gamestarts.xsd">
-  <gamestart id="x3_galaxy_main" name="The X3 Galaxy" image="gamestart_1">
-    <location galaxy="x3g_galaxy_macro" zone="x3g_zone001_cluster08_sector001_macro">
+  <gamestart id="x3g_galaxy_main" name="The X3 Galaxy" image="gamestart_1">
+    <location galaxy="x3g_galaxy_macro" zone="x3g_zone001_cluster01_sector001_macro">
       <position x="1000" y="0" z="1000"/>
-      <rotation yaw="0" pitch="0" roll="0"/>      
+      <rotation yaw="0" pitch="0" roll="0"/>
     </location>
     <player macro="character_player_fight_macro" money="5000" name="{1021,302}">
       <ship macro="ship_par_s_fighter_01_a_macro">

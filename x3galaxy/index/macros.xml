@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <index>
-  <!-- x3 galaxy -->
+  <!-- x3galaxy -->
   <entry name="x3g_galaxy_macro" value="extensions\x3galaxy\maps\x3galaxy\galaxy"/>
   <entry name="x3g_cluster*" value="extensions\x3galaxy\maps\x3galaxy\clusters"/>
   <entry name="x3g_cluster01_sector*" value="extensions\x3galaxy\maps\x3galaxy\sectors"/>
@@ -9,5 +9,14 @@
   <entry name="x3g_cluster04_sector*" value="extensions\x3galaxy\maps\x3galaxy\sectors"/>
   <entry name="x3g_cluster05_sector*" value="extensions\x3galaxy\maps\x3galaxy\sectors"/>
   <entry name="x3g_cluster06_sector*" value="extensions\x3galaxy\maps\x3galaxy\sectors"/>
+  <entry name="x3g_cluster07_sector*" value="extensions\x3galaxy\maps\x3galaxy\sectors"/>
+  <entry name="x3g_cluster08_sector*" value="extensions\x3galaxy\maps\x3galaxy\sectors"/>
+  <entry name="x3g_cluster09_sector*" value="extensions\x3galaxy\maps\x3galaxy\sectors"/>
+  <entry name="x3g_cluster10_sector*" value="extensions\x3galaxy\maps\x3galaxy\sectors"/>
+  <entry name="x3g_cluster11_sector*" value="extensions\x3galaxy\maps\x3galaxy\sectors"/>
+  <entry name="x3g_cluster12_sector*" value="extensions\x3galaxy\maps\x3galaxy\sectors"/>
+  <entry name="x3g_cluster13_sector*" value="extensions\x3galaxy\maps\x3galaxy\sectors"/>
+  <entry name="x3g_cluster14_sector*" value="extensions\x3galaxy\maps\x3galaxy\sectors"/>
+  <entry name="x3g_cluster15_sector*" value="extensions\x3galaxy\maps\x3galaxy\sectors"/>
   <entry name="x3g_zone*" value="extensions\x3galaxy\maps\x3galaxy\zones"/>
 </index>
