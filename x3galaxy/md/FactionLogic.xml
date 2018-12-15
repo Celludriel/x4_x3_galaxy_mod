@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+    <replace sel="//cue[@name='FactionLogicManagers']/conditions/check_value/@value">player.galaxy.macro.ismacro.{macro.x3g_galaxy_macro}</replace>
+    <replace sel="//cue[@name='FindFactionHeadquarters']/actions/do_if[@exact='faction.argon']/find_cluster/@macro">macro.x3g_cluster01_macro</replace>
+    <replace sel="//cue[@name='SetUpNewHeadquarters']/actions/do_if[@exact='faction.argon']/find_cluster/@macro">macro.x3g_cluster01_macro</replace>
+    <replace sel="//cue[@name='FindFactionHeadquarters']/actions/do_elseif[@exact='faction.antigone']/find_cluster/@macro">macro.x3g_cluster16_macro</replace>
+    <replace sel="//cue[@name='SetUpNewHeadquarters']/actions/do_elseif[@exact='faction.antigone']/find_cluster/@macro">macro.x3g_cluster16_macro</replace>
+    <replace sel="//cue[@name='FindFactionHeadquarters']/actions/do_elseif[@exact='faction.alliance']/find_cluster/@macro">macro.x3g_cluster31_macro</replace>
+    <replace sel="//cue[@name='SetUpNewHeadquarters']/actions/do_elseif[@exact='faction.alliance']/find_cluster/@macro">macro.x3g_cluster31_macro</replace>
+    <replace sel="//cue[@name='FindFactionHeadquarters']/actions/do_elseif[@exact='faction.paranid']/find_cluster/@macro">macro.x3g_cluster32_macro</replace>
+    <replace sel="//cue[@name='SetUpNewHeadquarters']/actions/do_elseif[@exact='faction.paranid']/find_cluster/@macro">macro.x3g_cluster32_macro</replace>
+    <replace sel="//cue[@name='FindFactionHeadquarters']/actions/do_elseif[@exact='faction.teladi']/find_cluster/@macro">macro.x3g_cluster41_macro</replace>
+    <replace sel="//cue[@name='SetUpNewHeadquarters']/actions/do_elseif[@exact='faction.teladi']/find_cluster/@macro">macro.x3g_cluster41_macro</replace>
+    <replace sel="//cue[@name='FindFactionHeadquarters']/actions/do_elseif[@exact='faction.hatikvah']/find_sector/@macro">macro.x3g_cluster43_sector001_macro</replace>
+    <replace sel="//cue[@name='SetUpNewHeadquarters']/actions/do_elseif[@exact='faction.hatikvah']/find_sector/@macro">macro.x3g_cluster43_sector001_macro</replace>
+    <replace sel="//cue[@name='FindFactionHeadquarters']/actions/do_elseif[@exact='faction.scaleplate']/find_cluster/@macro">macro.x3g_cluster44_macro</replace>
+    <replace sel="//cue[@name='SetUpNewHeadquarters']/actions/do_elseif[@exact='faction.scaleplate']/find_cluster/@macro">macro.x3g_cluster44_macro</replace>
+    <replace sel="//cue[@name='FindFactionHeadquarters']/actions/do_elseif[@exact='faction.ministry']/find_cluster/@macro">macro.x3g_cluster57_macro</replace>
+    <replace sel="//cue[@name='SetUpNewHeadquarters']/actions/do_elseif[@exact='faction.ministry']/find_cluster/@macro">macro.x3g_cluster57_macro</replace>
+    <replace sel="//cue[@name='FindFactionHeadquarters']/actions/do_elseif[@exact='faction.holyorder']/find_cluster/@macro">macro.x3g_cluster67_macro</replace>
+    <replace sel="//cue[@name='SetUpNewHeadquarters']/actions/do_elseif[@exact='faction.holyorder']/find_cluster/@macro">macro.x3g_cluster67_macro</replace>
+</diff>

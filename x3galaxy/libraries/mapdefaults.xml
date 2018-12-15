@@ -6,7 +6,7 @@
       <sounds>
         <music ref="music_cluster_02" />
       </sounds>
-      <area sunlight="1" economy="0.5" security="0.25" />
+      <area sunlight="1" economy="0.75" security="0.75" />
     </properties>
   </dataset>
   <dataset macro="x3g_cluster01_sector001_macro">
@@ -20,7 +20,7 @@
       <sounds>
         <music ref="music_cluster_02" />
       </sounds>
-      <area sunlight="1" economy="0.5" security="0.25" />
+      <area sunlight="1" economy="0.5" security="0.5" />
     </properties>
   </dataset>
   <dataset macro="x3g_cluster02_sector001_macro">
@@ -34,7 +34,7 @@
       <sounds>
         <music ref="music_cluster_02" />
       </sounds>
-      <area sunlight="1" economy="0.5" security="0.25" />
+      <area sunlight="1" economy="0.5" security="0.5" />
     </properties>
   </dataset>
   <dataset macro="x3g_cluster03_sector001_macro">
@@ -48,7 +48,7 @@
       <sounds>
         <music ref="music_cluster_02" />
       </sounds>
-      <area sunlight="1" economy="0.5" security="0.25" />
+      <area sunlight="1" economy="0.5" security="0.5" />
     </properties>
   </dataset>
   <dataset macro="x3g_cluster04_sector001_macro">
@@ -62,7 +62,7 @@
       <sounds>
         <music ref="music_cluster_02" />
       </sounds>
-      <area sunlight="1" economy="0.5" security="0.25" />
+      <area sunlight="1" economy="0.5" security="0.5" />
     </properties>
   </dataset>
   <dataset macro="x3g_cluster05_sector001_macro">
@@ -76,7 +76,7 @@
       <sounds>
         <music ref="music_cluster_02" />
       </sounds>
-      <area sunlight="1" economy="0.5" security="0.25" />
+      <area sunlight="1" economy="0.5" security="0.5" />
     </properties>
   </dataset>
   <dataset macro="x3g_cluster06_sector001_macro">
@@ -90,7 +90,7 @@
       <sounds>
         <music ref="music_cluster_02" />
       </sounds>
-      <area sunlight="1" economy="0.5" security="0.25" />
+      <area sunlight="1" economy="0.25" security="0.25" />
     </properties>
   </dataset>
   <dataset macro="x3g_cluster07_sector001_macro">
@@ -104,7 +104,7 @@
       <sounds>
         <music ref="music_cluster_02" />
       </sounds>
-      <area sunlight="1" economy="0.5" security="0.25" />
+      <area sunlight="1" economy="0.5" security="0.5" />
     </properties>
   </dataset>
   <dataset macro="x3g_cluster08_sector001_macro">
@@ -118,7 +118,7 @@
       <sounds>
         <music ref="music_cluster_02" />
       </sounds>
-      <area sunlight="1" economy="0.5" security="0.25" />
+      <area sunlight="1" economy="0.25" security="0.25" />
     </properties>
   </dataset>
   <dataset macro="x3g_cluster09_sector001_macro">
@@ -132,7 +132,7 @@
       <sounds>
         <music ref="music_cluster_02" />
       </sounds>
-      <area sunlight="1" economy="0.5" security="0.25" />
+      <area sunlight="1" economy="0.25" security="0.25" />
     </properties>
   </dataset>
   <dataset macro="x3g_cluster10_sector001_macro">
@@ -146,7 +146,7 @@
       <sounds>
         <music ref="music_cluster_02" />
       </sounds>
-      <area sunlight="1" economy="0.5" security="0.25" />
+      <area sunlight="1" economy="0.25" security="0.25" />
     </properties>
   </dataset>
   <dataset macro="x3g_cluster11_sector001_macro">
@@ -160,7 +160,7 @@
       <sounds>
         <music ref="music_cluster_02" />
       </sounds>
-      <area sunlight="1" economy="0.5" security="0.25" />
+      <area sunlight="1" economy="0.25" security="0.25" />
     </properties>
   </dataset>
   <dataset macro="x3g_cluster12_sector001_macro">
@@ -174,7 +174,7 @@
       <sounds>
         <music ref="music_cluster_02" />
       </sounds>
-      <area sunlight="1" economy="0.5" security="0.25" />
+      <area sunlight="1" economy="0.25" security="0.25" />
     </properties>
   </dataset>
   <dataset macro="x3g_cluster13_sector001_macro">
@@ -188,7 +188,7 @@
       <sounds>
         <music ref="music_cluster_02" />
       </sounds>
-      <area sunlight="1" economy="0.5" security="0.25" />
+      <area sunlight="1" economy="0.25" security="0.25" />
     </properties>
   </dataset>
   <dataset macro="x3g_cluster14_sector001_macro">
@@ -202,12 +202,782 @@
       <sounds>
         <music ref="music_cluster_02" />
       </sounds>
-      <area sunlight="1" economy="0.5" security="0.25" />
+      <area sunlight="1" economy="0.25" security="0.25" />
     </properties>
   </dataset>
   <dataset macro="x3g_cluster15_sector001_macro">
     <properties>
       <identification name="Cloudbase South East" description="Cloudbase South East" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster16_macro">
+    <properties>
+      <identification name="Kingdom End" description="Kingdom End" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.75" security="0.75" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster16_sector001_macro">
+    <properties>
+      <identification name="Kingdom End" description="Kingdom End" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster17_macro">
+    <properties>
+      <identification name="Rolk's Drift" description="Rolk's Drift" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.5" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster17_sector001_macro">
+    <properties>
+      <identification name="Rolk's Drift" description="Rolk's Drift" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster18_macro">
+    <properties>
+      <identification name="Queen's Space" description="Queen's Space" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster18_sector001_macro">
+    <properties>
+      <identification name="Queen's Space" description="Queen's Space" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster19_macro">
+    <properties>
+      <identification name="Menalaus' Frontier" description="Menalaus' Frontier" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.75" security="0.75" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster19_sector001_macro">
+    <properties>
+      <identification name="Menalaus' Frontier" description="Menalaus' Frontier" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster20_macro">
+    <properties>
+      <identification name="Rolk's Fate" description="Rolk's Fate" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster20_sector001_macro">
+    <properties>
+      <identification name="Rolk's Fate" description="Rolk's Fate" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster21_macro">
+    <properties>
+      <identification name="Atreus' Clouds" description="Atreus' Clouds" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster21_sector001_macro">
+    <properties>
+      <identification name="Atreus' Clouds" description="Atreus' Clouds" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster22_macro">
+    <properties>
+      <identification name="Farnham's Legend" description="Farnham's Legend" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster22_sector001_macro">
+    <properties>
+      <identification name="Farnham's Legend" description="Farnham's Legend" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster23_macro">
+    <properties>
+      <identification name="Elena's Fortune" description="Elena's Fortune" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster23_sector001_macro">
+    <properties>
+      <identification name="Elena's Fortune" description="Elena's Fortune" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster24_macro">
+    <properties>
+      <identification name="Split Fire" description="Split Fire" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster24_sector001_macro">
+    <properties>
+      <identification name="Split Fire" description="Split Fire" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster25_macro">
+    <properties>
+      <identification name="Priest's Pity" description="Priest's Pity" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster25_sector001_macro">
+    <properties>
+      <identification name="Priest's Pity" description="Priest's Pity" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster26_macro">
+    <properties>
+      <identification name="Emperor's Ridge" description="Emperor's Ridge" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster26_sector001_macro">
+    <properties>
+      <identification name="Emperor's Ridge" description="Emperor's Ridge" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster27_macro">
+    <properties>
+      <identification name="Pontiflex' Realm" description="" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster27_sector001_macro">
+    <properties>
+      <identification name="Pontiflex' Realm" description="" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster28_macro">
+    <properties>
+      <identification name="Trinity Sanctum" description="Trinity Sanctum" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster28_sector001_macro">
+    <properties>
+      <identification name="Trinity Sanctum" description="Trinity Sanctum" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster29_macro">
+    <properties>
+      <identification name="Priest Rings" description="Priest Rings" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.5" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster29_sector001_macro">
+    <properties>
+      <identification name="Priest Rings" description="Priest Rings" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster30_macro">
+    <properties>
+      <identification name="Duke's Domain" description="Duke's Domain" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster30_sector001_macro">
+    <properties>
+      <identification name="Duke's Domain" description="Duke's Domain" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster31_macro">
+    <properties>
+      <identification name="Emperor's Wisdom" description="Emperor's Wisdom" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster31_sector001_macro">
+    <properties>
+      <identification name="Emperor's Wisdom" description="Emperor's Wisdom" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster32_macro">
+    <properties>
+      <identification name="Paranid Prime" description="Paranid Prime" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.75" security="0.75" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster32_sector001_macro">
+    <properties>
+      <identification name="Paranid Prime" description="Paranid Prime" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster33_macro">
+    <properties>
+      <identification name="Empire's Edge" description="Empire's Edge" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.5" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster33_sector001_macro">
+    <properties>
+      <identification name="Empire's Edge" description="Empire's Edge" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster34_macro">
+    <properties>
+      <identification name="Preacher's Void" description="Preacher's Void" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster34_sector001_macro">
+    <properties>
+      <identification name="Preacher's Void" description="Preacher's Void" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster35_macro">
+    <properties>
+      <identification name="Duke's Vision" description="Duke's Vision" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster35_sector001_macro">
+    <properties>
+      <identification name="Duke's Vision" description="Duke's Vision" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster36_macro">
+    <properties>
+      <identification name="Emperor Mines" description="Emperor Mines" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.5" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster36_sector001_macro">
+    <properties>
+      <identification name="Emperor Mines" description="Emperor Mines" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster37_macro">
+    <properties>
+      <identification name="Savage Spur" description="Savage Spur" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.75" security="0.75" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster37_sector001_macro">
+    <properties>
+      <identification name="Savage Spur" description="Savage Spur" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster38_macro">
+    <properties>
+      <identification name="Ocracoke's Storm" description="Ocracoke's Storm" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster38_sector001_macro">
+    <properties>
+      <identification name="Ocracoke's Storm" description="Ocracoke's Storm" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster39_macro">
+    <properties>
+      <identification name="Senator's Badlands" description="Senator's Badlands" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster39_sector001_macro">
+    <properties>
+      <identification name="Senator's Badlands" description="Senator's Badlands" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster40_macro">
+    <properties>
+      <identification name="Ceo's Buckzoid" description="Ceo's Buckzoid" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.5" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster40_sector001_macro">
+    <properties>
+      <identification name="Ceo's Buckzoid" description="Ceo's Buckzoid" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster41_macro">
+    <properties>
+      <identification name="Profit Share" description="Profit Share" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.5" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster41_sector001_macro">
+    <properties>
+      <identification name="Profit Share" description="Profit Share" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster42_macro">
+    <properties>
+      <identification name="Spaceweed Drift" description="Spaceweed Drift" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.5" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster42_sector001_macro">
+    <properties>
+      <identification name="Spaceweed Drift" description="Spaceweed Drift" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster43_macro">
+    <properties>
+      <identification name="Bala Gil's Joy" description="Bala Gil's Joy" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster43_sector001_macro">
+    <properties>
+      <identification name="Bala Gil's Joy" description="Bala Gil's Joy" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster44_macro">
+    <properties>
+      <identification name="Olmancketslat's Treaty" description="Olmancketslat's Treaty" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster44_sector001_macro">
+    <properties>
+      <identification name="Olmancketslat's Treaty" description="Olmancketslat's Treaty" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster45_macro">
+    <properties>
+      <identification name="Brennan's Triumph" description="Brennan's Triumph" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster45_sector001_macro">
+    <properties>
+      <identification name="Brennan's Triumph" description="Brennan's Triumph" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster46_macro">
+    <properties>
+      <identification name="Danna's Chance" description="Danna's Chance" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster46_sector001_macro">
+    <properties>
+      <identification name="Danna's Chance" description="Danna's Chance" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster47_macro">
+    <properties>
+      <identification name="Freedom's Reach" description="Freedom's Reach" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster47_sector001_macro">
+    <properties>
+      <identification name="Freedom's Reach" description="Freedom's Reach" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster48_macro">
+    <properties>
+      <identification name="Preacher's Refuge" description="Preacher's Refuge" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.5" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster48_sector001_macro">
+    <properties>
+      <identification name="Preacher's Refuge" description="Preacher's Refuge" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster49_macro">
+    <properties>
+      <identification name="Teladi Gain" description="Teladi Gain" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster49_sector001_macro">
+    <properties>
+      <identification name="Teladi Gain" description="Teladi Gain" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster50_macro">
+    <properties>
+      <identification name="Seizewell" description="Seizewell" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.5" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster50_sector001_macro">
+    <properties>
+      <identification name="Seizewell" description="Seizewell" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster51_macro">
+    <properties>
+      <identification name="Greater Profit" description="Greater Profit" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.75" security="0.75" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster51_sector001_macro">
+    <properties>
+      <identification name="Greater Profit" description="Greater Profit" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster52_macro">
+    <properties>
+      <identification name="Blue Profit" description="Blue Profit" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.5" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster52_sector001_macro">
+    <properties>
+      <identification name="Blue Profit" description="Blue Profit" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster53_macro">
+    <properties>
+      <identification name="Ceo's Sprite" description="Ceo's Sprite" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster53_sector001_macro">
+    <properties>
+      <identification name="Ceo's Sprite" description="Ceo's Sprite" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster54_macro">
+    <properties>
+      <identification name="Company Pride" description="Company Pride" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster54_sector001_macro">
+    <properties>
+      <identification name="Company Pride" description="Company Pride" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster55_macro">
+    <properties>
+      <identification name="Nopileos' Memorial" description="Nopileos' Memorial" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster55_sector001_macro">
+    <properties>
+      <identification name="Nopileos' Memorial" description="Nopileos' Memorial" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster56_macro">
+    <properties>
+      <identification name="Xenon Sector 101" description="Xenon Sector 101" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.75" security="0.75" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster56_sector001_macro">
+    <properties>
+      <identification name="Xenon Sector 101" description="Xenon Sector 101" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster57_macro">
+    <properties>
+      <identification name="Family Whi" description="Family Whi" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.75" security="0.75" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster57_sector001_macro">
+    <properties>
+      <identification name="Family Whi" description="Family Whi" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster58_macro">
+    <properties>
+      <identification name="Family Zein" description="Family Zein" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.5" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster58_sector001_macro">
+    <properties>
+      <identification name="Family Zein" description="Family Zein" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster59_macro">
+    <properties>
+      <identification name="Thuurk's Pride" description="Thuurk's Pride" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.5" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster59_sector001_macro">
+    <properties>
+      <identification name="Thuurk's Pride" description="Thuurk's Pride" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster60_macro">
+    <properties>
+      <identification name="Rhonkar's Fire" description="Rhonkar's Fire" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.5" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster60_sector001_macro">
+    <properties>
+      <identification name="Rhonkar's Fire" description="Rhonkar's Fire" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster61_macro">
+    <properties>
+      <identification name="Family Rhonkar" description="Family Rhonkar" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster61_sector001_macro">
+    <properties>
+      <identification name="Family Rhonkar" description="Family Rhonkar" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster62_macro">
+    <properties>
+      <identification name="Thuruk's Beard" description="Thuruk's Beard" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.5" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster62_sector001_macro">
+    <properties>
+      <identification name="Thuruk's Beard" description="Thuruk's Beard" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster63_macro">
+    <properties>
+      <identification name="Hatikvah's Faith" description="Hatikvah's Faith" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster63_sector001_macro">
+    <properties>
+      <identification name="Hatikvah's Faith" description="Hatikvah's Faith" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster64_macro">
+    <properties>
+      <identification name="Family Pride" description="Family Pride" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.25" security="0.25" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster64_sector001_macro">
+    <properties>
+      <identification name="Family Pride" description="Family Pride" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster65_macro">
+    <properties>
+      <identification name="Rhonkar's Clouds" description="Rhonkar's Clouds" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.5" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster65_sector001_macro">
+    <properties>
+      <identification name="Rhonkar's Clouds" description="Rhonkar's Clouds" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster66_macro">
+    <properties>
+      <identification name="Rhonkar's Might" description="Rhonkar's Might" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.5" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster66_sector001_macro">
+    <properties>
+      <identification name="Rhonkar's Might" description="Rhonkar's Might" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster67_macro">
+    <properties>
+      <identification name="Tharka's Sun" description="Tharka's Sun" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.75" security="0.75" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster67_sector001_macro">
+    <properties>
+      <identification name="Tharka's Sun" description="Tharka's Sun" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster68_macro">
+    <properties>
+      <identification name="Patriarch's Retreat" description="Patriarch's Retreat" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.75" security="0.75" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster68_sector001_macro">
+    <properties>
+      <identification name="Patriarch's Retreat" description="Patriarch's Retreat" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster69_macro">
+    <properties>
+      <identification name="Cho's Defeat" description="Cho's Defeat" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.5" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster69_sector001_macro">
+    <properties>
+      <identification name="Cho's Defeat" description="Cho's Defeat" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster70_macro">
+    <properties>
+      <identification name="Patriarch's Keep" description="Patriarch's Keep" />
+      <sounds>
+        <music ref="music_cluster_02" />
+      </sounds>
+      <area sunlight="1" economy="0.5" security="0.5" />
+    </properties>
+  </dataset>
+  <dataset macro="x3g_cluster70_sector001_macro">
+    <properties>
+      <identification name="Patriarch's Keep" description="Patriarch's Keep" />
     </properties>
   </dataset>
 </defaults>

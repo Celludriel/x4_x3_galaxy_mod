@@ -8,20 +8,20 @@
       </connection>
       <connection name="x3g_cluster01_region000_connection" ref="regions">
         <offset>
-          <position x="88232" y="0" z="42199" />
-		  <rotation yaw="177" pitch="0" roll="0"/>
+          <position x="10710" y="0" z="38202" />
+		  <rotation yaw="187" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster01_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
       <connection name="x3g_cluster01_region001_connection" ref="regions">
         <offset>
-          <position x="-149038" y="0" z="92702" />
-		  <rotation yaw="139" pitch="0" roll="0"/>
+          <position x="-96489" y="0" z="-140642" />
+		  <rotation yaw="27" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster01_region001_macro">
           <component connection="cluster" ref="standardregion" />
@@ -32,13 +32,25 @@
       </connection>
       <connection name="x3g_cluster01_region002_connection" ref="regions">
         <offset>
-          <position x="2302" y="0" z="-139766" />
-		  <rotation yaw="136" pitch="0" roll="0"/>
+          <position x="99526" y="0" z="99483" />
+		  <rotation yaw="177" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster01_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_hydrogen_belt" />
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster01_region003_connection" ref="regions">
+        <offset>
+          <position x="100891" y="0" z="52633" />
+		  <rotation yaw="92" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster01_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -55,6 +67,42 @@
       <connection name="x3g_cluster02_sector001_connection" ref="sectors">  
         <macro ref="x3g_cluster02_sector001_macro" connection="cluster" />
       </connection>
+      <connection name="x3g_cluster02_region000_connection" ref="regions">
+        <offset>
+          <position x="12861" y="0" z="17592" />
+		  <rotation yaw="164" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster02_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster02_region001_connection" ref="regions">
+        <offset>
+          <position x="-83831" y="0" z="72000" />
+		  <rotation yaw="111" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster02_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster02_region002_connection" ref="regions">
+        <offset>
+          <position x="17076" y="0" z="-66057" />
+		  <rotation yaw="147" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster02_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
       <connection ref="content">
         <macro>
           <component connection="space" ref="empty_space" />
@@ -70,37 +118,49 @@
       </connection>
       <connection name="x3g_cluster03_region000_connection" ref="regions">
         <offset>
-          <position x="108716" y="0" z="43757" />
-		  <rotation yaw="124" pitch="0" roll="0"/>
+          <position x="-57934" y="0" z="-29942" />
+		  <rotation yaw="97" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster03_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
       <connection name="x3g_cluster03_region001_connection" ref="regions">
         <offset>
-          <position x="142883" y="0" z="-75540" />
-		  <rotation yaw="66" pitch="0" roll="0"/>
+          <position x="54678" y="0" z="76693" />
+		  <rotation yaw="342" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster03_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster03_region002_connection" ref="regions">
+        <offset>
+          <position x="-143719" y="0" z="-27107" />
+		  <rotation yaw="356" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster03_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
             <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
-      <connection name="x3g_cluster03_region002_connection" ref="regions">
+      <connection name="x3g_cluster03_region003_connection" ref="regions">
         <offset>
-          <position x="61658" y="0" z="110389" />
-		  <rotation yaw="300" pitch="0" roll="0"/>
+          <position x="96174" y="0" z="-85796" />
+		  <rotation yaw="274" pitch="0" roll="0"/>
         </offset>
-        <macro name="x3g_cluster03_region002_macro">
+        <macro name="x3g_cluster03_region003_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_helium_belt" />
+            <region ref="x3g_hydrogen_belt" />
           </properties>
         </macro>
       </connection>
@@ -119,8 +179,8 @@
       </connection>
       <connection name="x3g_cluster04_region000_connection" ref="regions">
         <offset>
-          <position x="-63976" y="0" z="-147099" />
-		  <rotation yaw="289" pitch="0" roll="0"/>
+          <position x="-49010" y="0" z="131932" />
+		  <rotation yaw="189" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster04_region000_macro">
           <component connection="cluster" ref="standardregion" />
@@ -131,85 +191,37 @@
       </connection>
       <connection name="x3g_cluster04_region001_connection" ref="regions">
         <offset>
-          <position x="-131192" y="0" z="-149485" />
-		  <rotation yaw="327" pitch="0" roll="0"/>
+          <position x="20467" y="0" z="-69522" />
+		  <rotation yaw="196" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster04_region001_macro">
-          <component connection="cluster" ref="standardregion" />
-          <properties>
-            <region ref="x3g_ore_belt" />
-          </properties>
-        </macro>
-      </connection>
-      <connection name="x3g_cluster04_region002_connection" ref="regions">
-        <offset>
-          <position x="104567" y="0" z="-32060" />
-		  <rotation yaw="36" pitch="0" roll="0"/>
-        </offset>
-        <macro name="x3g_cluster04_region002_macro">
-          <component connection="cluster" ref="standardregion" />
-          <properties>
-            <region ref="x3g_ice_belt" />
-          </properties>
-        </macro>
-      </connection>
-      <connection name="x3g_cluster04_region003_connection" ref="regions">
-        <offset>
-          <position x="68413" y="0" z="50751" />
-		  <rotation yaw="229" pitch="0" roll="0"/>
-        </offset>
-        <macro name="x3g_cluster04_region003_macro">
-          <component connection="cluster" ref="standardregion" />
-          <properties>
-            <region ref="x3g_ore_belt" />
-          </properties>
-        </macro>
-      </connection>
-      <connection name="x3g_cluster04_region004_connection" ref="regions">
-        <offset>
-          <position x="-53025" y="0" z="123816" />
-		  <rotation yaw="246" pitch="0" roll="0"/>
-        </offset>
-        <macro name="x3g_cluster04_region004_macro">
-          <component connection="cluster" ref="standardregion" />
-          <properties>
-            <region ref="x3g_ore_belt" />
-          </properties>
-        </macro>
-      </connection>
-      <connection name="x3g_cluster04_region005_connection" ref="regions">
-        <offset>
-          <position x="-86074" y="0" z="-33952" />
-		  <rotation yaw="306" pitch="0" roll="0"/>
-        </offset>
-        <macro name="x3g_cluster04_region005_macro">
-          <component connection="cluster" ref="standardregion" />
-          <properties>
-            <region ref="x3g_methane_belt" />
-          </properties>
-        </macro>
-      </connection>
-      <connection name="x3g_cluster04_region006_connection" ref="regions">
-        <offset>
-          <position x="-98906" y="0" z="-37835" />
-		  <rotation yaw="18" pitch="0" roll="0"/>
-        </offset>
-        <macro name="x3g_cluster04_region006_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
             <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
-      <connection name="x3g_cluster04_region007_connection" ref="regions">
+      <connection name="x3g_cluster04_region002_connection" ref="regions">
         <offset>
-          <position x="107799" y="0" z="92533" />
-		  <rotation yaw="32" pitch="0" roll="0"/>
+          <position x="-132948" y="0" z="9796" />
+		  <rotation yaw="270" pitch="0" roll="0"/>
         </offset>
-        <macro name="x3g_cluster04_region007_macro">
+        <macro name="x3g_cluster04_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
             <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster04_region003_connection" ref="regions">
+        <offset>
+          <position x="40680" y="0" z="-19302" />
+		  <rotation yaw="161" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster04_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -228,37 +240,37 @@
       </connection>
       <connection name="x3g_cluster05_region000_connection" ref="regions">
         <offset>
-          <position x="20746" y="0" z="23109" />
-		  <rotation yaw="64" pitch="0" roll="0"/>
+          <position x="-76812" y="0" z="29897" />
+		  <rotation yaw="244" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster05_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
       <connection name="x3g_cluster05_region001_connection" ref="regions">
         <offset>
-          <position x="56525" y="0" z="-120299" />
-		  <rotation yaw="268" pitch="0" roll="0"/>
+          <position x="18361" y="0" z="51014" />
+		  <rotation yaw="39" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster05_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
       <connection name="x3g_cluster05_region002_connection" ref="regions">
         <offset>
-          <position x="-30477" y="0" z="76569" />
-		  <rotation yaw="26" pitch="0" roll="0"/>
+          <position x="-95879" y="0" z="-11155" />
+		  <rotation yaw="228" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster05_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_hydrogen_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -277,32 +289,32 @@
       </connection>
       <connection name="x3g_cluster06_region000_connection" ref="regions">
         <offset>
-          <position x="37556" y="0" z="-25638" />
-		  <rotation yaw="39" pitch="0" roll="0"/>
+          <position x="111588" y="0" z="-15584" />
+		  <rotation yaw="207" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster06_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_hydrogen_belt" />
           </properties>
         </macro>
       </connection>
       <connection name="x3g_cluster06_region001_connection" ref="regions">
         <offset>
-          <position x="149336" y="0" z="112368" />
-		  <rotation yaw="187" pitch="0" roll="0"/>
+          <position x="-131868" y="0" z="119990" />
+		  <rotation yaw="98" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster06_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
       <connection name="x3g_cluster06_region002_connection" ref="regions">
         <offset>
-          <position x="91195" y="0" z="129810" />
-		  <rotation yaw="266" pitch="0" roll="0"/>
+          <position x="54599" y="0" z="-1036" />
+		  <rotation yaw="226" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster06_region002_macro">
           <component connection="cluster" ref="standardregion" />
@@ -326,37 +338,49 @@
       </connection>
       <connection name="x3g_cluster07_region000_connection" ref="regions">
         <offset>
-          <position x="-79817" y="0" z="-70245" />
-		  <rotation yaw="245" pitch="0" roll="0"/>
+          <position x="126573" y="0" z="-34685" />
+		  <rotation yaw="181" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster07_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
       <connection name="x3g_cluster07_region001_connection" ref="regions">
         <offset>
-          <position x="105511" y="0" z="-129402" />
-		  <rotation yaw="226" pitch="0" roll="0"/>
+          <position x="10693" y="0" z="72920" />
+		  <rotation yaw="181" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster07_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
       <connection name="x3g_cluster07_region002_connection" ref="regions">
         <offset>
-          <position x="91515" y="0" z="71204" />
-		  <rotation yaw="224" pitch="0" roll="0"/>
+          <position x="35912" y="0" z="-113846" />
+		  <rotation yaw="90" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster07_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster07_region003_connection" ref="regions">
+        <offset>
+          <position x="66252" y="0" z="91629" />
+		  <rotation yaw="14" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster07_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_nvidium_belt" />
           </properties>
         </macro>
       </connection>
@@ -375,8 +399,8 @@
       </connection>
       <connection name="x3g_cluster08_region000_connection" ref="regions">
         <offset>
-          <position x="-65178" y="0" z="57024" />
-		  <rotation yaw="145" pitch="0" roll="0"/>
+          <position x="73195" y="0" z="-74787" />
+		  <rotation yaw="98" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster08_region000_macro">
           <component connection="cluster" ref="standardregion" />
@@ -387,25 +411,37 @@
       </connection>
       <connection name="x3g_cluster08_region001_connection" ref="regions">
         <offset>
-          <position x="-120941" y="0" z="-16199" />
-		  <rotation yaw="90" pitch="0" roll="0"/>
+          <position x="125851" y="0" z="-84435" />
+		  <rotation yaw="76" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster08_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_helium_belt" />
+            <region ref="x3g_hydrogen_belt" />
           </properties>
         </macro>
       </connection>
       <connection name="x3g_cluster08_region002_connection" ref="regions">
         <offset>
-          <position x="-149729" y="0" z="20636" />
-		  <rotation yaw="104" pitch="0" roll="0"/>
+          <position x="146587" y="0" z="22848" />
+		  <rotation yaw="46" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster08_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_hydrogen_belt" />
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster08_region003_connection" ref="regions">
+        <offset>
+          <position x="-105121" y="0" z="-60835" />
+		  <rotation yaw="3" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster08_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -424,20 +460,20 @@
       </connection>
       <connection name="x3g_cluster09_region000_connection" ref="regions">
         <offset>
-          <position x="-51083" y="0" z="28836" />
-		  <rotation yaw="125" pitch="0" roll="0"/>
+          <position x="68098" y="0" z="-91309" />
+		  <rotation yaw="296" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster09_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
       <connection name="x3g_cluster09_region001_connection" ref="regions">
         <offset>
-          <position x="90048" y="0" z="-10692" />
-		  <rotation yaw="217" pitch="0" roll="0"/>
+          <position x="-103835" y="0" z="-19119" />
+		  <rotation yaw="335" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster09_region001_macro">
           <component connection="cluster" ref="standardregion" />
@@ -448,13 +484,25 @@
       </connection>
       <connection name="x3g_cluster09_region002_connection" ref="regions">
         <offset>
-          <position x="-66550" y="0" z="-130989" />
-		  <rotation yaw="198" pitch="0" roll="0"/>
+          <position x="92468" y="0" z="-109011" />
+		  <rotation yaw="106" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster09_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_nvidium_belt" />
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster09_region003_connection" ref="regions">
+        <offset>
+          <position x="134276" y="0" z="-96661" />
+		  <rotation yaw="51" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster09_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -473,20 +521,20 @@
       </connection>
       <connection name="x3g_cluster10_region000_connection" ref="regions">
         <offset>
-          <position x="-84496" y="0" z="-120004" />
-		  <rotation yaw="50" pitch="0" roll="0"/>
+          <position x="131252" y="0" z="25349" />
+		  <rotation yaw="301" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster10_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
       <connection name="x3g_cluster10_region001_connection" ref="regions">
         <offset>
-          <position x="91324" y="0" z="-1667" />
-		  <rotation yaw="346" pitch="0" roll="0"/>
+          <position x="83873" y="0" z="-6182" />
+		  <rotation yaw="230" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster10_region001_macro">
           <component connection="cluster" ref="standardregion" />
@@ -497,13 +545,25 @@
       </connection>
       <connection name="x3g_cluster10_region002_connection" ref="regions">
         <offset>
-          <position x="-146002" y="0" z="21460" />
-		  <rotation yaw="153" pitch="0" roll="0"/>
+          <position x="53923" y="0" z="118532" />
+		  <rotation yaw="64" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster10_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
             <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster10_region003_connection" ref="regions">
+        <offset>
+          <position x="34782" y="0" z="132863" />
+		  <rotation yaw="36" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster10_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -522,37 +582,37 @@
       </connection>
       <connection name="x3g_cluster11_region000_connection" ref="regions">
         <offset>
-          <position x="33067" y="0" z="-44628" />
-		  <rotation yaw="294" pitch="0" roll="0"/>
+          <position x="97584" y="0" z="-4565" />
+		  <rotation yaw="140" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster11_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
       <connection name="x3g_cluster11_region001_connection" ref="regions">
         <offset>
-          <position x="-31090" y="0" z="-114284" />
-		  <rotation yaw="9" pitch="0" roll="0"/>
+          <position x="133840" y="0" z="61849" />
+		  <rotation yaw="50" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster11_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
       <connection name="x3g_cluster11_region002_connection" ref="regions">
         <offset>
-          <position x="-328" y="0" z="122282" />
-		  <rotation yaw="289" pitch="0" roll="0"/>
+          <position x="-47511" y="0" z="-18779" />
+		  <rotation yaw="6" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster11_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_nvidium_belt" />
           </properties>
         </macro>
       </connection>
@@ -571,37 +631,37 @@
       </connection>
       <connection name="x3g_cluster12_region000_connection" ref="regions">
         <offset>
-          <position x="-51082" y="0" z="33963" />
-		  <rotation yaw="138" pitch="0" roll="0"/>
+          <position x="-112486" y="0" z="-126123" />
+		  <rotation yaw="236" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster12_region000_macro">
-          <component connection="cluster" ref="standardregion" />
-          <properties>
-            <region ref="x3g_methane_belt" />
-          </properties>
-        </macro>
-      </connection>
-      <connection name="x3g_cluster12_region001_connection" ref="regions">
-        <offset>
-          <position x="16608" y="0" z="113428" />
-		  <rotation yaw="178" pitch="0" roll="0"/>
-        </offset>
-        <macro name="x3g_cluster12_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
             <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
+      <connection name="x3g_cluster12_region001_connection" ref="regions">
+        <offset>
+          <position x="60177" y="0" z="100456" />
+		  <rotation yaw="151" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster12_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
       <connection name="x3g_cluster12_region002_connection" ref="regions">
         <offset>
-          <position x="-108095" y="0" z="143286" />
-		  <rotation yaw="358" pitch="0" roll="0"/>
+          <position x="-984" y="0" z="-80848" />
+		  <rotation yaw="356" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster12_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_hydrogen_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -620,94 +680,46 @@
       </connection>
       <connection name="x3g_cluster13_region000_connection" ref="regions">
         <offset>
-          <position x="70972" y="0" z="-64553" />
-		  <rotation yaw="202" pitch="0" roll="0"/>
+          <position x="-26558" y="0" z="-75721" />
+		  <rotation yaw="186" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster13_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
       <connection name="x3g_cluster13_region001_connection" ref="regions">
         <offset>
-          <position x="-78495" y="0" z="-81509" />
-		  <rotation yaw="193" pitch="0" roll="0"/>
+          <position x="-131061" y="0" z="148648" />
+		  <rotation yaw="140" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster13_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
       <connection name="x3g_cluster13_region002_connection" ref="regions">
         <offset>
-          <position x="42333" y="0" z="-50630" />
-		  <rotation yaw="347" pitch="0" roll="0"/>
+          <position x="-69480" y="0" z="77597" />
+		  <rotation yaw="312" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster13_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_hydrogen_belt" />
           </properties>
         </macro>
       </connection>
       <connection name="x3g_cluster13_region003_connection" ref="regions">
         <offset>
-          <position x="-53469" y="0" z="147739" />
-		  <rotation yaw="165" pitch="0" roll="0"/>
+          <position x="17352" y="0" z="-117246" />
+		  <rotation yaw="40" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster13_region003_macro">
-          <component connection="cluster" ref="standardregion" />
-          <properties>
-            <region ref="x3g_ore_belt" />
-          </properties>
-        </macro>
-      </connection>
-      <connection name="x3g_cluster13_region004_connection" ref="regions">
-        <offset>
-          <position x="45669" y="0" z="12372" />
-		  <rotation yaw="290" pitch="0" roll="0"/>
-        </offset>
-        <macro name="x3g_cluster13_region004_macro">
-          <component connection="cluster" ref="standardregion" />
-          <properties>
-            <region ref="x3g_ore_belt" />
-          </properties>
-        </macro>
-      </connection>
-      <connection name="x3g_cluster13_region005_connection" ref="regions">
-        <offset>
-          <position x="-56388" y="0" z="40624" />
-		  <rotation yaw="259" pitch="0" roll="0"/>
-        </offset>
-        <macro name="x3g_cluster13_region005_macro">
-          <component connection="cluster" ref="standardregion" />
-          <properties>
-            <region ref="x3g_ore_belt" />
-          </properties>
-        </macro>
-      </connection>
-      <connection name="x3g_cluster13_region006_connection" ref="regions">
-        <offset>
-          <position x="-99699" y="0" z="56881" />
-		  <rotation yaw="131" pitch="0" roll="0"/>
-        </offset>
-        <macro name="x3g_cluster13_region006_macro">
-          <component connection="cluster" ref="standardregion" />
-          <properties>
-            <region ref="x3g_ore_belt" />
-          </properties>
-        </macro>
-      </connection>
-      <connection name="x3g_cluster13_region007_connection" ref="regions">
-        <offset>
-          <position x="132299" y="0" z="-52502" />
-		  <rotation yaw="310" pitch="0" roll="0"/>
-        </offset>
-        <macro name="x3g_cluster13_region007_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
             <region ref="x3g_ore_belt" />
@@ -729,37 +741,37 @@
       </connection>
       <connection name="x3g_cluster14_region000_connection" ref="regions">
         <offset>
-          <position x="-25129" y="0" z="-104074" />
-		  <rotation yaw="302" pitch="0" roll="0"/>
+          <position x="67447" y="0" z="145837" />
+		  <rotation yaw="89" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster14_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
       <connection name="x3g_cluster14_region001_connection" ref="regions">
         <offset>
-          <position x="148433" y="0" z="-125895" />
-		  <rotation yaw="359" pitch="0" roll="0"/>
+          <position x="14464" y="0" z="94516" />
+		  <rotation yaw="310" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster14_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_hydrogen_belt" />
           </properties>
         </macro>
       </connection>
       <connection name="x3g_cluster14_region002_connection" ref="regions">
         <offset>
-          <position x="-126334" y="0" z="-98429" />
-		  <rotation yaw="240" pitch="0" roll="0"/>
+          <position x="-121882" y="0" z="-138971" />
+		  <rotation yaw="324" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster14_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_nvidium_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -778,37 +790,3092 @@
       </connection>
       <connection name="x3g_cluster15_region000_connection" ref="regions">
         <offset>
-          <position x="-82597" y="0" z="46221" />
-		  <rotation yaw="192" pitch="0" roll="0"/>
+          <position x="-15689" y="0" z="34067" />
+		  <rotation yaw="331" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster15_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster15_region001_connection" ref="regions">
+        <offset>
+          <position x="138707" y="0" z="-33749" />
+		  <rotation yaw="32" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster15_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster15_region002_connection" ref="regions">
+        <offset>
+          <position x="-101015" y="0" z="-30009" />
+		  <rotation yaw="73" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster15_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
             <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
-      <connection name="x3g_cluster15_region001_connection" ref="regions">
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster16_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster16_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster16_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster16_region000_connection" ref="regions">
         <offset>
-          <position x="142481" y="0" z="-103588" />
-		  <rotation yaw="51" pitch="0" roll="0"/>
+          <position x="74850" y="0" z="100840" />
+		  <rotation yaw="168" pitch="0" roll="0"/>
         </offset>
-        <macro name="x3g_cluster15_region001_macro">
+        <macro name="x3g_cluster16_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
             <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
-      <connection name="x3g_cluster15_region002_connection" ref="regions">
+      <connection name="x3g_cluster16_region001_connection" ref="regions">
         <offset>
-          <position x="-146608" y="0" z="85405" />
-		  <rotation yaw="152" pitch="0" roll="0"/>
+          <position x="-117256" y="0" z="-5548" />
+		  <rotation yaw="133" pitch="0" roll="0"/>
         </offset>
-        <macro name="x3g_cluster15_region002_macro">
+        <macro name="x3g_cluster16_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
             <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster16_region002_connection" ref="regions">
+        <offset>
+          <position x="92332" y="0" z="-34063" />
+		  <rotation yaw="170" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster16_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster16_region003_connection" ref="regions">
+        <offset>
+          <position x="119831" y="0" z="-14392" />
+		  <rotation yaw="214" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster16_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster17_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster17_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster17_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster17_region000_connection" ref="regions">
+        <offset>
+          <position x="-63652" y="0" z="36963" />
+		  <rotation yaw="328" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster17_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster17_region001_connection" ref="regions">
+        <offset>
+          <position x="-45638" y="0" z="15324" />
+		  <rotation yaw="158" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster17_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster17_region002_connection" ref="regions">
+        <offset>
+          <position x="-130269" y="0" z="-26240" />
+		  <rotation yaw="302" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster17_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster18_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster18_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster18_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster18_region000_connection" ref="regions">
+        <offset>
+          <position x="148675" y="0" z="15991" />
+		  <rotation yaw="155" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster18_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster18_region001_connection" ref="regions">
+        <offset>
+          <position x="-61105" y="0" z="-92436" />
+		  <rotation yaw="271" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster18_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster18_region002_connection" ref="regions">
+        <offset>
+          <position x="32636" y="0" z="27315" />
+		  <rotation yaw="31" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster18_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster19_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster19_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster19_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster19_region000_connection" ref="regions">
+        <offset>
+          <position x="-79411" y="0" z="108308" />
+		  <rotation yaw="305" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster19_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster19_region001_connection" ref="regions">
+        <offset>
+          <position x="-144391" y="0" z="-119446" />
+		  <rotation yaw="101" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster19_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster19_region002_connection" ref="regions">
+        <offset>
+          <position x="50345" y="0" z="-43981" />
+		  <rotation yaw="222" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster19_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster20_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster20_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster20_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster20_region000_connection" ref="regions">
+        <offset>
+          <position x="-96964" y="0" z="-9492" />
+		  <rotation yaw="80" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster20_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_nvidium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster20_region001_connection" ref="regions">
+        <offset>
+          <position x="-11738" y="0" z="129671" />
+		  <rotation yaw="52" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster20_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster20_region002_connection" ref="regions">
+        <offset>
+          <position x="141560" y="0" z="-114936" />
+		  <rotation yaw="2" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster20_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster20_region003_connection" ref="regions">
+        <offset>
+          <position x="-44150" y="0" z="-115740" />
+		  <rotation yaw="283" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster20_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster21_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster21_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster21_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster21_region000_connection" ref="regions">
+        <offset>
+          <position x="228" y="0" z="-114902" />
+		  <rotation yaw="130" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster21_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster21_region001_connection" ref="regions">
+        <offset>
+          <position x="-78079" y="0" z="71941" />
+		  <rotation yaw="186" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster21_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster21_region002_connection" ref="regions">
+        <offset>
+          <position x="-114184" y="0" z="24055" />
+		  <rotation yaw="159" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster21_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster21_region003_connection" ref="regions">
+        <offset>
+          <position x="-94499" y="0" z="-83597" />
+		  <rotation yaw="11" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster21_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster22_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster22_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster22_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster22_region000_connection" ref="regions">
+        <offset>
+          <position x="-130615" y="0" z="-32752" />
+		  <rotation yaw="163" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster22_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster22_region001_connection" ref="regions">
+        <offset>
+          <position x="-11762" y="0" z="-79692" />
+		  <rotation yaw="331" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster22_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster22_region002_connection" ref="regions">
+        <offset>
+          <position x="117980" y="0" z="-32465" />
+		  <rotation yaw="58" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster22_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster22_region003_connection" ref="regions">
+        <offset>
+          <position x="84525" y="0" z="-147995" />
+		  <rotation yaw="195" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster22_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster23_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster23_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster23_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster23_region000_connection" ref="regions">
+        <offset>
+          <position x="23241" y="0" z="-145697" />
+		  <rotation yaw="249" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster23_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster23_region001_connection" ref="regions">
+        <offset>
+          <position x="-35366" y="0" z="78921" />
+		  <rotation yaw="101" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster23_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster23_region002_connection" ref="regions">
+        <offset>
+          <position x="-60589" y="0" z="-5954" />
+		  <rotation yaw="206" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster23_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster24_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster24_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster24_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster24_region000_connection" ref="regions">
+        <offset>
+          <position x="16968" y="0" z="-248" />
+		  <rotation yaw="296" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster24_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster24_region001_connection" ref="regions">
+        <offset>
+          <position x="111856" y="0" z="-122454" />
+		  <rotation yaw="231" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster24_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster24_region002_connection" ref="regions">
+        <offset>
+          <position x="118414" y="0" z="-120171" />
+		  <rotation yaw="244" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster24_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster25_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster25_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster25_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster25_region000_connection" ref="regions">
+        <offset>
+          <position x="132745" y="0" z="-24394" />
+		  <rotation yaw="101" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster25_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster25_region001_connection" ref="regions">
+        <offset>
+          <position x="-111619" y="0" z="25513" />
+		  <rotation yaw="67" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster25_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster25_region002_connection" ref="regions">
+        <offset>
+          <position x="21453" y="0" z="-136572" />
+		  <rotation yaw="51" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster25_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster25_region003_connection" ref="regions">
+        <offset>
+          <position x="17592" y="0" z="140450" />
+		  <rotation yaw="137" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster25_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster26_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster26_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster26_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster26_region000_connection" ref="regions">
+        <offset>
+          <position x="-64559" y="0" z="-67755" />
+		  <rotation yaw="264" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster26_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster26_region001_connection" ref="regions">
+        <offset>
+          <position x="47624" y="0" z="83106" />
+		  <rotation yaw="305" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster26_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster26_region002_connection" ref="regions">
+        <offset>
+          <position x="-66605" y="0" z="128767" />
+		  <rotation yaw="278" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster26_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster26_region003_connection" ref="regions">
+        <offset>
+          <position x="-45354" y="0" z="43048" />
+		  <rotation yaw="204" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster26_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster27_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster27_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster27_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster27_region000_connection" ref="regions">
+        <offset>
+          <position x="-120322" y="0" z="99760" />
+		  <rotation yaw="148" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster27_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster27_region001_connection" ref="regions">
+        <offset>
+          <position x="-145633" y="0" z="-100973" />
+		  <rotation yaw="74" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster27_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster27_region002_connection" ref="regions">
+        <offset>
+          <position x="131656" y="0" z="-113369" />
+		  <rotation yaw="138" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster27_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster27_region003_connection" ref="regions">
+        <offset>
+          <position x="127338" y="0" z="-64500" />
+		  <rotation yaw="62" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster27_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster28_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster28_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster28_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster28_region000_connection" ref="regions">
+        <offset>
+          <position x="70105" y="0" z="88229" />
+		  <rotation yaw="15" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster28_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_nvidium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster28_region001_connection" ref="regions">
+        <offset>
+          <position x="-37522" y="0" z="96028" />
+		  <rotation yaw="23" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster28_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster28_region002_connection" ref="regions">
+        <offset>
+          <position x="-120633" y="0" z="4821" />
+		  <rotation yaw="208" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster28_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster28_region003_connection" ref="regions">
+        <offset>
+          <position x="-376" y="0" z="79216" />
+		  <rotation yaw="145" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster28_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster29_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster29_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster29_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster29_region000_connection" ref="regions">
+        <offset>
+          <position x="136862" y="0" z="90334" />
+		  <rotation yaw="86" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster29_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster29_region001_connection" ref="regions">
+        <offset>
+          <position x="-75391" y="0" z="-46835" />
+		  <rotation yaw="64" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster29_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster29_region002_connection" ref="regions">
+        <offset>
+          <position x="-101544" y="0" z="-71197" />
+		  <rotation yaw="197" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster29_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster29_region003_connection" ref="regions">
+        <offset>
+          <position x="-17171" y="0" z="-82639" />
+		  <rotation yaw="311" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster29_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster30_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster30_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster30_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster30_region000_connection" ref="regions">
+        <offset>
+          <position x="-89975" y="0" z="6482" />
+		  <rotation yaw="209" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster30_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster30_region001_connection" ref="regions">
+        <offset>
+          <position x="-90822" y="0" z="112010" />
+		  <rotation yaw="358" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster30_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster30_region002_connection" ref="regions">
+        <offset>
+          <position x="43812" y="0" z="-123652" />
+		  <rotation yaw="75" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster30_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster31_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster31_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster31_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster31_region000_connection" ref="regions">
+        <offset>
+          <position x="131741" y="0" z="-6736" />
+		  <rotation yaw="38" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster31_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster31_region001_connection" ref="regions">
+        <offset>
+          <position x="-40264" y="0" z="-56449" />
+		  <rotation yaw="220" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster31_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster31_region002_connection" ref="regions">
+        <offset>
+          <position x="-90957" y="0" z="93411" />
+		  <rotation yaw="256" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster31_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster31_region003_connection" ref="regions">
+        <offset>
+          <position x="-15146" y="0" z="-57664" />
+		  <rotation yaw="304" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster31_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster32_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster32_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster32_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster32_region000_connection" ref="regions">
+        <offset>
+          <position x="83831" y="0" z="-55995" />
+		  <rotation yaw="126" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster32_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster32_region001_connection" ref="regions">
+        <offset>
+          <position x="-147955" y="0" z="43767" />
+		  <rotation yaw="57" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster32_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster32_region002_connection" ref="regions">
+        <offset>
+          <position x="-34373" y="0" z="-127124" />
+		  <rotation yaw="201" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster32_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster32_region003_connection" ref="regions">
+        <offset>
+          <position x="94188" y="0" z="148703" />
+		  <rotation yaw="264" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster32_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster33_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster33_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster33_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster33_region000_connection" ref="regions">
+        <offset>
+          <position x="54667" y="0" z="50219" />
+		  <rotation yaw="221" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster33_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster33_region001_connection" ref="regions">
+        <offset>
+          <position x="-109879" y="0" z="31229" />
+		  <rotation yaw="297" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster33_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster33_region002_connection" ref="regions">
+        <offset>
+          <position x="82138" y="0" z="-130330" />
+		  <rotation yaw="314" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster33_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster33_region003_connection" ref="regions">
+        <offset>
+          <position x="1332" y="0" z="-73748" />
+		  <rotation yaw="306" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster33_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster34_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster34_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster34_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster34_region000_connection" ref="regions">
+        <offset>
+          <position x="145800" y="0" z="-73569" />
+		  <rotation yaw="171" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster34_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster34_region001_connection" ref="regions">
+        <offset>
+          <position x="79228" y="0" z="-135157" />
+		  <rotation yaw="284" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster34_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster34_region002_connection" ref="regions">
+        <offset>
+          <position x="131880" y="0" z="2818" />
+		  <rotation yaw="58" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster34_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster34_region003_connection" ref="regions">
+        <offset>
+          <position x="-82489" y="0" z="-100810" />
+		  <rotation yaw="258" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster34_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster35_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster35_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster35_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster35_region000_connection" ref="regions">
+        <offset>
+          <position x="90584" y="0" z="-147670" />
+		  <rotation yaw="124" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster35_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster35_region001_connection" ref="regions">
+        <offset>
+          <position x="-68620" y="0" z="-71208" />
+		  <rotation yaw="338" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster35_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_nvidium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster35_region002_connection" ref="regions">
+        <offset>
+          <position x="-118381" y="0" z="144774" />
+		  <rotation yaw="3" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster35_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster35_region003_connection" ref="regions">
+        <offset>
+          <position x="62176" y="0" z="-49817" />
+		  <rotation yaw="246" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster35_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster36_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster36_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster36_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster36_region000_connection" ref="regions">
+        <offset>
+          <position x="43178" y="0" z="51312" />
+		  <rotation yaw="288" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster36_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster36_region001_connection" ref="regions">
+        <offset>
+          <position x="99719" y="0" z="-129823" />
+		  <rotation yaw="86" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster36_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster36_region002_connection" ref="regions">
+        <offset>
+          <position x="46112" y="0" z="-84765" />
+		  <rotation yaw="226" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster36_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster36_region003_connection" ref="regions">
+        <offset>
+          <position x="-88767" y="0" z="-148886" />
+		  <rotation yaw="109" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster36_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster37_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster37_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster37_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster37_region000_connection" ref="regions">
+        <offset>
+          <position x="4762" y="0" z="92273" />
+		  <rotation yaw="338" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster37_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster37_region001_connection" ref="regions">
+        <offset>
+          <position x="976" y="0" z="-41780" />
+		  <rotation yaw="27" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster37_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster37_region002_connection" ref="regions">
+        <offset>
+          <position x="87121" y="0" z="-3427" />
+		  <rotation yaw="124" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster37_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster38_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster38_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster38_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster38_region000_connection" ref="regions">
+        <offset>
+          <position x="-104611" y="0" z="-52132" />
+		  <rotation yaw="263" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster38_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster38_region001_connection" ref="regions">
+        <offset>
+          <position x="-53654" y="0" z="-118385" />
+		  <rotation yaw="146" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster38_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster38_region002_connection" ref="regions">
+        <offset>
+          <position x="-127712" y="0" z="71934" />
+		  <rotation yaw="304" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster38_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster38_region003_connection" ref="regions">
+        <offset>
+          <position x="64341" y="0" z="2141" />
+		  <rotation yaw="5" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster38_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster39_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster39_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster39_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster39_region000_connection" ref="regions">
+        <offset>
+          <position x="95027" y="0" z="-706" />
+		  <rotation yaw="120" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster39_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster39_region001_connection" ref="regions">
+        <offset>
+          <position x="-68858" y="0" z="7045" />
+		  <rotation yaw="118" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster39_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster39_region002_connection" ref="regions">
+        <offset>
+          <position x="-26804" y="0" z="-96135" />
+		  <rotation yaw="102" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster39_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster40_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster40_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster40_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster40_region000_connection" ref="regions">
+        <offset>
+          <position x="79792" y="0" z="-133191" />
+		  <rotation yaw="23" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster40_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster40_region001_connection" ref="regions">
+        <offset>
+          <position x="-93190" y="0" z="34165" />
+		  <rotation yaw="48" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster40_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster40_region002_connection" ref="regions">
+        <offset>
+          <position x="42748" y="0" z="68447" />
+		  <rotation yaw="105" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster40_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster40_region003_connection" ref="regions">
+        <offset>
+          <position x="18507" y="0" z="-137177" />
+		  <rotation yaw="166" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster40_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster41_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster41_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster41_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster41_region000_connection" ref="regions">
+        <offset>
+          <position x="58304" y="0" z="-132096" />
+		  <rotation yaw="117" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster41_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster41_region001_connection" ref="regions">
+        <offset>
+          <position x="42664" y="0" z="-84806" />
+		  <rotation yaw="236" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster41_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster41_region002_connection" ref="regions">
+        <offset>
+          <position x="-22010" y="0" z="76445" />
+		  <rotation yaw="344" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster41_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster41_region003_connection" ref="regions">
+        <offset>
+          <position x="-46395" y="0" z="117457" />
+		  <rotation yaw="207" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster41_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster42_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster42_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster42_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster42_region000_connection" ref="regions">
+        <offset>
+          <position x="14566" y="0" z="107726" />
+		  <rotation yaw="11" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster42_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster42_region001_connection" ref="regions">
+        <offset>
+          <position x="120855" y="0" z="-62824" />
+		  <rotation yaw="241" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster42_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster42_region002_connection" ref="regions">
+        <offset>
+          <position x="24832" y="0" z="43259" />
+		  <rotation yaw="202" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster42_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster42_region003_connection" ref="regions">
+        <offset>
+          <position x="22801" y="0" z="-96085" />
+		  <rotation yaw="27" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster42_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster43_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster43_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster43_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster43_region000_connection" ref="regions">
+        <offset>
+          <position x="-85567" y="0" z="78263" />
+		  <rotation yaw="62" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster43_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster43_region001_connection" ref="regions">
+        <offset>
+          <position x="-7001" y="0" z="146918" />
+		  <rotation yaw="301" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster43_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster43_region002_connection" ref="regions">
+        <offset>
+          <position x="138887" y="0" z="-35404" />
+		  <rotation yaw="334" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster43_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster44_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster44_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster44_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster44_region000_connection" ref="regions">
+        <offset>
+          <position x="-113903" y="0" z="-101768" />
+		  <rotation yaw="16" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster44_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster44_region001_connection" ref="regions">
+        <offset>
+          <position x="52565" y="0" z="149981" />
+		  <rotation yaw="288" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster44_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster44_region002_connection" ref="regions">
+        <offset>
+          <position x="-61576" y="0" z="-15695" />
+		  <rotation yaw="317" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster44_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster45_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster45_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster45_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster45_region000_connection" ref="regions">
+        <offset>
+          <position x="-108799" y="0" z="-12697" />
+		  <rotation yaw="138" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster45_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster45_region001_connection" ref="regions">
+        <offset>
+          <position x="142912" y="0" z="-19284" />
+		  <rotation yaw="329" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster45_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster45_region002_connection" ref="regions">
+        <offset>
+          <position x="-13180" y="0" z="28190" />
+		  <rotation yaw="298" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster45_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster45_region003_connection" ref="regions">
+        <offset>
+          <position x="145138" y="0" z="-130058" />
+		  <rotation yaw="337" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster45_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster46_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster46_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster46_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster46_region000_connection" ref="regions">
+        <offset>
+          <position x="-17726" y="0" z="81939" />
+		  <rotation yaw="229" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster46_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster46_region001_connection" ref="regions">
+        <offset>
+          <position x="5796" y="0" z="-91253" />
+		  <rotation yaw="217" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster46_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster46_region002_connection" ref="regions">
+        <offset>
+          <position x="114944" y="0" z="93925" />
+		  <rotation yaw="102" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster46_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster47_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster47_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster47_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster47_region000_connection" ref="regions">
+        <offset>
+          <position x="128078" y="0" z="-45940" />
+		  <rotation yaw="337" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster47_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster47_region001_connection" ref="regions">
+        <offset>
+          <position x="87038" y="0" z="60416" />
+		  <rotation yaw="10" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster47_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster47_region002_connection" ref="regions">
+        <offset>
+          <position x="-72189" y="0" z="140534" />
+		  <rotation yaw="247" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster47_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster48_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster48_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster48_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster48_region000_connection" ref="regions">
+        <offset>
+          <position x="-113771" y="0" z="-91613" />
+		  <rotation yaw="15" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster48_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster48_region001_connection" ref="regions">
+        <offset>
+          <position x="76964" y="0" z="99866" />
+		  <rotation yaw="253" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster48_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_nvidium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster48_region002_connection" ref="regions">
+        <offset>
+          <position x="-17895" y="0" z="-116496" />
+		  <rotation yaw="112" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster48_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster48_region003_connection" ref="regions">
+        <offset>
+          <position x="-131591" y="0" z="-135977" />
+		  <rotation yaw="314" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster48_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster49_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster49_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster49_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster49_region000_connection" ref="regions">
+        <offset>
+          <position x="-124165" y="0" z="8132" />
+		  <rotation yaw="271" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster49_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster49_region001_connection" ref="regions">
+        <offset>
+          <position x="143388" y="0" z="-92886" />
+		  <rotation yaw="8" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster49_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster49_region002_connection" ref="regions">
+        <offset>
+          <position x="-146045" y="0" z="89820" />
+		  <rotation yaw="338" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster49_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster49_region003_connection" ref="regions">
+        <offset>
+          <position x="27905" y="0" z="63232" />
+		  <rotation yaw="327" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster49_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster50_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster50_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster50_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster50_region000_connection" ref="regions">
+        <offset>
+          <position x="48384" y="0" z="130921" />
+		  <rotation yaw="202" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster50_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster50_region001_connection" ref="regions">
+        <offset>
+          <position x="113528" y="0" z="65467" />
+		  <rotation yaw="282" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster50_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster50_region002_connection" ref="regions">
+        <offset>
+          <position x="19726" y="0" z="-132579" />
+		  <rotation yaw="202" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster50_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster50_region003_connection" ref="regions">
+        <offset>
+          <position x="-134346" y="0" z="-41578" />
+		  <rotation yaw="29" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster50_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster51_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster51_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster51_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster51_region000_connection" ref="regions">
+        <offset>
+          <position x="29843" y="0" z="-43752" />
+		  <rotation yaw="31" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster51_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster51_region001_connection" ref="regions">
+        <offset>
+          <position x="-87250" y="0" z="-132418" />
+		  <rotation yaw="67" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster51_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster51_region002_connection" ref="regions">
+        <offset>
+          <position x="110567" y="0" z="82761" />
+		  <rotation yaw="43" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster51_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster52_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster52_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster52_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster52_region000_connection" ref="regions">
+        <offset>
+          <position x="85294" y="0" z="37862" />
+		  <rotation yaw="333" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster52_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster52_region001_connection" ref="regions">
+        <offset>
+          <position x="90880" y="0" z="95326" />
+		  <rotation yaw="334" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster52_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster52_region002_connection" ref="regions">
+        <offset>
+          <position x="-85653" y="0" z="-113391" />
+		  <rotation yaw="243" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster52_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster53_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster53_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster53_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster53_region000_connection" ref="regions">
+        <offset>
+          <position x="59473" y="0" z="-36048" />
+		  <rotation yaw="177" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster53_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster53_region001_connection" ref="regions">
+        <offset>
+          <position x="139424" y="0" z="111523" />
+		  <rotation yaw="347" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster53_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster53_region002_connection" ref="regions">
+        <offset>
+          <position x="29088" y="0" z="5686" />
+		  <rotation yaw="297" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster53_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster54_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster54_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster54_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster54_region000_connection" ref="regions">
+        <offset>
+          <position x="-136747" y="0" z="93015" />
+		  <rotation yaw="325" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster54_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster54_region001_connection" ref="regions">
+        <offset>
+          <position x="-65038" y="0" z="-136792" />
+		  <rotation yaw="25" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster54_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster54_region002_connection" ref="regions">
+        <offset>
+          <position x="-144833" y="0" z="-100190" />
+		  <rotation yaw="87" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster54_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster55_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster55_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster55_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster55_region000_connection" ref="regions">
+        <offset>
+          <position x="-78204" y="0" z="45187" />
+		  <rotation yaw="293" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster55_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster55_region001_connection" ref="regions">
+        <offset>
+          <position x="7370" y="0" z="96130" />
+		  <rotation yaw="255" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster55_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster55_region002_connection" ref="regions">
+        <offset>
+          <position x="58190" y="0" z="-68526" />
+		  <rotation yaw="60" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster55_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster55_region003_connection" ref="regions">
+        <offset>
+          <position x="-8055" y="0" z="99663" />
+		  <rotation yaw="265" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster55_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster56_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster56_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster56_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster56_region000_connection" ref="regions">
+        <offset>
+          <position x="56270" y="0" z="-54687" />
+		  <rotation yaw="255" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster56_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster56_region001_connection" ref="regions">
+        <offset>
+          <position x="-120171" y="0" z="114633" />
+		  <rotation yaw="116" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster56_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster56_region002_connection" ref="regions">
+        <offset>
+          <position x="23588" y="0" z="-60399" />
+		  <rotation yaw="68" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster56_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster57_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster57_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster57_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster57_region000_connection" ref="regions">
+        <offset>
+          <position x="-95343" y="0" z="68544" />
+		  <rotation yaw="210" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster57_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster57_region001_connection" ref="regions">
+        <offset>
+          <position x="76894" y="0" z="5068" />
+		  <rotation yaw="348" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster57_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster57_region002_connection" ref="regions">
+        <offset>
+          <position x="-102890" y="0" z="-66124" />
+		  <rotation yaw="171" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster57_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster58_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster58_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster58_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster58_region000_connection" ref="regions">
+        <offset>
+          <position x="127972" y="0" z="-93117" />
+		  <rotation yaw="172" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster58_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster58_region001_connection" ref="regions">
+        <offset>
+          <position x="27673" y="0" z="31486" />
+		  <rotation yaw="349" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster58_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster58_region002_connection" ref="regions">
+        <offset>
+          <position x="-84543" y="0" z="120646" />
+		  <rotation yaw="244" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster58_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster58_region003_connection" ref="regions">
+        <offset>
+          <position x="139900" y="0" z="5986" />
+		  <rotation yaw="142" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster58_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster59_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster59_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster59_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster59_region000_connection" ref="regions">
+        <offset>
+          <position x="-88795" y="0" z="78954" />
+		  <rotation yaw="255" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster59_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster59_region001_connection" ref="regions">
+        <offset>
+          <position x="-61408" y="0" z="115940" />
+		  <rotation yaw="47" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster59_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster59_region002_connection" ref="regions">
+        <offset>
+          <position x="-61230" y="0" z="79820" />
+		  <rotation yaw="259" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster59_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster60_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster60_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster60_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster60_region000_connection" ref="regions">
+        <offset>
+          <position x="88468" y="0" z="40051" />
+		  <rotation yaw="102" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster60_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster60_region001_connection" ref="regions">
+        <offset>
+          <position x="-72355" y="0" z="108669" />
+		  <rotation yaw="280" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster60_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster60_region002_connection" ref="regions">
+        <offset>
+          <position x="103634" y="0" z="-22214" />
+		  <rotation yaw="307" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster60_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster61_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster61_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster61_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster61_region000_connection" ref="regions">
+        <offset>
+          <position x="50319" y="0" z="-50963" />
+		  <rotation yaw="279" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster61_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster61_region001_connection" ref="regions">
+        <offset>
+          <position x="50861" y="0" z="26778" />
+		  <rotation yaw="201" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster61_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster61_region002_connection" ref="regions">
+        <offset>
+          <position x="94360" y="0" z="145596" />
+		  <rotation yaw="296" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster61_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster62_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster62_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster62_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster62_region000_connection" ref="regions">
+        <offset>
+          <position x="-62972" y="0" z="-111001" />
+		  <rotation yaw="108" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster62_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster62_region001_connection" ref="regions">
+        <offset>
+          <position x="141725" y="0" z="-21716" />
+		  <rotation yaw="308" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster62_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster62_region002_connection" ref="regions">
+        <offset>
+          <position x="17270" y="0" z="21300" />
+		  <rotation yaw="136" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster62_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster62_region003_connection" ref="regions">
+        <offset>
+          <position x="-43880" y="0" z="-118867" />
+		  <rotation yaw="105" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster62_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster63_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster63_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster63_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster63_region000_connection" ref="regions">
+        <offset>
+          <position x="8348" y="0" z="-6477" />
+		  <rotation yaw="246" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster63_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster63_region001_connection" ref="regions">
+        <offset>
+          <position x="27819" y="0" z="48940" />
+		  <rotation yaw="244" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster63_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster63_region002_connection" ref="regions">
+        <offset>
+          <position x="71382" y="0" z="-32412" />
+		  <rotation yaw="118" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster63_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster63_region003_connection" ref="regions">
+        <offset>
+          <position x="-7756" y="0" z="-28398" />
+		  <rotation yaw="290" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster63_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster64_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster64_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster64_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster64_region000_connection" ref="regions">
+        <offset>
+          <position x="-97598" y="0" z="-8136" />
+		  <rotation yaw="235" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster64_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster64_region001_connection" ref="regions">
+        <offset>
+          <position x="-117126" y="0" z="92347" />
+		  <rotation yaw="158" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster64_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster64_region002_connection" ref="regions">
+        <offset>
+          <position x="-44872" y="0" z="110944" />
+		  <rotation yaw="98" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster64_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster64_region003_connection" ref="regions">
+        <offset>
+          <position x="139296" y="0" z="97455" />
+		  <rotation yaw="149" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster64_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster65_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster65_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster65_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster65_region000_connection" ref="regions">
+        <offset>
+          <position x="97139" y="0" z="-81902" />
+		  <rotation yaw="266" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster65_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster65_region001_connection" ref="regions">
+        <offset>
+          <position x="60491" y="0" z="-76700" />
+		  <rotation yaw="296" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster65_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster65_region002_connection" ref="regions">
+        <offset>
+          <position x="-100992" y="0" z="84593" />
+		  <rotation yaw="344" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster65_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster65_region003_connection" ref="regions">
+        <offset>
+          <position x="-21739" y="0" z="95122" />
+		  <rotation yaw="264" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster65_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster66_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster66_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster66_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster66_region000_connection" ref="regions">
+        <offset>
+          <position x="-5842" y="0" z="-122947" />
+		  <rotation yaw="61" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster66_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster66_region001_connection" ref="regions">
+        <offset>
+          <position x="-96689" y="0" z="6852" />
+		  <rotation yaw="284" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster66_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_nvidium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster66_region002_connection" ref="regions">
+        <offset>
+          <position x="-17730" y="0" z="136771" />
+		  <rotation yaw="22" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster66_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster67_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster67_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster67_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster67_region000_connection" ref="regions">
+        <offset>
+          <position x="125371" y="0" z="-6226" />
+		  <rotation yaw="11" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster67_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster67_region001_connection" ref="regions">
+        <offset>
+          <position x="-140570" y="0" z="77189" />
+		  <rotation yaw="54" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster67_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster67_region002_connection" ref="regions">
+        <offset>
+          <position x="123288" y="0" z="82880" />
+		  <rotation yaw="59" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster67_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster68_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster68_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster68_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster68_region000_connection" ref="regions">
+        <offset>
+          <position x="-66804" y="0" z="-87874" />
+		  <rotation yaw="225" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster68_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster68_region001_connection" ref="regions">
+        <offset>
+          <position x="-89838" y="0" z="-143957" />
+		  <rotation yaw="203" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster68_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster68_region002_connection" ref="regions">
+        <offset>
+          <position x="-62865" y="0" z="-47402" />
+		  <rotation yaw="256" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster68_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster69_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster69_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster69_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster69_region000_connection" ref="regions">
+        <offset>
+          <position x="78766" y="0" z="26863" />
+		  <rotation yaw="235" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster69_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster69_region001_connection" ref="regions">
+        <offset>
+          <position x="-39689" y="0" z="80668" />
+		  <rotation yaw="62" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster69_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_helium_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster69_region002_connection" ref="regions">
+        <offset>
+          <position x="127451" y="0" z="145216" />
+		  <rotation yaw="301" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster69_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster70_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster70_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster70_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster70_region000_connection" ref="regions">
+        <offset>
+          <position x="-40427" y="0" z="20141" />
+		  <rotation yaw="332" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster70_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster70_region001_connection" ref="regions">
+        <offset>
+          <position x="-26269" y="0" z="91886" />
+		  <rotation yaw="145" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster70_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster70_region002_connection" ref="regions">
+        <offset>
+          <position x="-125234" y="0" z="143493" />
+		  <rotation yaw="356" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster70_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster70_region003_connection" ref="regions">
+        <offset>
+          <position x="67565" y="0" z="66895" />
+		  <rotation yaw="35" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster70_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>

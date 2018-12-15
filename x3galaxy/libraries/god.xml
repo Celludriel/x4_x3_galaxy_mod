@@ -56,7 +56,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_4" race="argon" owner="antigone" type="factory">
+		<station id="station_4" race="argon" owner="argon" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -64,13 +64,13 @@
 			<corerange min="1.2" max="1.6" />
 		  </location>
 		  <station>
-			<select faction="antigone" tags="[defence]" />
+			<select faction="argon" tags="[defence]" />
 			<loadout>
 			  <level exact="1.0" />
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_5" race="argon" owner="antigone" type="factory">
+		<station id="station_5" race="argon" owner="argon" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -78,7 +78,7 @@
 			<corerange min="1.2" max="1.6" />
 		  </location>
 		  <station>
-			<select faction="antigone" tags="[defence]" />
+			<select faction="argon" tags="[defence]" />
 			<loadout>
 			  <level exact="1.0" />
 			</loadout>
@@ -182,21 +182,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_13" race="argon" owner="argon" type="factory">
-		  <quotas>
-			<quota galaxy="1" zone="1" />
-		  </quotas>
-		  <location class="zone" macro="x3g_zone001_cluster09_sector001_macro">
-			<corerange min="1.2" max="1.6" />
-		  </location>
-		  <station>
-			<select faction="argon" tags="[tradestation]" />
-			<loadout>
-			  <level exact="1.0" />
-			</loadout>
-		  </station>
-		</station>
-		<station id="station_14" race="argon" owner="antigone" type="factory">
+		<station id="station_13" race="argon" owner="antigone" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -210,7 +196,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_15" race="argon" owner="antigone" type="factory">
+		<station id="station_14" race="argon" owner="antigone" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -224,49 +210,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_16" race="argon" owner="antigone" type="factory">
-		  <quotas>
-			<quota galaxy="1" zone="1" />
-		  </quotas>
-		  <location class="zone" macro="x3g_zone001_cluster11_sector001_macro">
-			<corerange min="1.2" max="1.6" />
-		  </location>
-		  <station>
-			<select faction="antigone" tags="[shipyard]" />
-			<loadout>
-			  <level exact="1.0" />
-			</loadout>
-		  </station>
-		</station>
-		<station id="station_17" race="argon" owner="antigone" type="factory">
-		  <quotas>
-			<quota galaxy="1" zone="1" />
-		  </quotas>
-		  <location class="zone" macro="x3g_zone001_cluster11_sector001_macro">
-			<corerange min="1.2" max="1.6" />
-		  </location>
-		  <station>
-			<select faction="antigone" tags="[wharf]" />
-			<loadout>
-			  <level exact="1.0" />
-			</loadout>
-		  </station>
-		</station>
-		<station id="station_18" race="argon" owner="antigone" type="factory">
-		  <quotas>
-			<quota galaxy="1" zone="1" />
-		  </quotas>
-		  <location class="zone" macro="x3g_zone001_cluster11_sector001_macro">
-			<corerange min="1.2" max="1.6" />
-		  </location>
-		  <station>
-			<select faction="antigone" tags="[equipmentdock]" />
-			<loadout>
-			  <level exact="1.0" />
-			</loadout>
-		  </station>
-		</station>
-		<station id="station_19" race="argon" owner="argon" type="factory">
+		<station id="station_15" race="argon" owner="argon" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -280,7 +224,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_20" race="argon" owner="argon" type="factory">
+		<station id="station_16" race="argon" owner="argon" type="tradingstation">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -294,7 +238,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_21" race="argon" owner="argon" type="factory">
+		<station id="station_17" race="argon" owner="argon" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -308,7 +252,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_22" race="argon" owner="argon" type="factory">
+		<station id="station_18" race="argon" owner="argon" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -322,7 +266,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_23" race="argon" owner="argon" type="factory">
+		<station id="station_19" race="argon" owner="argon" type="tradingstation">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -336,7 +280,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_24" race="argon" owner="argon" type="factory">
+		<station id="station_20" race="argon" owner="argon" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -350,11 +294,1173 @@
 			</loadout>
 		  </station>
 		</station>
+		<station id="station_21" race="argon" owner="antigone" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster16_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="antigone" tags="[shipyard]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_22" race="argon" owner="antigone" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster16_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="antigone" tags="[wharf]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_23" race="argon" owner="antigone" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster16_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="antigone" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_24" race="argon" owner="antigone" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster17_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="antigone" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_25" race="argon" owner="antigone" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster17_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="antigone" tags="[equipmentdock]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_26" race="argon" owner="antigone" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster18_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="antigone" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_27" race="argon" owner="argon" type="tradingstation">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster18_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="argon" tags="[tradestation]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_28" race="xenon" owner="xenon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster19_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="xenon" tags="[shipyard]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_29" race="xenon" owner="xenon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster19_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="xenon" tags="[wharf]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_30" race="xenon" owner="xenon" type="defence">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster19_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="xenon" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_31" race="paranid" owner="paranid" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster26_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="paranid" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_32" race="paranid" owner="paranid" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster27_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="paranid" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_33" race="paranid" owner="paranid" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster28_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="paranid" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_34" race="paranid" owner="paranid" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster29_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="paranid" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_35" race="paranid" owner="paranid" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster30_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="paranid" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_36" race="paranid" owner="alliance" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster31_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="alliance" tags="[shipyard]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_37" race="paranid" owner="alliance" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster31_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="alliance" tags="[wharf]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_38" race="paranid" owner="paranid" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster31_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="paranid" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_39" race="paranid" owner="paranid" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster32_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="paranid" tags="[shipyard]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_40" race="paranid" owner="paranid" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster32_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="paranid" tags="[wharf]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_41" race="paranid" owner="paranid" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster32_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="paranid" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_42" race="paranid" owner="paranid" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster33_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="paranid" tags="[equipmentdock]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_43" race="paranid" owner="paranid" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster33_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="paranid" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_44" race="paranid" owner="paranid" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster34_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="paranid" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_45" race="paranid" owner="paranid" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster35_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="paranid" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_46" race="paranid" owner="paranid" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster36_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="paranid" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_47" race="paranid" owner="paranid" type="tradingstation">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster36_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="paranid" tags="[tradestation]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_48" race="xenon" owner="xenon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster37_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="xenon" tags="[shipyard]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_49" race="xenon" owner="xenon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster37_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="xenon" tags="[wharf]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_50" race="xenon" owner="xenon" type="defence">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster37_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="xenon" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_51" race="teladi" owner="teladi" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster40_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="teladi" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_52" race="teladi" owner="teladi" type="tradingstation">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster40_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="teladi" tags="[tradestation]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_53" race="teladi" owner="teladi" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster41_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="teladi" tags="[shipyard]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_54" race="teladi" owner="teladi" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster41_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="teladi" tags="[wharf]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_55" race="teladi" owner="teladi" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster41_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="teladi" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_56" race="teladi" owner="teladi" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster42_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="teladi" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_57" race="argon" owner="hatikvah" type="tradingstation">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster43_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="hatikvah" tags="[tradestation]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_58" race="argon" owner="hatikvah" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster43_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="hatikvah" tags="[piratebase]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_59" race="argon" owner="hatikvah" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster43_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="hatikvah" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_60" race="teladi" owner="scaleplate" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster44_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="scaleplate" tags="[piratebase]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_61" race="teladi" owner="scaleplate" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster44_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="scaleplate" tags="[piratedock]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_62" race="teladi" owner="scaleplate" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster44_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="scaleplate" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_63" race="argon" owner="hatikvah" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster47_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="hatikvah" tags="[piratebase]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_64" race="argon" owner="hatikvah" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster47_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="hatikvah" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_65" race="paranid" owner="paranid" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster48_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="paranid" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_66" race="paranid" owner="paranid" type="tradingstation">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster48_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="paranid" tags="[tradestation]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_67" race="teladi" owner="teladi" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster49_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="teladi" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_68" race="teladi" owner="teladi" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster50_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="teladi" tags="[equipmentdock]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_69" race="teladi" owner="teladi" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster50_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="teladi" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_70" race="teladi" owner="teladi" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster51_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="teladi" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_71" race="teladi" owner="teladi" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster52_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="teladi" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_72" race="teladi" owner="teladi" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster53_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="teladi" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_73" race="teladi" owner="teladi" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster54_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="teladi" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_74" race="teladi" owner="teladi" type="tradingstation">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster54_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="teladi" tags="[tradestation]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_75" race="xenon" owner="xenon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster56_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="xenon" tags="[shipyard]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_76" race="xenon" owner="xenon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster56_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="xenon" tags="[wharf]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_77" race="xenon" owner="xenon" type="defence">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster56_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="xenon" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_78" race="teladi" owner="teladi" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster57_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="teladi" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_79" race="teladi" owner="ministry" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster57_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="ministry" tags="[shipyard]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_80" race="teladi" owner="ministry" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster57_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="ministry" tags="[wharf]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_81" race="teladi" owner="ministry" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster57_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="ministry" tags="[equipmentdock]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_82" race="teladi" owner="teladi" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster58_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="teladi" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_83" race="teladi" owner="teladi" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster59_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="teladi" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_84" race="paranid" owner="holyorder" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster60_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="holyorder" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_85" race="paranid" owner="holyorder" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster61_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="holyorder" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_86" race="paranid" owner="holyorder" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster62_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="holyorder" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_87" race="paranid" owner="holyorder" type="tradingstation">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster62_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="holyorder" tags="[tradestation]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_88" race="teladi" owner="scaleplate" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster63_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="scaleplate" tags="[piratebase]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_89" race="teladi" owner="scaleplate" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster63_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="scaleplate" tags="[piratedock]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_90" race="teladi" owner="scaleplate" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster63_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="scaleplate" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_91" race="paranid" owner="holyorder" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster64_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="holyorder" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_92" race="paranid" owner="holyorder" type="tradingstation">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster64_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="holyorder" tags="[tradestation]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_93" race="paranid" owner="holyorder" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster65_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="holyorder" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_94" race="paranid" owner="holyorder" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster66_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="holyorder" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_95" race="paranid" owner="holyorder" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster66_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="holyorder" tags="[equipmentdock]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_96" race="paranid" owner="holyorder" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster67_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="holyorder" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_97" race="paranid" owner="holyorder" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster67_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="holyorder" tags="[wharf]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_98" race="paranid" owner="holyorder" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster67_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="holyorder" tags="[shipyard]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_99" race="xenon" owner="xenon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster68_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="xenon" tags="[shipyard]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_100" race="xenon" owner="xenon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster68_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="xenon" tags="[wharf]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_101" race="xenon" owner="xenon" type="defence">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster68_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="xenon" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_102" race="paranid" owner="holyorder" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster69_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="holyorder" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_103" race="paranid" owner="holyorder" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster70_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="holyorder" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
     </stations>
     <products>
         <product id="arg_advancedcomposites" ware="advancedcomposites" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -365,7 +1471,7 @@
         </product>
         <product id="arg_advancedelectronics" ware="advancedelectronics" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -376,7 +1482,7 @@
         </product>
         <product id="arg_antimattercells" ware="antimattercells" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <region ware="hydrogen" max="80000" />
@@ -387,7 +1493,7 @@
         </product>
         <product id="arg_antimatterconverters" ware="antimatterconverters" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -398,7 +1504,7 @@
         </product>
         <product id="arg_claytronics" ware="claytronics" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="6"  />
+            <quota galaxy="6"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -409,7 +1515,7 @@
         </product>
         <product id="arg_dronecomponents" ware="dronecomponents" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -420,7 +1526,7 @@
         </product>
         <product id="arg_energycells" ware="energycells" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -432,7 +1538,7 @@
         </product>
         <product id="arg_engineparts" ware="engineparts" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -443,7 +1549,7 @@
         </product>
         <product id="arg_fieldcoils" ware="fieldcoils" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -454,7 +1560,7 @@
         </product>
         <product id="arg_foodrations" ware="foodrations" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="8"  />
+            <quota galaxy="8"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -465,7 +1571,7 @@
         </product>
         <product id="arg_graphene" ware="graphene" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="6"  />
+            <quota galaxy="6"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <region ware="methane" max="80000" />
@@ -476,7 +1582,7 @@
         </product>
         <product id="arg_hullparts" ware="hullparts" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="16"  />
+            <quota galaxy="16"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -487,7 +1593,7 @@
         </product>
         <product id="arg_meat" ware="meat" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.25" maxbound="false" />
@@ -498,7 +1604,7 @@
         </product>
         <product id="arg_medicalsupplies" ware="medicalsupplies" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="18"  />
+            <quota galaxy="18"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -509,7 +1615,7 @@
         </product>
         <product id="arg_microchips" ware="microchips" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="8"  />
+            <quota galaxy="8"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -520,7 +1626,7 @@
         </product>
         <product id="arg_missilecomponents" ware="missilecomponents" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -531,7 +1637,7 @@
         </product>
         <product id="arg_plasmaconductors" ware="plasmaconductors" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="4"  />
+            <quota galaxy="4"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.5" maxbound="false" />
@@ -542,7 +1648,7 @@
         </product>
         <product id="arg_quantumtubes" ware="quantumtubes" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="4"  />
+            <quota galaxy="4"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.5" maxbound="false" />
@@ -553,7 +1659,7 @@
         </product>
         <product id="arg_refinedmetals" ware="refinedmetals" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="6" sector="4" />
+            <quota galaxy="6"  sector="4" />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.5" maxbound="false" />
@@ -565,7 +1671,7 @@
         </product>
         <product id="arg_scanningarrays" ware="scanningarrays" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.5" maxbound="false" />
@@ -576,7 +1682,7 @@
         </product>
         <product id="arg_shieldcomponents" ware="shieldcomponents" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -587,7 +1693,7 @@
         </product>
         <product id="arg_siliconwafers" ware="siliconwafers" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="6" sector="4" />
+            <quota galaxy="6"  sector="4" />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.5" maxbound="false" />
@@ -599,7 +1705,7 @@
         </product>
         <product id="arg_spacefuel" ware="spacefuel" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.5" maxbound="false" />
@@ -610,7 +1716,7 @@
         </product>
         <product id="pir_spacefuel" ware="spacefuel" owner="hatikvah" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[ownerless]" solitary="true" />
           <module>
@@ -619,7 +1725,7 @@
         </product>
         <product id="arg_spices" ware="spices" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="6"  />
+            <quota galaxy="6"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.25" maxbound="false" />
@@ -630,7 +1736,7 @@
         </product>
         <product id="arg_superfluidcoolant" ware="superfluidcoolant" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <region ware="helium" max="80000" />
@@ -641,7 +1747,7 @@
         </product>
         <product id="arg_turretcomponents" ware="turretcomponents" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -652,7 +1758,7 @@
         </product>
         <product id="arg_water" ware="water" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="4"  />
+            <quota galaxy="4"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <region ware="ice" max="80000" />
@@ -663,7 +1769,7 @@
         </product>
         <product id="arg_weaponcomponents" ware="weaponcomponents" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -674,7 +1780,7 @@
         </product>
         <product id="arg_wheat" ware="wheat" owner="argon" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[argon,hatikvah]" relation="self" comparison="ge">
             <economy max="0.25" maxbound="false" />
@@ -685,7 +1791,7 @@
         </product>
         <product id="ant_advancedcomposites" ware="advancedcomposites" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -696,7 +1802,7 @@
         </product>
         <product id="ant_advancedelectronics" ware="advancedelectronics" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -707,7 +1813,7 @@
         </product>
         <product id="ant_antimatterconverters" ware="antimatterconverters" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -718,7 +1824,7 @@
         </product>
         <product id="ant_claytronics" ware="claytronics" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="4"  />
+            <quota galaxy="4"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -729,7 +1835,7 @@
         </product>
         <product id="ant_energycells" ware="energycells" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="8"  />
+            <quota galaxy="8"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.6" maxbound="false" />
@@ -741,7 +1847,7 @@
         </product>
         <product id="ant_engineparts" ware="engineparts" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -752,7 +1858,7 @@
         </product>
         <product id="ant_foodrations" ware="foodrations" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="8"  />
+            <quota galaxy="8"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -763,7 +1869,7 @@
         </product>
         <product id="ant_graphene" ware="graphene" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="4"  />
+            <quota galaxy="4"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <region ware="methane" max="80000" />
@@ -774,7 +1880,7 @@
         </product>
         <product id="ant_hullparts" ware="hullparts" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="12"  />
+            <quota galaxy="12"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -785,7 +1891,7 @@
         </product>
         <product id="ant_meat" ware="meat" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.25" maxbound="false" />
@@ -796,7 +1902,7 @@
         </product>
         <product id="ant_medicalsupplies" ware="medicalsupplies" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="16"  />
+            <quota galaxy="16"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -807,7 +1913,7 @@
         </product>
         <product id="ant_microchips" ware="microchips" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="6"  />
+            <quota galaxy="6"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -818,7 +1924,7 @@
         </product>
         <product id="ant_missilecomponents" ware="missilecomponents" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -829,7 +1935,7 @@
         </product>
         <product id="ant_plasmaconductors" ware="plasmaconductors" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="4"  />
+            <quota galaxy="4"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.5" maxbound="false" />
@@ -840,7 +1946,7 @@
         </product>
         <product id="ant_quantumtubes" ware="quantumtubes" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="4"  />
+            <quota galaxy="4"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.5" maxbound="false" />
@@ -851,7 +1957,7 @@
         </product>
         <product id="ant_refinedmetals" ware="refinedmetals" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="6" sector="4" />
+            <quota galaxy="6"  sector="4" />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.5" maxbound="false" />
@@ -863,7 +1969,7 @@
         </product>
         <product id="ant_scanningarrays" ware="scanningarrays" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.5" maxbound="false" />
@@ -874,7 +1980,7 @@
         </product>
         <product id="ant_siliconwafers" ware="siliconwafers" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="4" sector="2" />
+            <quota galaxy="4"  sector="2" />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.5" maxbound="false" />
@@ -886,7 +1992,7 @@
         </product>
         <product id="ant_smartchips" ware="smartchips" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -897,7 +2003,7 @@
         </product>
         <product id="ant_spacefuel" ware="spacefuel" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="6"  />
+            <quota galaxy="6"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone,hatikvah]" relation="self" comparison="ge">
             <economy max="0.5" maxbound="false" />
@@ -908,7 +2014,7 @@
         </product>
         <product id="ant_spices" ware="spices" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="6"  />
+            <quota galaxy="6"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.25" maxbound="false" />
@@ -919,7 +2025,7 @@
         </product>
         <product id="ant_superfluidcoolant" ware="superfluidcoolant" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <region ware="helium" max="80000" />
@@ -930,7 +2036,7 @@
         </product>
         <product id="ant_turretcomponents" ware="turretcomponents" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -941,7 +2047,7 @@
         </product>
         <product id="ant_water" ware="water" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="4"  />
+            <quota galaxy="4"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <region ware="ice" max="80000" />
@@ -952,7 +2058,7 @@
         </product>
         <product id="ant_weaponcomponents" ware="weaponcomponents" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.75" maxbound="false" />
@@ -963,13 +2069,948 @@
         </product>
         <product id="ant_wheat" ware="wheat" owner="antigone" type="factory">
           <quotas>
-            <quota galaxy="2"  />
+            <quota galaxy="2"   />
           </quotas>
           <location class="galaxy" macro="x3g_galaxy_macro" faction="[antigone]" relation="self" comparison="ge">
             <economy max="0.25" maxbound="false" />
           </location>
           <module>
             <select ware="wheat" race="argon" faction="antigone"/>
+          </module>
+        </product>
+        <product id="par_advancedcomposites" ware="advancedcomposites" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="advancedcomposites" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_advancedcomposites" ware="advancedcomposites" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="advancedcomposites" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_advancedelectronics" ware="advancedelectronics" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="advancedelectronics" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_advancedelectronics" ware="advancedelectronics" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="advancedelectronics" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_antimattercells" ware="antimattercells" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+            <region ware="hydrogen" max="80000" />
+          </location>
+          <module>
+            <select ware="antimattercells" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_antimattercells" ware="antimattercells" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+            <region ware="hydrogen" max="80000" />
+          </location>
+          <module>
+            <select ware="antimattercells" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_antimatterconverters" ware="antimatterconverters" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="antimatterconverters" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_antimatterconverters" ware="antimatterconverters" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="antimatterconverters" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_claytronics" ware="claytronics" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="6"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="claytronics" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_claytronics" ware="claytronics" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="6"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="claytronics" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_dronecomponents" ware="dronecomponents" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="dronecomponents" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_dronecomponents" ware="dronecomponents" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="dronecomponents" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_energycells" ware="energycells" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+            <sunlight min="1" max="3" />
+          </location>
+          <module>
+            <select ware="energycells" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_energycells" ware="energycells" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+            <sunlight min="1" max="3" />
+          </location>
+          <module>
+            <select ware="energycells" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_engineparts" ware="engineparts" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="engineparts" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_engineparts" ware="engineparts" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="engineparts" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="hol_fieldcoils" ware="fieldcoils" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="fieldcoils" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_graphene" ware="graphene" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="6"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+            <region ware="methane" max="80000" />
+          </location>
+          <module>
+            <select ware="graphene" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_graphene" ware="graphene" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="6"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+            <region ware="methane" max="80000" />
+          </location>
+          <module>
+            <select ware="graphene" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_hullparts" ware="hullparts" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="16"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="hullparts" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_hullparts" ware="hullparts" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="16"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="hullparts" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="sca_majadust" ware="majadust" owner="scaleplate" type="factory">
+          <quotas>
+            <quota galaxy="20"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[ownerless,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="majadust" race="paranid" faction="scaleplate"/>
+          </module>
+        </product>
+        <product id="par_majasnails" ware="majasnails" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="6"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="majasnails" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_majasnails" ware="majasnails" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="4"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="majasnails" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_medicalsupplies" ware="medicalsupplies" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="20"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="medicalsupplies" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_medicalsupplies" ware="medicalsupplies" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="18"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="medicalsupplies" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_microchips" ware="microchips" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="8"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="microchips" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_microchips" ware="microchips" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="6"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="microchips" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_missilecomponents" ware="missilecomponents" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="missilecomponents" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_missilecomponents" ware="missilecomponents" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="missilecomponents" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_plasmaconductors" ware="plasmaconductors" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="4"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="plasmaconductors" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_plasmaconductors" ware="plasmaconductors" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="4"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="plasmaconductors" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_quantumtubes" ware="quantumtubes" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="4"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="quantumtubes" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_quantumtubes" ware="quantumtubes" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="4"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="quantumtubes" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_refinedmetals" ware="refinedmetals" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="8"  sector="4" />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+            <region ware="ore" max="80000" />
+          </location>
+          <module>
+            <select ware="refinedmetals" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_refinedmetals" ware="refinedmetals" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="6"  sector="4" />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+            <region ware="ore" max="80000" />
+          </location>
+          <module>
+            <select ware="refinedmetals" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_scanningarrays" ware="scanningarrays" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="scanningarrays" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_scanningarrays" ware="scanningarrays" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="scanningarrays" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="hol_shieldcomponents" ware="shieldcomponents" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="shieldcomponents" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_siliconwafers" ware="siliconwafers" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="6"  sector="2" />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+            <region ware="silicon" max="80000" />
+          </location>
+          <module>
+            <select ware="siliconwafers" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_siliconwafers" ware="siliconwafers" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="4"  sector="2" />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+            <region ware="silicon" max="80000" />
+          </location>
+          <module>
+            <select ware="siliconwafers" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_smartchips" ware="smartchips" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="smartchips" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_smartchips" ware="smartchips" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="smartchips" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_sojabeans" ware="sojabeans" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="4"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="sojabeans" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_sojabeans" ware="sojabeans" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="4"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="sojabeans" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_sojahusk" ware="sojahusk" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="8"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="sojahusk" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_sojahusk" ware="sojahusk" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="6"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="sojahusk" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_spices" ware="spices" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="6"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="spices" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_spices" ware="spices" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="4"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="spices" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_superfluidcoolant" ware="superfluidcoolant" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+            <region ware="helium" max="80000" />
+          </location>
+          <module>
+            <select ware="superfluidcoolant" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_superfluidcoolant" ware="superfluidcoolant" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+            <region ware="helium" max="80000" />
+          </location>
+          <module>
+            <select ware="superfluidcoolant" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_turretcomponents" ware="turretcomponents" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="turretcomponents" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_turretcomponents" ware="turretcomponents" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="turretcomponents" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_water" ware="water" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="4"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+            <region ware="ice" max="80000" />
+          </location>
+          <module>
+            <select ware="water" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_water" ware="water" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="4"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+            <region ware="ice" max="80000" />
+          </location>
+          <module>
+            <select ware="water" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="par_weaponcomponents" ware="weaponcomponents" owner="paranid" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[paranid,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="weaponcomponents" race="paranid" faction="paranid"/>
+          </module>
+        </product>
+        <product id="hol_weaponcomponents" ware="weaponcomponents" owner="holyorder" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[holyorder,alliance]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="weaponcomponents" race="paranid" faction="holyorder"/>
+          </module>
+        </product>
+        <product id="tel_advancedcomposites" ware="advancedcomposites" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="4"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.75" maxbound="false" />
+          </location>
+          <module>
+            <select ware="advancedcomposites" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_advancedelectronics" ware="advancedelectronics" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="4"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.75" maxbound="false" />
+          </location>
+          <module>
+            <select ware="advancedelectronics" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_antimattercells" ware="antimattercells" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <region ware="hydrogen" max="80000" />
+          </location>
+          <module>
+            <select ware="antimattercells" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_antimatterconverters" ware="antimatterconverters" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="4"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.75" maxbound="false" />
+          </location>
+          <module>
+            <select ware="antimatterconverters" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_claytronics" ware="claytronics" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="8"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.75" maxbound="false" />
+          </location>
+          <module>
+            <select ware="claytronics" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_dronecomponents" ware="dronecomponents" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="4"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.75" maxbound="false" />
+          </location>
+          <module>
+            <select ware="dronecomponents" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_energycells" ware="energycells" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="18"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.75" maxbound="false" />
+            <sunlight min="1" max="3" />
+          </location>
+          <module>
+            <select ware="energycells" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_engineparts" ware="engineparts" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="4"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.75" maxbound="false" />
+          </location>
+          <module>
+            <select ware="engineparts" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_fieldcoils" ware="fieldcoils" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.75" maxbound="false" />
+          </location>
+          <module>
+            <select ware="fieldcoils" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_graphene" ware="graphene" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="10"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <region ware="methane" max="80000" />
+          </location>
+          <module>
+            <select ware="graphene" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_hullparts" ware="hullparts" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="28"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.75" maxbound="false" />
+          </location>
+          <module>
+            <select ware="hullparts" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_medicalsupplies" ware="medicalsupplies" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="32"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.75" maxbound="false" />
+          </location>
+          <module>
+            <select ware="medicalsupplies" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_microchips" ware="microchips" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="14"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.75" maxbound="false" />
+          </location>
+          <module>
+            <select ware="microchips" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_missilecomponents" ware="missilecomponents" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="4"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.75" maxbound="false" />
+          </location>
+          <module>
+            <select ware="missilecomponents" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_nostropoil" ware="nostropoil" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="10"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.75" maxbound="false" />
+          </location>
+          <module>
+            <select ware="nostropoil" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_plasmaconductors" ware="plasmaconductors" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="8"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.5" maxbound="false" />
+          </location>
+          <module>
+            <select ware="plasmaconductors" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_quantumtubes" ware="quantumtubes" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="8"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.5" maxbound="false" />
+          </location>
+          <module>
+            <select ware="quantumtubes" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_scanningarrays" ware="scanningarrays" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="4"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.5" maxbound="false" />
+          </location>
+          <module>
+            <select ware="scanningarrays" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_shieldcomponents" ware="shieldcomponents" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="2"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.75" maxbound="false" />
+          </location>
+          <module>
+            <select ware="shieldcomponents" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_siliconwafers" ware="siliconwafers" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="10"  sector="4" />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.5" maxbound="false" />
+            <region ware="silicon" max="80000" />
+          </location>
+          <module>
+            <select ware="siliconwafers" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_smartchips" ware="smartchips" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="7"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.75" maxbound="false" />
+          </location>
+          <module>
+            <select ware="smartchips" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_spaceweed" ware="spaceweed" owner="scaleplate" type="factory">
+          <quotas>
+            <quota galaxy="8"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.25" maxbound="false" />
+          </location>
+          <module>
+            <select ware="spaceweed" race="teladi" faction="scaleplate"/>
+          </module>
+        </product>
+        <product id="pir_spaceweed" ware="spaceweed" owner="scaleplate" type="factory">
+          <quotas>
+            <quota galaxy="8"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[ownerless]" solitary="true" />
+          <module>
+            <select ware="spaceweed" race="teladi" faction="scaleplate"/>
+          </module>
+        </product>
+        <product id="tel_spices" ware="spices" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="6"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.25" maxbound="false" />
+          </location>
+          <module>
+            <select ware="spices" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_sunriseflowers" ware="sunriseflowers" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="8"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.25" maxbound="false" />
+          </location>
+          <module>
+            <select ware="sunriseflowers" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_superfluidcoolant" ware="superfluidcoolant" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="4"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <region ware="helium" max="80000" />
+          </location>
+          <module>
+            <select ware="superfluidcoolant" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_teladianium" ware="teladianium" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="10"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <region ware="ore" max="80000" />
+          </location>
+          <module>
+            <select ware="teladianium" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_swampplant" ware="swampplant" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="6"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+          </location>
+          <module>
+            <select ware="swampplant" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_turretcomponents" ware="turretcomponents" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="4"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.75" maxbound="false" />
+          </location>
+          <module>
+            <select ware="turretcomponents" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_water" ware="water" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="10"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <region ware="ice" max="80000" />
+          </location>
+          <module>
+            <select ware="water" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="tel_weaponcomponents" ware="weaponcomponents" owner="teladi" type="factory">
+          <quotas>
+            <quota galaxy="4"   />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[teladi,scaleplate]" relation="self" comparison="ge">
+            <economy max="0.75" maxbound="false" />
+          </location>
+          <module>
+            <select ware="weaponcomponents" race="teladi" faction="teladi"/>
+          </module>
+        </product>
+        <product id="xen_energycells" ware="energycells" owner="xenon" type="factory">
+          <quotas>
+            <quota galaxy="32" cluster="4"  />
+          </quotas>
+          <location class="galaxy" macro="x3g_galaxy_macro" faction="[xenon]" relation="self" comparison="ge">
+            <economy max="0.75" maxbound="false" />
+          </location>
+          <module>
+            <select ware="energycells" race="xenon" faction="xenon"/>
           </module>
         </product>
     </products>
