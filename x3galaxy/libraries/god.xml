@@ -378,7 +378,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_27" race="argon" owner="argon" type="tradingstation">
+		<station id="station_27" race="argon" owner="antigone" type="tradingstation">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -386,7 +386,7 @@
 			<corerange min="1.2" max="1.6" />
 		  </location>
 		  <station>
-			<select faction="argon" tags="[tradestation]" />
+			<select faction="antigone" tags="[tradestation]" />
 			<loadout>
 			  <level exact="1.0" />
 			</loadout>
