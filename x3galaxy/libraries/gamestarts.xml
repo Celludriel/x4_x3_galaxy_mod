@@ -8,7 +8,7 @@
           <position x="1000" y="0" z="1000"/>
           <rotation yaw="0" pitch="0" roll="0"/>
         </location>
-        <player macro="character_player_discoverer_macro" money="10000" name="Vel Driar">
+        <player macro="character_player_discover_macro" money="10000" name="Vel Driar">
           <ship macro="ship_arg_s_fighter_01_a_macro">
             <loadout>
               <macros>
