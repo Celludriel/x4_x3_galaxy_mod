@@ -3,12 +3,12 @@
   <remove sel="/gamestarts"/>
   <add sel="/">
     <gamestarts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="gamestarts.xsd">
-            <gamestart id="x3g_galaxy_main_0" name="The Argon Saga" image="gamestart_1">
+            <gamestart id="x3g_galaxy_main_0" name="The Argon Saga" description="" image="gamestart_1">
         <location galaxy="x3g_galaxy_macro" zone="x3g_zone001_cluster01_sector001_macro">
           <position x="1000" y="0" z="1000"/>
           <rotation yaw="0" pitch="0" roll="0"/>
         </location>
-        <player macro="character_player_fight_macro" money="10000" name="Vel Driar">
+        <player macro="character_player_discoverer_macro" money="10000" name="Vel Driar">
           <ship macro="ship_arg_s_fighter_01_a_macro">
             <loadout>
               <macros>
@@ -81,7 +81,7 @@
           <theme paint="painttheme_player_01" />
         </player>
       </gamestart>
-      <gamestart id="x3g_galaxy_main_1" name="The Paranid Supremacy" image="gamestart_1">
+      <gamestart id="x3g_galaxy_main_1" name="The Paranid Supremacy" description="" image="gamestart_1">
         <location galaxy="x3g_galaxy_macro" zone="x3g_zone001_cluster32_sector001_macro">
           <position x="1000" y="0" z="1000"/>
           <rotation yaw="0" pitch="0" roll="0"/>
@@ -159,12 +159,14 @@
           <theme paint="painttheme_player_01" />
         </player>
       </gamestart>
-      <gamestart id="x3g_galaxy_main_2" name="The Teladi Mercantile" image="gamestart_1">
+      <gamestart id="x3g_galaxy_main_2" name="The Teladi Mercantile" description="Ever since you hatched from your egg you have been enamored with value and money, in fact they were your most spoken words during your adolescent 'eggspeak' 
+When your eyes started to change from the pale yellow that marks Teladi youth to the deep red of a mature citizen in the great trade empire the others looked at you with a sense you should leave the planetside and seek out the life of a true Teladi.
+With that you gather your belongings and sell them all, buying a modest ship to begin your great search for the universes greatest profitssss!" image="gamestart_1">
         <location galaxy="x3g_galaxy_macro" zone="x3g_zone001_cluster41_sector001_macro">
           <position x="1000" y="0" z="1000"/>
           <rotation yaw="0" pitch="0" roll="0"/>
         </location>
-        <player macro="character_player_fight_macro" money="10000" name="Ol Manck">
+        <player macro="character_player_trade_macro" money="10000" name="Ol Manck">
           <ship macro="ship_tel_s_fighter_01_a_macro">
             <loadout>
               <macros>
@@ -237,7 +239,7 @@
           <theme paint="painttheme_player_01" />
         </player>
       </gamestart>
-      <gamestart id="x3g_galaxy_main_3" name="The Holy Crusade" image="gamestart_1">
+      <gamestart id="x3g_galaxy_main_3" name="The Holy Crusade" description="" image="gamestart_1">
         <location galaxy="x3g_galaxy_macro" zone="x3g_zone001_cluster67_sector001_macro">
           <position x="1000" y="0" z="1000"/>
           <rotation yaw="0" pitch="0" roll="0"/>
