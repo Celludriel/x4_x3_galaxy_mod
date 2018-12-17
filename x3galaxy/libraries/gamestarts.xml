@@ -3,7 +3,7 @@
   <remove sel="/gamestarts"/>
   <add sel="/">
     <gamestarts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="gamestarts.xsd">
-            <gamestart id="x3g_galaxy_main_0" name="The Argon Saga" description="" image="gamestart_1">
+            <gamestart id="x3g_galaxy_main_0" name="The Argon Saga" description="The Argon Federation is a proud place to call home: the center of culture, science and learning in the universe. This pride is born of a long and storied history; of a bold and daring risk to lure the greatest threat the universe has known away from Earth and a sacrifice to save a home they would never return to. The Argon people were forced to began anew in a place unfamiliar to them and have thrived since. Do you have what it takes to continue this saga?" image="gamestart_1">
         <location galaxy="x3g_galaxy_macro" zone="x3g_zone001_cluster01_sector001_macro">
           <position x="1000" y="0" z="1000"/>
           <rotation yaw="0" pitch="0" roll="0"/>

@@ -1279,8 +1279,8 @@
       </connection>
       <connection name="x3g_cluster24_region000_connection" ref="regions">
         <offset>
-          <position x="16968" y="0" z="-248" />
-		  <rotation yaw="296" pitch="0" roll="0"/>
+          <position x="111856" y="0" z="-122454" />
+		  <rotation yaw="231" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster24_region000_macro">
           <component connection="cluster" ref="standardregion" />
@@ -1291,8 +1291,8 @@
       </connection>
       <connection name="x3g_cluster24_region001_connection" ref="regions">
         <offset>
-          <position x="111856" y="0" z="-122454" />
-		  <rotation yaw="231" pitch="0" roll="0"/>
+          <position x="118414" y="0" z="-120171" />
+		  <rotation yaw="244" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster24_region001_macro">
           <component connection="cluster" ref="standardregion" />
@@ -1303,13 +1303,25 @@
       </connection>
       <connection name="x3g_cluster24_region002_connection" ref="regions">
         <offset>
-          <position x="118414" y="0" z="-120171" />
-		  <rotation yaw="244" pitch="0" roll="0"/>
+          <position x="36855" y="0" z="132745" />
+		  <rotation yaw="150" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster24_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
             <region ref="x3g_ore_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster24_region003_connection" ref="regions">
+        <offset>
+          <position x="-65060" y="0" z="-111619" />
+		  <rotation yaw="210" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster24_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -1328,8 +1340,8 @@
       </connection>
       <connection name="x3g_cluster25_region000_connection" ref="regions">
         <offset>
-          <position x="132745" y="0" z="-24394" />
-		  <rotation yaw="101" pitch="0" roll="0"/>
+          <position x="21453" y="0" z="-136572" />
+		  <rotation yaw="51" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster25_region000_macro">
           <component connection="cluster" ref="standardregion" />
@@ -1340,8 +1352,8 @@
       </connection>
       <connection name="x3g_cluster25_region001_connection" ref="regions">
         <offset>
-          <position x="-111619" y="0" z="25513" />
-		  <rotation yaw="67" pitch="0" roll="0"/>
+          <position x="17592" y="0" z="140450" />
+		  <rotation yaw="137" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster25_region001_macro">
           <component connection="cluster" ref="standardregion" />
@@ -1352,22 +1364,10 @@
       </connection>
       <connection name="x3g_cluster25_region002_connection" ref="regions">
         <offset>
-          <position x="21453" y="0" z="-136572" />
-		  <rotation yaw="51" pitch="0" roll="0"/>
+          <position x="80126" y="0" z="-64559" />
+		  <rotation yaw="98" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster25_region002_macro">
-          <component connection="cluster" ref="standardregion" />
-          <properties>
-            <region ref="x3g_ice_belt" />
-          </properties>
-        </macro>
-      </connection>
-      <connection name="x3g_cluster25_region003_connection" ref="regions">
-        <offset>
-          <position x="17592" y="0" z="140450" />
-		  <rotation yaw="137" pitch="0" roll="0"/>
-        </offset>
-        <macro name="x3g_cluster25_region003_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
             <region ref="x3g_ice_belt" />
@@ -1389,8 +1389,8 @@
       </connection>
       <connection name="x3g_cluster26_region000_connection" ref="regions">
         <offset>
-          <position x="-64559" y="0" z="-67755" />
-		  <rotation yaw="264" pitch="0" roll="0"/>
+          <position x="47624" y="0" z="83106" />
+		  <rotation yaw="305" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster26_region000_macro">
           <component connection="cluster" ref="standardregion" />
@@ -1401,8 +1401,8 @@
       </connection>
       <connection name="x3g_cluster26_region001_connection" ref="regions">
         <offset>
-          <position x="47624" y="0" z="83106" />
-		  <rotation yaw="305" pitch="0" roll="0"/>
+          <position x="-66605" y="0" z="128767" />
+		  <rotation yaw="278" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster26_region001_macro">
           <component connection="cluster" ref="standardregion" />
@@ -1413,8 +1413,8 @@
       </connection>
       <connection name="x3g_cluster26_region002_connection" ref="regions">
         <offset>
-          <position x="-66605" y="0" z="128767" />
-		  <rotation yaw="278" pitch="0" roll="0"/>
+          <position x="-45354" y="0" z="43048" />
+		  <rotation yaw="204" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster26_region002_macro">
           <component connection="cluster" ref="standardregion" />
@@ -1425,8 +1425,8 @@
       </connection>
       <connection name="x3g_cluster26_region003_connection" ref="regions">
         <offset>
-          <position x="-45354" y="0" z="43048" />
-		  <rotation yaw="204" pitch="0" roll="0"/>
+          <position x="116321" y="0" z="-120322" />
+		  <rotation yaw="299" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster26_region003_macro">
           <component connection="cluster" ref="standardregion" />
@@ -1450,8 +1450,8 @@
       </connection>
       <connection name="x3g_cluster27_region000_connection" ref="regions">
         <offset>
-          <position x="-120322" y="0" z="99760" />
-		  <rotation yaw="148" pitch="0" roll="0"/>
+          <position x="-145633" y="0" z="-100973" />
+		  <rotation yaw="74" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster27_region000_macro">
           <component connection="cluster" ref="standardregion" />
@@ -1462,8 +1462,8 @@
       </connection>
       <connection name="x3g_cluster27_region001_connection" ref="regions">
         <offset>
-          <position x="-145633" y="0" z="-100973" />
-		  <rotation yaw="74" pitch="0" roll="0"/>
+          <position x="131656" y="0" z="-113369" />
+		  <rotation yaw="138" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster27_region001_macro">
           <component connection="cluster" ref="standardregion" />
@@ -1474,25 +1474,13 @@
       </connection>
       <connection name="x3g_cluster27_region002_connection" ref="regions">
         <offset>
-          <position x="131656" y="0" z="-113369" />
-		  <rotation yaw="138" pitch="0" roll="0"/>
+          <position x="127338" y="0" z="-64500" />
+		  <rotation yaw="62" pitch="0" roll="0"/>
         </offset>
         <macro name="x3g_cluster27_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
             <region ref="x3g_ice_belt" />
-          </properties>
-        </macro>
-      </connection>
-      <connection name="x3g_cluster27_region003_connection" ref="regions">
-        <offset>
-          <position x="127338" y="0" z="-64500" />
-		  <rotation yaw="62" pitch="0" roll="0"/>
-        </offset>
-        <macro name="x3g_cluster27_region003_macro">
-          <component connection="cluster" ref="standardregion" />
-          <properties>
-            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -1517,7 +1505,7 @@
         <macro name="x3g_cluster28_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_nvidium_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -1529,7 +1517,7 @@
         <macro name="x3g_cluster28_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_nvidium_belt" />
           </properties>
         </macro>
       </connection>
@@ -1541,7 +1529,7 @@
         <macro name="x3g_cluster28_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_helium_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -1553,7 +1541,7 @@
         <macro name="x3g_cluster28_region003_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_hydrogen_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -1578,7 +1566,7 @@
         <macro name="x3g_cluster29_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_hydrogen_belt" />
           </properties>
         </macro>
       </connection>
@@ -1590,7 +1578,7 @@
         <macro name="x3g_cluster29_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_hydrogen_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -1602,7 +1590,7 @@
         <macro name="x3g_cluster29_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_hydrogen_belt" />
           </properties>
         </macro>
       </connection>
@@ -1614,7 +1602,7 @@
         <macro name="x3g_cluster29_region003_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -1639,7 +1627,7 @@
         <macro name="x3g_cluster30_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_hydrogen_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -1651,7 +1639,7 @@
         <macro name="x3g_cluster30_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_hydrogen_belt" />
           </properties>
         </macro>
       </connection>
@@ -1663,7 +1651,7 @@
         <macro name="x3g_cluster30_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -1688,7 +1676,7 @@
         <macro name="x3g_cluster31_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -1700,7 +1688,7 @@
         <macro name="x3g_cluster31_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -1712,7 +1700,7 @@
         <macro name="x3g_cluster31_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_helium_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -1749,7 +1737,7 @@
         <macro name="x3g_cluster32_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -1761,7 +1749,7 @@
         <macro name="x3g_cluster32_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -1785,7 +1773,7 @@
         <macro name="x3g_cluster32_region003_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -1810,7 +1798,7 @@
         <macro name="x3g_cluster33_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_helium_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -1822,7 +1810,7 @@
         <macro name="x3g_cluster33_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -1846,7 +1834,7 @@
         <macro name="x3g_cluster33_region003_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -1871,7 +1859,7 @@
         <macro name="x3g_cluster34_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -1895,7 +1883,7 @@
         <macro name="x3g_cluster34_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -1907,7 +1895,7 @@
         <macro name="x3g_cluster34_region003_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_hydrogen_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -1932,7 +1920,7 @@
         <macro name="x3g_cluster35_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_hydrogen_belt" />
           </properties>
         </macro>
       </connection>
@@ -1944,7 +1932,7 @@
         <macro name="x3g_cluster35_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_nvidium_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -1956,7 +1944,7 @@
         <macro name="x3g_cluster35_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_nvidium_belt" />
           </properties>
         </macro>
       </connection>
@@ -1968,7 +1956,7 @@
         <macro name="x3g_cluster35_region003_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_hydrogen_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -2005,7 +1993,7 @@
         <macro name="x3g_cluster36_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_hydrogen_belt" />
           </properties>
         </macro>
       </connection>
@@ -2017,7 +2005,7 @@
         <macro name="x3g_cluster36_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -2029,7 +2017,7 @@
         <macro name="x3g_cluster36_region003_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_helium_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -2054,7 +2042,7 @@
         <macro name="x3g_cluster37_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -2066,7 +2054,7 @@
         <macro name="x3g_cluster37_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -2103,7 +2091,7 @@
         <macro name="x3g_cluster38_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_helium_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -2115,7 +2103,7 @@
         <macro name="x3g_cluster38_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -2127,7 +2115,7 @@
         <macro name="x3g_cluster38_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -2164,7 +2152,7 @@
         <macro name="x3g_cluster39_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_helium_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -2176,7 +2164,7 @@
         <macro name="x3g_cluster39_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -2188,7 +2176,7 @@
         <macro name="x3g_cluster39_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_helium_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -2225,7 +2213,7 @@
         <macro name="x3g_cluster40_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_hydrogen_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -2237,7 +2225,7 @@
         <macro name="x3g_cluster40_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_hydrogen_belt" />
           </properties>
         </macro>
       </connection>
@@ -2249,7 +2237,7 @@
         <macro name="x3g_cluster40_region003_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -2274,7 +2262,7 @@
         <macro name="x3g_cluster41_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -2298,7 +2286,7 @@
         <macro name="x3g_cluster41_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_hydrogen_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -2335,7 +2323,7 @@
         <macro name="x3g_cluster42_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_hydrogen_belt" />
           </properties>
         </macro>
       </connection>
@@ -2347,7 +2335,7 @@
         <macro name="x3g_cluster42_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_helium_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -2359,7 +2347,7 @@
         <macro name="x3g_cluster42_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_hydrogen_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -2371,7 +2359,7 @@
         <macro name="x3g_cluster42_region003_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_hydrogen_belt" />
           </properties>
         </macro>
       </connection>
@@ -2396,7 +2384,7 @@
         <macro name="x3g_cluster43_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -2408,7 +2396,7 @@
         <macro name="x3g_cluster43_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -2445,7 +2433,7 @@
         <macro name="x3g_cluster44_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -2457,7 +2445,7 @@
         <macro name="x3g_cluster44_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_hydrogen_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -2469,7 +2457,7 @@
         <macro name="x3g_cluster44_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_hydrogen_belt" />
           </properties>
         </macro>
       </connection>
@@ -2494,7 +2482,7 @@
         <macro name="x3g_cluster45_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -2518,7 +2506,7 @@
         <macro name="x3g_cluster45_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -2530,7 +2518,7 @@
         <macro name="x3g_cluster45_region003_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -2555,7 +2543,7 @@
         <macro name="x3g_cluster46_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -2604,7 +2592,7 @@
         <macro name="x3g_cluster47_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -2628,7 +2616,7 @@
         <macro name="x3g_cluster47_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_helium_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -2653,7 +2641,7 @@
         <macro name="x3g_cluster48_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -2665,7 +2653,7 @@
         <macro name="x3g_cluster48_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_nvidium_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -2677,7 +2665,7 @@
         <macro name="x3g_cluster48_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_nvidium_belt" />
           </properties>
         </macro>
       </connection>
@@ -2689,7 +2677,7 @@
         <macro name="x3g_cluster48_region003_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_hydrogen_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -2714,7 +2702,7 @@
         <macro name="x3g_cluster49_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_hydrogen_belt" />
           </properties>
         </macro>
       </connection>
@@ -2726,7 +2714,7 @@
         <macro name="x3g_cluster49_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_helium_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -2738,7 +2726,7 @@
         <macro name="x3g_cluster49_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -2750,7 +2738,7 @@
         <macro name="x3g_cluster49_region003_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -2775,7 +2763,7 @@
         <macro name="x3g_cluster50_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -2787,7 +2775,7 @@
         <macro name="x3g_cluster50_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -2836,7 +2824,7 @@
         <macro name="x3g_cluster51_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -2860,7 +2848,7 @@
         <macro name="x3g_cluster51_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -2897,7 +2885,7 @@
         <macro name="x3g_cluster52_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -2909,7 +2897,7 @@
         <macro name="x3g_cluster52_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -2934,7 +2922,7 @@
         <macro name="x3g_cluster53_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_helium_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -2946,7 +2934,7 @@
         <macro name="x3g_cluster53_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -2958,7 +2946,7 @@
         <macro name="x3g_cluster53_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_helium_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -2983,7 +2971,7 @@
         <macro name="x3g_cluster54_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -2995,7 +2983,7 @@
         <macro name="x3g_cluster54_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -3032,7 +3020,7 @@
         <macro name="x3g_cluster55_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -3044,7 +3032,7 @@
         <macro name="x3g_cluster55_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -3068,7 +3056,7 @@
         <macro name="x3g_cluster55_region003_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -3093,7 +3081,7 @@
         <macro name="x3g_cluster56_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_hydrogen_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -3105,7 +3093,7 @@
         <macro name="x3g_cluster56_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_hydrogen_belt" />
           </properties>
         </macro>
       </connection>
@@ -3142,7 +3130,7 @@
         <macro name="x3g_cluster57_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -3166,7 +3154,7 @@
         <macro name="x3g_cluster57_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -3215,7 +3203,7 @@
         <macro name="x3g_cluster58_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_helium_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -3252,7 +3240,7 @@
         <macro name="x3g_cluster59_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -3264,7 +3252,7 @@
         <macro name="x3g_cluster59_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -3276,7 +3264,7 @@
         <macro name="x3g_cluster59_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -3313,7 +3301,7 @@
         <macro name="x3g_cluster60_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -3325,7 +3313,7 @@
         <macro name="x3g_cluster60_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -3350,7 +3338,7 @@
         <macro name="x3g_cluster61_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_hydrogen_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -3362,7 +3350,7 @@
         <macro name="x3g_cluster61_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_hydrogen_belt" />
           </properties>
         </macro>
       </connection>
@@ -3399,7 +3387,7 @@
         <macro name="x3g_cluster62_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -3411,7 +3399,7 @@
         <macro name="x3g_cluster62_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_hydrogen_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -3423,7 +3411,7 @@
         <macro name="x3g_cluster62_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_hydrogen_belt" />
           </properties>
         </macro>
       </connection>
@@ -3435,7 +3423,7 @@
         <macro name="x3g_cluster62_region003_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -3484,7 +3472,7 @@
         <macro name="x3g_cluster63_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -3496,7 +3484,7 @@
         <macro name="x3g_cluster63_region003_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -3521,7 +3509,7 @@
         <macro name="x3g_cluster64_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -3533,7 +3521,7 @@
         <macro name="x3g_cluster64_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -3545,7 +3533,7 @@
         <macro name="x3g_cluster64_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_helium_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -3557,7 +3545,7 @@
         <macro name="x3g_cluster64_region003_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -3582,7 +3570,7 @@
         <macro name="x3g_cluster65_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_helium_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -3594,7 +3582,7 @@
         <macro name="x3g_cluster65_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -3606,7 +3594,7 @@
         <macro name="x3g_cluster65_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -3618,7 +3606,7 @@
         <macro name="x3g_cluster65_region003_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -3643,7 +3631,7 @@
         <macro name="x3g_cluster66_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_helium_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -3655,7 +3643,7 @@
         <macro name="x3g_cluster66_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_nvidium_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -3667,7 +3655,7 @@
         <macro name="x3g_cluster66_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_hydrogen_belt" />
+            <region ref="x3g_nvidium_belt" />
           </properties>
         </macro>
       </connection>
@@ -3692,7 +3680,7 @@
         <macro name="x3g_cluster67_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_helium_belt" />
+            <region ref="x3g_hydrogen_belt" />
           </properties>
         </macro>
       </connection>
@@ -3704,7 +3692,7 @@
         <macro name="x3g_cluster67_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -3716,7 +3704,7 @@
         <macro name="x3g_cluster67_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -3741,7 +3729,7 @@
         <macro name="x3g_cluster68_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
@@ -3753,7 +3741,7 @@
         <macro name="x3g_cluster68_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_hydrogen_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -3765,7 +3753,7 @@
         <macro name="x3g_cluster68_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_helium_belt" />
+            <region ref="x3g_hydrogen_belt" />
           </properties>
         </macro>
       </connection>
@@ -3790,7 +3778,7 @@
         <macro name="x3g_cluster69_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_hydrogen_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -3802,7 +3790,7 @@
         <macro name="x3g_cluster69_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_helium_belt" />
+            <region ref="x3g_hydrogen_belt" />
           </properties>
         </macro>
       </connection>
@@ -3814,7 +3802,7 @@
         <macro name="x3g_cluster69_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ore_belt" />
+            <region ref="x3g_helium_belt" />
           </properties>
         </macro>
       </connection>
@@ -3839,7 +3827,7 @@
         <macro name="x3g_cluster70_region000_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_ore_belt" />
           </properties>
         </macro>
       </connection>
@@ -3851,7 +3839,7 @@
         <macro name="x3g_cluster70_region001_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_ice_belt" />
+            <region ref="x3g_methane_belt" />
           </properties>
         </macro>
       </connection>
@@ -3863,7 +3851,7 @@
         <macro name="x3g_cluster70_region002_macro">
           <component connection="cluster" ref="standardregion" />
           <properties>
-            <region ref="x3g_methane_belt" />
+            <region ref="x3g_ice_belt" />
           </properties>
         </macro>
       </connection>
