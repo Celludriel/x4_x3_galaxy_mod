@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+        <replace sel="//cue[@name='Place_Claimable_Ships']" >
+    <cue name="Place_Claimable_Ships">
+     <conditions>
+        <event_cue_signalled/>
+      </conditions>
+      <actions>
+
+        <set_value name="$debugchance" exact="0"/>
+
+        <find_sector name="$sector" macro="macro.x3gf_cluster23_sector001_macro"/>
+        <do_if value="$sector.exists">
+          <create_ship name="$ship" macro="macro.ship_arg_m_miner_solid_01_a_macro" sector="$sector">
+            <owner exact="faction.ownerless"/>
+            <position x="123km" y="124km" z="127km"/>
+            <rotation yaw="20deg" pitch="35deg" roll="50deg"/>
+          </create_ship>
+        </do_if>
+
+      </actions>
+    </cue>
+    </replace>
+</diff>
