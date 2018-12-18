@@ -21,4 +21,350 @@
       </actions>
     </cue>
     </replace>
+
+    <replace sel="//cue[@name='Place_DataVaults']/actions" >
+      <actions>
+        <create_group groupname="$VaultsGroup"/>
+        <create_group groupname="$UnlockedVaultsGroup"/>
+
+        <!--data vaults-->
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster42_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="132852m" y="0m" z="55362m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak1" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster19_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="536m" y="0m" z="-14078m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak2" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster04_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="130369m" y="0m" z="126490m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak3" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster52_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="-137535m" y="0m" z="-140801m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak4" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster53_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="-142697m" y="0m" z="-156763m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak5" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster09_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="-123793m" y="0m" z="-110105m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak6" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster31_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="-150855m" y="0m" z="45053m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak7" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster57_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="117843m" y="0m" z="583m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak8" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster17_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="158744m" y="0m" z="-110345m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak9" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster30_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="107879m" y="0m" z="-84020m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak10" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster26_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="177469m" y="0m" z="-181330m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak11" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster03_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="-126255m" y="0m" z="120217m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak12" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster37_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="-147049m" y="0m" z="55989m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak13" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster66_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="-69376m" y="0m" z="-146818m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak14" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster03_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="-157136m" y="0m" z="-117851m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak15" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster09_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="-14537m" y="0m" z="-46725m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak16" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster65_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="-96807m" y="0m" z="-141945m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak17" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster26_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="146700m" y="0m" z="-40134m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak18" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster27_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="131599m" y="0m" z="-79502m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak19" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster54_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="-192254m" y="0m" z="110163m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak20" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster49_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="-96550m" y="0m" z="62611m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak21" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster04_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="44187m" y="0m" z="-53744m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak22" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster46_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="100224m" y="0m" z="-164502m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak23" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster32_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="170276m" y="0m" z="151711m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak24" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster35_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="6485m" y="0m" z="22745m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak25" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster08_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="-44462m" y="0m" z="-55116m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak26" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster29_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="30316m" y="0m" z="75642m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak27" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster50_Sector001_macro"/>
+        <do_if value="$zone.exists">
+          <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
+            <position x="192061m" y="0m" z="168423m"/>
+          </create_object>
+          <do_if value="$vault.exists">
+            <find_signalleak_location name="$slot" container="$vault"/>
+            <create_signal_leak name="$leak28" type="signalleaktype.data" object="$vault" slot="$slot" macro="macro.dataleak_xs_vault_01_macro"/>
+            <!--add_cargo object="$lockbox" exact="5" ware="ware.inv_agidevice_02"/-->
+            <!--TODO: Apply rotation-->
+          </do_if>
+        </do_if>
+      </actions>
+
+    </replace>
 </diff>
