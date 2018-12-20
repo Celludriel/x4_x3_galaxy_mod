@@ -28,10 +28,10 @@
         <create_group groupname="$UnlockedVaultsGroup"/>
 
         <!--data vaults-->
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster42_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster36_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="132852m" y="0m" z="55362m"/>
+            <position x="-104713m" y="0m" z="158744m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -40,10 +40,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster19_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster16_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="536m" y="0m" z="-14078m"/>
+            <position x="-28012m" y="0m" z="107879m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -52,10 +52,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster04_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster21_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="130369m" y="0m" z="126490m"/>
+            <position x="-52815m" y="0m" z="177469m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -64,10 +64,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster52_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster04_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="-137535m" y="0m" z="-140801m"/>
+            <position x="-186936m" y="0m" z="-126255m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -76,10 +76,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster53_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster57_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="-142697m" y="0m" z="-156763m"/>
+            <position x="8855m" y="0m" z="-147049m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -88,10 +88,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster09_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster46_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="-123793m" y="0m" z="-110105m"/>
+            <position x="177409m" y="0m" z="-69376m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -100,10 +100,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster31_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster10_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="-150855m" y="0m" z="45053m"/>
+            <position x="-188365m" y="0m" z="-157136m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -112,10 +112,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster57_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster15_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="117843m" y="0m" z="583m"/>
+            <position x="-152109m" y="0m" z="-14537m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -124,10 +124,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster17_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster28_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="158744m" y="0m" z="-110345m"/>
+            <position x="171466m" y="0m" z="-96807m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -136,10 +136,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster30_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster11_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="107879m" y="0m" z="-84020m"/>
+            <position x="-53951m" y="0m" z="146700m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -148,10 +148,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster26_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster29_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="177469m" y="0m" z="-181330m"/>
+            <position x="-44150m" y="0m" z="131599m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -160,10 +160,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster03_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster22_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="-126255m" y="0m" z="120217m"/>
+            <position x="108203m" y="0m" z="-192254m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -172,10 +172,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster37_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster56_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="-147049m" y="0m" z="55989m"/>
+            <position x="79387m" y="0m" z="-96550m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -184,10 +184,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster66_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster47_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="-69376m" y="0m" z="-146818m"/>
+            <position x="-176978m" y="0m" z="44187m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -196,10 +196,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster03_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster26_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="-157136m" y="0m" z="-117851m"/>
+            <position x="63723m" y="0m" z="100224m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -208,10 +208,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster09_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster07_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="-14537m" y="0m" z="-46725m"/>
+            <position x="-18925m" y="0m" z="170276m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -220,10 +220,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster65_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster63_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="-96807m" y="0m" z="-141945m"/>
+            <position x="-1331m" y="0m" z="6485m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -232,10 +232,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster26_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster40_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="146700m" y="0m" z="-40134m"/>
+            <position x="-154002m" y="0m" z="-44462m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -244,10 +244,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster27_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster26_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="131599m" y="0m" z="-79502m"/>
+            <position x="-31952m" y="0m" z="30316m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -256,10 +256,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster54_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster49_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="-192254m" y="0m" z="110163m"/>
+            <position x="85067m" y="0m" z="192061m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -268,10 +268,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster49_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster66_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="-96550m" y="0m" z="62611m"/>
+            <position x="97465m" y="0m" z="-10327m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -280,10 +280,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster04_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster27_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="44187m" y="0m" z="-53744m"/>
+            <position x="7009m" y="0m" z="180702m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -292,10 +292,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster46_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster09_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="100224m" y="0m" z="-164502m"/>
+            <position x="51489m" y="0m" z="28920m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -304,10 +304,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster32_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster42_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="170276m" y="0m" z="151711m"/>
+            <position x="178472m" y="0m" z="192393m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -316,10 +316,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster35_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster56_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="6485m" y="0m" z="22745m"/>
+            <position x="-166816m" y="0m" z="30030m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -328,10 +328,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster08_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster67_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="-44462m" y="0m" z="-55116m"/>
+            <position x="-121872m" y="0m" z="49844m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -340,10 +340,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster29_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster19_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="30316m" y="0m" z="75642m"/>
+            <position x="-133212m" y="0m" z="124425m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>
@@ -352,10 +352,10 @@
             <!--TODO: Apply rotation-->
           </do_if>
         </do_if>
-        <find_zone name="$zone" macro="macro.x3g_zone001_cluster50_Sector001_macro"/>
+        <find_zone name="$zone" macro="macro.x3g_zone001_cluster67_Sector001_macro"/>
         <do_if value="$zone.exists">
           <create_object name="$vault" groupname="$VaultsGroup" owner="faction.ownerless" macro="macro.landmarks_vault_01_macro" zone="$zone">
-            <position x="192061m" y="0m" z="168423m"/>
+            <position x="167990m" y="0m" z="25168m"/>
           </create_object>
           <do_if value="$vault.exists">
             <find_signalleak_location name="$slot" container="$vault"/>

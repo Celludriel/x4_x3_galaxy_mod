@@ -316,7 +316,7 @@
 			<corerange min="1.2" max="1.6" />
 		  </location>
 		  <station>
-			<select faction="antigone" tags="[wharf]" />
+			<select faction="antigone" tags="[equipmentdock]" />
 			<loadout>
 			  <level exact="1.0" />
 			</loadout>
@@ -344,7 +344,7 @@
 			<corerange min="1.2" max="1.6" />
 		  </location>
 		  <station>
-			<select faction="antigone" tags="[defence]" />
+			<select faction="antigone" tags="[wharf]" />
 			<loadout>
 			  <level exact="1.0" />
 			</loadout>
@@ -358,7 +358,7 @@
 			<corerange min="1.2" max="1.6" />
 		  </location>
 		  <station>
-			<select faction="antigone" tags="[equipmentdock]" />
+			<select faction="antigone" tags="[defence]" />
 			<loadout>
 			  <level exact="1.0" />
 			</loadout>
@@ -392,49 +392,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_28" race="xenon" owner="xenon" type="factory">
-		  <quotas>
-			<quota galaxy="1" zone="1" />
-		  </quotas>
-		  <location class="zone" macro="x3g_zone001_cluster19_sector001_macro">
-			<corerange min="1.2" max="1.6" />
-		  </location>
-		  <station>
-			<select faction="xenon" tags="[shipyard]" />
-			<loadout>
-			  <level exact="1.0" />
-			</loadout>
-		  </station>
-		</station>
-		<station id="station_29" race="xenon" owner="xenon" type="factory">
-		  <quotas>
-			<quota galaxy="1" zone="1" />
-		  </quotas>
-		  <location class="zone" macro="x3g_zone001_cluster19_sector001_macro">
-			<corerange min="1.2" max="1.6" />
-		  </location>
-		  <station>
-			<select faction="xenon" tags="[wharf]" />
-			<loadout>
-			  <level exact="1.0" />
-			</loadout>
-		  </station>
-		</station>
-		<station id="station_30" race="xenon" owner="xenon" type="defence">
-		  <quotas>
-			<quota galaxy="1" zone="1" />
-		  </quotas>
-		  <location class="zone" macro="x3g_zone001_cluster19_sector001_macro">
-			<corerange min="1.2" max="1.6" />
-		  </location>
-		  <station>
-			<select faction="xenon" tags="[defence]" />
-			<loadout>
-			  <level exact="1.0" />
-			</loadout>
-		  </station>
-		</station>
-		<station id="station_31" race="paranid" owner="paranid" type="factory">
+		<station id="station_28" race="paranid" owner="paranid" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -448,7 +406,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_32" race="paranid" owner="paranid" type="factory">
+		<station id="station_29" race="paranid" owner="paranid" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -462,7 +420,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_33" race="paranid" owner="paranid" type="factory">
+		<station id="station_30" race="paranid" owner="paranid" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -476,7 +434,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_34" race="paranid" owner="paranid" type="factory">
+		<station id="station_31" race="paranid" owner="paranid" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -490,7 +448,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_35" race="paranid" owner="paranid" type="factory">
+		<station id="station_32" race="paranid" owner="paranid" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -504,7 +462,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_36" race="paranid" owner="alliance" type="factory">
+		<station id="station_33" race="paranid" owner="alliance" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -518,7 +476,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_37" race="paranid" owner="alliance" type="factory">
+		<station id="station_34" race="paranid" owner="alliance" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -532,7 +490,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_38" race="paranid" owner="paranid" type="factory">
+		<station id="station_35" race="paranid" owner="paranid" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -546,7 +504,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_39" race="paranid" owner="paranid" type="factory">
+		<station id="station_36" race="paranid" owner="paranid" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -560,7 +518,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_40" race="paranid" owner="paranid" type="factory">
+		<station id="station_37" race="paranid" owner="paranid" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -574,7 +532,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_41" race="paranid" owner="paranid" type="factory">
+		<station id="station_38" race="paranid" owner="paranid" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -588,7 +546,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_42" race="paranid" owner="paranid" type="factory">
+		<station id="station_39" race="paranid" owner="paranid" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -602,7 +560,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_43" race="paranid" owner="paranid" type="factory">
+		<station id="station_40" race="paranid" owner="paranid" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -616,7 +574,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_44" race="paranid" owner="paranid" type="factory">
+		<station id="station_41" race="paranid" owner="paranid" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -630,7 +588,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_45" race="paranid" owner="paranid" type="factory">
+		<station id="station_42" race="paranid" owner="paranid" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -644,7 +602,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_46" race="paranid" owner="paranid" type="factory">
+		<station id="station_43" race="paranid" owner="paranid" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -658,7 +616,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_47" race="paranid" owner="paranid" type="tradingstation">
+		<station id="station_44" race="paranid" owner="paranid" type="tradingstation">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -672,7 +630,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_48" race="xenon" owner="xenon" type="factory">
+		<station id="station_45" race="xenon" owner="xenon" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -686,7 +644,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_49" race="xenon" owner="xenon" type="factory">
+		<station id="station_46" race="xenon" owner="xenon" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -700,7 +658,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_50" race="xenon" owner="xenon" type="defence">
+		<station id="station_47" race="xenon" owner="xenon" type="defence">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -714,7 +672,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_51" race="teladi" owner="teladi" type="factory">
+		<station id="station_48" race="teladi" owner="teladi" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -728,7 +686,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_52" race="teladi" owner="teladi" type="tradingstation">
+		<station id="station_49" race="teladi" owner="teladi" type="tradingstation">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -742,7 +700,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_53" race="teladi" owner="teladi" type="factory">
+		<station id="station_50" race="teladi" owner="teladi" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -756,7 +714,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_54" race="teladi" owner="teladi" type="factory">
+		<station id="station_51" race="teladi" owner="teladi" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -770,7 +728,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_55" race="teladi" owner="teladi" type="factory">
+		<station id="station_52" race="teladi" owner="teladi" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -784,7 +742,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_56" race="teladi" owner="teladi" type="factory">
+		<station id="station_53" race="teladi" owner="teladi" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -798,7 +756,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_57" race="argon" owner="hatikvah" type="tradingstation">
+		<station id="station_54" race="argon" owner="hatikvah" type="tradingstation">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -812,7 +770,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_58" race="argon" owner="hatikvah" type="factory">
+		<station id="station_55" race="argon" owner="hatikvah" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -826,7 +784,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_59" race="argon" owner="hatikvah" type="factory">
+		<station id="station_56" race="argon" owner="hatikvah" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -840,7 +798,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_60" race="teladi" owner="scaleplate" type="factory">
+		<station id="station_57" race="teladi" owner="scaleplate" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -854,7 +812,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_61" race="teladi" owner="scaleplate" type="factory">
+		<station id="station_58" race="teladi" owner="scaleplate" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -868,11 +826,53 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_62" race="teladi" owner="scaleplate" type="factory">
+		<station id="station_59" race="teladi" owner="scaleplate" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
 		  <location class="zone" macro="x3g_zone001_cluster44_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="scaleplate" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_60" race="teladi" owner="scaleplate" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster46_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="scaleplate" tags="[piratebase]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_61" race="teladi" owner="scaleplate" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster46_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="scaleplate" tags="[piratedock]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_62" race="teladi" owner="scaleplate" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster46_sector001_macro">
 			<corerange min="1.2" max="1.6" />
 		  </location>
 		  <station>
@@ -1050,35 +1050,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_75" race="xenon" owner="xenon" type="factory">
-		  <quotas>
-			<quota galaxy="1" zone="1" />
-		  </quotas>
-		  <location class="zone" macro="x3g_zone001_cluster56_sector001_macro">
-			<corerange min="1.2" max="1.6" />
-		  </location>
-		  <station>
-			<select faction="xenon" tags="[shipyard]" />
-			<loadout>
-			  <level exact="1.0" />
-			</loadout>
-		  </station>
-		</station>
-		<station id="station_76" race="xenon" owner="xenon" type="factory">
-		  <quotas>
-			<quota galaxy="1" zone="1" />
-		  </quotas>
-		  <location class="zone" macro="x3g_zone001_cluster56_sector001_macro">
-			<corerange min="1.2" max="1.6" />
-		  </location>
-		  <station>
-			<select faction="xenon" tags="[wharf]" />
-			<loadout>
-			  <level exact="1.0" />
-			</loadout>
-		  </station>
-		</station>
-		<station id="station_77" race="xenon" owner="xenon" type="defence">
+		<station id="station_75" race="xenon" owner="xenon" type="defence">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1092,7 +1064,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_78" race="teladi" owner="teladi" type="factory">
+		<station id="station_76" race="teladi" owner="teladi" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1106,7 +1078,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_79" race="teladi" owner="ministry" type="factory">
+		<station id="station_77" race="teladi" owner="ministry" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1120,7 +1092,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_80" race="teladi" owner="ministry" type="factory">
+		<station id="station_78" race="teladi" owner="ministry" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1134,7 +1106,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_81" race="teladi" owner="ministry" type="factory">
+		<station id="station_79" race="teladi" owner="ministry" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1148,7 +1120,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_82" race="teladi" owner="teladi" type="factory">
+		<station id="station_80" race="teladi" owner="teladi" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1162,7 +1134,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_83" race="teladi" owner="teladi" type="factory">
+		<station id="station_81" race="teladi" owner="teladi" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1176,7 +1148,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_84" race="paranid" owner="holyorder" type="factory">
+		<station id="station_82" race="paranid" owner="holyorder" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1190,7 +1162,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_85" race="paranid" owner="holyorder" type="factory">
+		<station id="station_83" race="paranid" owner="holyorder" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1204,11 +1176,39 @@
 			</loadout>
 		  </station>
 		</station>
+		<station id="station_84" race="paranid" owner="holyorder" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster62_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="holyorder" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_85" race="paranid" owner="holyorder" type="tradingstation">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster62_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="holyorder" tags="[tradestation]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
 		<station id="station_86" race="paranid" owner="holyorder" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
-		  <location class="zone" macro="x3g_zone001_cluster62_sector001_macro">
+		  <location class="zone" macro="x3g_zone001_cluster63_sector001_macro">
 			<corerange min="1.2" max="1.6" />
 		  </location>
 		  <station>
@@ -1218,63 +1218,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_87" race="paranid" owner="holyorder" type="tradingstation">
-		  <quotas>
-			<quota galaxy="1" zone="1" />
-		  </quotas>
-		  <location class="zone" macro="x3g_zone001_cluster62_sector001_macro">
-			<corerange min="1.2" max="1.6" />
-		  </location>
-		  <station>
-			<select faction="holyorder" tags="[tradestation]" />
-			<loadout>
-			  <level exact="1.0" />
-			</loadout>
-		  </station>
-		</station>
-		<station id="station_88" race="teladi" owner="scaleplate" type="factory">
-		  <quotas>
-			<quota galaxy="1" zone="1" />
-		  </quotas>
-		  <location class="zone" macro="x3g_zone001_cluster63_sector001_macro">
-			<corerange min="1.2" max="1.6" />
-		  </location>
-		  <station>
-			<select faction="scaleplate" tags="[piratebase]" />
-			<loadout>
-			  <level exact="1.0" />
-			</loadout>
-		  </station>
-		</station>
-		<station id="station_89" race="teladi" owner="scaleplate" type="factory">
-		  <quotas>
-			<quota galaxy="1" zone="1" />
-		  </quotas>
-		  <location class="zone" macro="x3g_zone001_cluster63_sector001_macro">
-			<corerange min="1.2" max="1.6" />
-		  </location>
-		  <station>
-			<select faction="scaleplate" tags="[piratedock]" />
-			<loadout>
-			  <level exact="1.0" />
-			</loadout>
-		  </station>
-		</station>
-		<station id="station_90" race="teladi" owner="scaleplate" type="factory">
-		  <quotas>
-			<quota galaxy="1" zone="1" />
-		  </quotas>
-		  <location class="zone" macro="x3g_zone001_cluster63_sector001_macro">
-			<corerange min="1.2" max="1.6" />
-		  </location>
-		  <station>
-			<select faction="scaleplate" tags="[defence]" />
-			<loadout>
-			  <level exact="1.0" />
-			</loadout>
-		  </station>
-		</station>
-		<station id="station_91" race="paranid" owner="holyorder" type="factory">
+		<station id="station_87" race="paranid" owner="holyorder" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1288,7 +1232,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_92" race="paranid" owner="holyorder" type="tradingstation">
+		<station id="station_88" race="paranid" owner="holyorder" type="tradingstation">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1302,7 +1246,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_93" race="paranid" owner="holyorder" type="factory">
+		<station id="station_89" race="paranid" owner="holyorder" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1316,7 +1260,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_94" race="paranid" owner="holyorder" type="factory">
+		<station id="station_90" race="paranid" owner="holyorder" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1330,7 +1274,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_95" race="paranid" owner="holyorder" type="factory">
+		<station id="station_91" race="paranid" owner="holyorder" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1344,7 +1288,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_96" race="paranid" owner="holyorder" type="factory">
+		<station id="station_92" race="paranid" owner="holyorder" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1358,7 +1302,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_97" race="paranid" owner="holyorder" type="factory">
+		<station id="station_93" race="paranid" owner="holyorder" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1372,7 +1316,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_98" race="paranid" owner="holyorder" type="factory">
+		<station id="station_94" race="paranid" owner="holyorder" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1386,7 +1330,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_99" race="xenon" owner="xenon" type="factory">
+		<station id="station_95" race="xenon" owner="xenon" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1400,7 +1344,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_100" race="xenon" owner="xenon" type="factory">
+		<station id="station_96" race="xenon" owner="xenon" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1414,7 +1358,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_101" race="xenon" owner="xenon" type="defence">
+		<station id="station_97" race="xenon" owner="xenon" type="defence">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1428,7 +1372,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_102" race="paranid" owner="holyorder" type="factory">
+		<station id="station_98" race="paranid" owner="holyorder" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1442,7 +1386,7 @@
 			</loadout>
 		  </station>
 		</station>
-		<station id="station_103" race="paranid" owner="holyorder" type="factory">
+		<station id="station_99" race="paranid" owner="holyorder" type="factory">
 		  <quotas>
 			<quota galaxy="1" zone="1" />
 		  </quotas>
@@ -1451,6 +1395,62 @@
 		  </location>
 		  <station>
 			<select faction="holyorder" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_100" race="xenon" owner="xenon" type="defence">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster71_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="xenon" tags="[defence]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_101" race="xenon" owner="xenon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster72_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="xenon" tags="[shipyard]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_102" race="xenon" owner="xenon" type="factory">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster72_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="xenon" tags="[wharf]" />
+			<loadout>
+			  <level exact="1.0" />
+			</loadout>
+		  </station>
+		</station>
+		<station id="station_103" race="xenon" owner="xenon" type="defence">
+		  <quotas>
+			<quota galaxy="1" zone="1" />
+		  </quotas>
+		  <location class="zone" macro="x3g_zone001_cluster72_sector001_macro">
+			<corerange min="1.2" max="1.6" />
+		  </location>
+		  <station>
+			<select faction="xenon" tags="[defence]" />
 			<loadout>
 			  <level exact="1.0" />
 			</loadout>

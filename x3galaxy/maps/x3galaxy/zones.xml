@@ -364,6 +364,18 @@
           </connection>
         </connections>
       </macro>
+      <macro name="x3g_zone005_cluster08_sector001_macro" class="zone">
+        <component ref="standardzone" />
+        <connections>
+          <connection name="x3g_gate_c08s001z005_c56s001z003_connection" ref="gates">
+            <offset>
+              <position x="0" y="500" z="0" />
+		      <rotation yaw="135" pitch="0" roll="0" />
+            </offset>
+            <macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+          </connection>
+        </connections>
+      </macro>
       <macro name="x3g_zone001_cluster09_sector001_macro" class="zone">
         <component ref="standardzone" />
         <connections>
@@ -1994,19 +2006,7 @@
       <macro name="x3g_zone003_cluster55_sector001_macro" class="zone">
         <component ref="standardzone" />
         <connections>
-          <connection name="x3g_gate_c55s001z003_c56s001z002_connection" ref="gates">
-            <offset>
-              <position x="0" y="500" z="0" />
-		      <rotation yaw="360" pitch="0" roll="0" />
-            </offset>
-            <macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
-          </connection>
-        </connections>
-      </macro>
-      <macro name="x3g_zone004_cluster55_sector001_macro" class="zone">
-        <component ref="standardzone" />
-        <connections>
-          <connection name="x3g_gate_c55s001z004_c63s001z002_connection" ref="gates">
+          <connection name="x3g_gate_c55s001z003_c63s001z002_connection" ref="gates">
             <offset>
               <position x="0" y="500" z="0" />
 		      <rotation yaw="315" pitch="0" roll="0" />
@@ -2023,10 +2023,22 @@
       <macro name="x3g_zone002_cluster56_sector001_macro" class="zone">
         <component ref="standardzone" />
         <connections>
-          <connection name="x3g_gate_c56s001z002_c55s001z003_connection" ref="gates">
+          <connection name="x3g_gate_c56s001z002_c71s001z002_connection" ref="gates">
             <offset>
               <position x="0" y="500" z="0" />
-		      <rotation yaw="180" pitch="0" roll="0" />
+		      <rotation yaw="360" pitch="0" roll="0" />
+            </offset>
+            <macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+          </connection>
+        </connections>
+      </macro>
+      <macro name="x3g_zone003_cluster56_sector001_macro" class="zone">
+        <component ref="standardzone" />
+        <connections>
+          <connection name="x3g_gate_c56s001z003_c08s001z005_connection" ref="gates">
+            <offset>
+              <position x="0" y="500" z="0" />
+		      <rotation yaw="315" pitch="0" roll="0" />
             </offset>
             <macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
           </connection>
@@ -2250,7 +2262,7 @@
       <macro name="x3g_zone002_cluster63_sector001_macro" class="zone">
         <component ref="standardzone" />
         <connections>
-          <connection name="x3g_gate_c63s001z002_c55s001z004_connection" ref="gates">
+          <connection name="x3g_gate_c63s001z002_c55s001z003_connection" ref="gates">
             <offset>
               <position x="0" y="500" z="0" />
 		      <rotation yaw="135" pitch="0" roll="0" />
@@ -2505,6 +2517,52 @@
             <offset>
               <position x="0" y="500" z="0" />
 		      <rotation yaw="45" pitch="0" roll="0" />
+            </offset>
+            <macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+          </connection>
+        </connections>
+      </macro>
+      <macro name="x3g_zone001_cluster71_sector001_macro" class="zone">
+        <component ref="standardzone" />
+        <connections>
+        </connections>
+      </macro>
+      <macro name="x3g_zone002_cluster71_sector001_macro" class="zone">
+        <component ref="standardzone" />
+        <connections>
+          <connection name="x3g_gate_c71s001z002_c56s001z002_connection" ref="gates">
+            <offset>
+              <position x="0" y="500" z="0" />
+		      <rotation yaw="180" pitch="0" roll="0" />
+            </offset>
+            <macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+          </connection>
+        </connections>
+      </macro>
+      <macro name="x3g_zone003_cluster71_sector001_macro" class="zone">
+        <component ref="standardzone" />
+        <connections>
+          <connection name="x3g_gate_c71s001z003_c72s001z002_connection" ref="gates">
+            <offset>
+              <position x="0" y="500" z="0" />
+		      <rotation yaw="360" pitch="0" roll="0" />
+            </offset>
+            <macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
+          </connection>
+        </connections>
+      </macro>
+      <macro name="x3g_zone001_cluster72_sector001_macro" class="zone">
+        <component ref="standardzone" />
+        <connections>
+        </connections>
+      </macro>
+      <macro name="x3g_zone002_cluster72_sector001_macro" class="zone">
+        <component ref="standardzone" />
+        <connections>
+          <connection name="x3g_gate_c72s001z002_c71s001z003_connection" ref="gates">
+            <offset>
+              <position x="0" y="500" z="0" />
+		      <rotation yaw="180" pitch="0" roll="0" />
             </offset>
             <macro ref="props_gates_orb_accelerator_01_macro" connection="space" />
           </connection>

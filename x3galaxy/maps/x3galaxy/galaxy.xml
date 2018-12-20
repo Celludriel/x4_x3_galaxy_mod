@@ -659,20 +659,23 @@
         <macro ref="x3g_cluster55_macro" connection="galaxy" />
       </connection>
           <!-- gate connection setup 55 -->
-          <connection name="x3g_gate_c55s001z003_c56s001z002" ref="destination" path="../x3g_cluster55_connection/x3g_cluster55_sector001_connection/x3g_zone003_cluster55_sector001_connection/x3g_gate_c55s001z003_c56s001z002_connection">
-            <macro connection="destination" path="../../../../../x3g_cluster56_connection/x3g_cluster56_sector001_connection/x3g_zone002_cluster56_sector001_connection/x3g_gate_c56s001z002_c55s001z003_connection" />
-          </connection>
-          <connection name="x3g_gate_c55s001z004_c63s001z002" ref="destination" path="../x3g_cluster55_connection/x3g_cluster55_sector001_connection/x3g_zone004_cluster55_sector001_connection/x3g_gate_c55s001z004_c63s001z002_connection">
-            <macro connection="destination" path="../../../../../x3g_cluster63_connection/x3g_cluster63_sector001_connection/x3g_zone002_cluster63_sector001_connection/x3g_gate_c63s001z002_c55s001z004_connection" />
+          <connection name="x3g_gate_c55s001z003_c63s001z002" ref="destination" path="../x3g_cluster55_connection/x3g_cluster55_sector001_connection/x3g_zone003_cluster55_sector001_connection/x3g_gate_c55s001z003_c63s001z002_connection">
+            <macro connection="destination" path="../../../../../x3g_cluster63_connection/x3g_cluster63_sector001_connection/x3g_zone002_cluster63_sector001_connection/x3g_gate_c63s001z002_c55s001z003_connection" />
           </connection>
       <!-- cluster setup 56 -->
       <connection name="x3g_cluster56_connection" ref="clusters">
         <offset>
-          <position x="60000000" y="0" z="-69280000" />
+          <position x="-30000000" y="0" z="17320000" />
         </offset>
         <macro ref="x3g_cluster56_macro" connection="galaxy" />
       </connection>
           <!-- gate connection setup 56 -->
+          <connection name="x3g_gate_c56s001z002_c71s001z002" ref="destination" path="../x3g_cluster56_connection/x3g_cluster56_sector001_connection/x3g_zone002_cluster56_sector001_connection/x3g_gate_c56s001z002_c71s001z002_connection">
+            <macro connection="destination" path="../../../../../x3g_cluster71_connection/x3g_cluster71_sector001_connection/x3g_zone002_cluster71_sector001_connection/x3g_gate_c71s001z002_c56s001z002_connection" />
+          </connection>
+          <connection name="x3g_gate_c56s001z003_c08s001z005" ref="destination" path="../x3g_cluster56_connection/x3g_cluster56_sector001_connection/x3g_zone003_cluster56_sector001_connection/x3g_gate_c56s001z003_c08s001z005_connection">
+            <macro connection="destination" path="../../../../../x3g_cluster08_connection/x3g_cluster08_sector001_connection/x3g_zone005_cluster08_sector001_connection/x3g_gate_c08s001z005_c56s001z003_connection" />
+          </connection>
       <!-- cluster setup 57 -->
       <connection name="x3g_cluster57_connection" ref="clusters">
         <offset>
@@ -833,6 +836,25 @@
           <connection name="x3g_gate_c70s001z003_c63s001z005" ref="destination" path="../x3g_cluster70_connection/x3g_cluster70_sector001_connection/x3g_zone003_cluster70_sector001_connection/x3g_gate_c70s001z003_c63s001z005_connection">
             <macro connection="destination" path="../../../../../x3g_cluster63_connection/x3g_cluster63_sector001_connection/x3g_zone005_cluster63_sector001_connection/x3g_gate_c63s001z005_c70s001z003_connection" />
           </connection>
+      <!-- cluster setup 71 -->
+      <connection name="x3g_cluster71_connection" ref="clusters">
+        <offset>
+          <position x="-30000000" y="0" z="0" />
+        </offset>
+        <macro ref="x3g_cluster71_macro" connection="galaxy" />
+      </connection>
+          <!-- gate connection setup 71 -->
+          <connection name="x3g_gate_c71s001z003_c72s001z002" ref="destination" path="../x3g_cluster71_connection/x3g_cluster71_sector001_connection/x3g_zone003_cluster71_sector001_connection/x3g_gate_c71s001z003_c72s001z002_connection">
+            <macro connection="destination" path="../../../../../x3g_cluster72_connection/x3g_cluster72_sector001_connection/x3g_zone002_cluster72_sector001_connection/x3g_gate_c72s001z002_c71s001z003_connection" />
+          </connection>
+      <!-- cluster setup 72 -->
+      <connection name="x3g_cluster72_connection" ref="clusters">
+        <offset>
+          <position x="-30000000" y="0" z="-17320000" />
+        </offset>
+        <macro ref="x3g_cluster72_macro" connection="galaxy" />
+      </connection>
+          <!-- gate connection setup 72 -->
 
     </connections>
   </macro>

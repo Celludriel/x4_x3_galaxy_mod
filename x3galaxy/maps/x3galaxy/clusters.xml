@@ -3874,4 +3874,114 @@
       </connection>
     </connections>
   </macro>
+  <macro name="x3g_cluster71_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster71_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster71_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster71_region000_connection" ref="regions">
+        <offset>
+          <position x="99639" y="0" z="41521" />
+		  <rotation yaw="95" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster71_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster71_region001_connection" ref="regions">
+        <offset>
+          <position x="402" y="0" z="-10559" />
+		  <rotation yaw="19" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster71_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_methane_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster71_region002_connection" ref="regions">
+        <offset>
+          <position x="97777" y="0" z="94868" />
+		  <rotation yaw="266" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster71_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster71_region003_connection" ref="regions">
+        <offset>
+          <position x="-103151" y="0" z="-105601" />
+		  <rotation yaw="275" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster71_region003_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster72_macro" class="cluster">
+    <component ref="standardcluster" />
+    <connections>
+      <connection name="x3g_cluster72_sector001_connection" ref="sectors">  
+        <macro ref="x3g_cluster72_sector001_macro" connection="cluster" />
+      </connection>
+      <connection name="x3g_cluster72_region000_connection" ref="regions">
+        <offset>
+          <position x="-117573" y="0" z="-112879" />
+		  <rotation yaw="68" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster72_region000_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_ice_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster72_region001_connection" ref="regions">
+        <offset>
+          <position x="-82579" y="0" z="-15343" />
+		  <rotation yaw="44" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster72_region001_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection name="x3g_cluster72_region002_connection" ref="regions">
+        <offset>
+          <position x="33790" y="0" z="96777" />
+		  <rotation yaw="286" pitch="0" roll="0"/>
+        </offset>
+        <macro name="x3g_cluster72_region002_macro">
+          <component connection="cluster" ref="standardregion" />
+          <properties>
+            <region ref="x3g_hydrogen_belt" />
+          </properties>
+        </macro>
+      </connection>
+      <connection ref="content">
+        <macro>
+          <component connection="space" ref="empty_space" />
+        </macro>
+      </connection>
+    </connections>
+  </macro>
 </macros>

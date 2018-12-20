@@ -248,6 +248,12 @@
             </offset>
             <macro ref="x3g_zone004_cluster08_sector001_macro" connection="sector" />
           </connection>
+          <connection name="x3g_zone005_cluster08_sector001_connection" ref="zones">
+            <offset>
+              <position x="-100000" y="0" z="100000" />
+            </offset>
+            <macro ref="x3g_zone005_cluster08_sector001_macro" connection="sector" />
+          </connection>
     </connections>
   </macro>
   <macro name="x3g_cluster09_sector001_macro" class="sector">
@@ -1463,15 +1469,9 @@
           </connection>
           <connection name="x3g_zone003_cluster55_sector001_connection" ref="zones">
             <offset>
-              <position x="0" y="0" z="-100000" />
-            </offset>
-            <macro ref="x3g_zone003_cluster55_sector001_macro" connection="sector" />
-          </connection>
-          <connection name="x3g_zone004_cluster55_sector001_connection" ref="zones">
-            <offset>
               <position x="100000" y="0" z="-100000" />
             </offset>
-            <macro ref="x3g_zone004_cluster55_sector001_macro" connection="sector" />
+            <macro ref="x3g_zone003_cluster55_sector001_macro" connection="sector" />
           </connection>
     </connections>
   </macro>
@@ -1486,9 +1486,15 @@
           </connection>
           <connection name="x3g_zone002_cluster56_sector001_connection" ref="zones">
             <offset>
-              <position x="0" y="0" z="100000" />
+              <position x="0" y="0" z="-100000" />
             </offset>
             <macro ref="x3g_zone002_cluster56_sector001_macro" connection="sector" />
+          </connection>
+          <connection name="x3g_zone003_cluster56_sector001_connection" ref="zones">
+            <offset>
+              <position x="100000" y="0" z="-100000" />
+            </offset>
+            <macro ref="x3g_zone003_cluster56_sector001_macro" connection="sector" />
           </connection>
     </connections>
   </macro>
@@ -1847,6 +1853,46 @@
               <position x="-100000" y="0" z="-100000" />
             </offset>
             <macro ref="x3g_zone003_cluster70_sector001_macro" connection="sector" />
+          </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster71_sector001_macro" class="sector">
+    <component ref="standardsector" />
+    <connections>
+          <connection name="x3g_zone001_cluster71_sector001_connection" ref="zones">
+            <offset>
+              <position x="0" y="0" z="0" />
+            </offset>
+            <macro ref="x3g_zone001_cluster71_sector001_macro" connection="sector" />
+          </connection>
+          <connection name="x3g_zone002_cluster71_sector001_connection" ref="zones">
+            <offset>
+              <position x="0" y="0" z="100000" />
+            </offset>
+            <macro ref="x3g_zone002_cluster71_sector001_macro" connection="sector" />
+          </connection>
+          <connection name="x3g_zone003_cluster71_sector001_connection" ref="zones">
+            <offset>
+              <position x="0" y="0" z="-100000" />
+            </offset>
+            <macro ref="x3g_zone003_cluster71_sector001_macro" connection="sector" />
+          </connection>
+    </connections>
+  </macro>
+  <macro name="x3g_cluster72_sector001_macro" class="sector">
+    <component ref="standardsector" />
+    <connections>
+          <connection name="x3g_zone001_cluster72_sector001_connection" ref="zones">
+            <offset>
+              <position x="0" y="0" z="0" />
+            </offset>
+            <macro ref="x3g_zone001_cluster72_sector001_macro" connection="sector" />
+          </connection>
+          <connection name="x3g_zone002_cluster72_sector001_connection" ref="zones">
+            <offset>
+              <position x="0" y="0" z="100000" />
+            </offset>
+            <macro ref="x3g_zone002_cluster72_sector001_macro" connection="sector" />
           </connection>
     </connections>
   </macro>

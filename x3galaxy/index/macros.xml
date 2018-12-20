@@ -73,5 +73,7 @@
   <entry name="x3g_cluster68_sector*" value="extensions\x3galaxy\maps\x3galaxy\sectors"/>
   <entry name="x3g_cluster69_sector*" value="extensions\x3galaxy\maps\x3galaxy\sectors"/>
   <entry name="x3g_cluster70_sector*" value="extensions\x3galaxy\maps\x3galaxy\sectors"/>
+  <entry name="x3g_cluster71_sector*" value="extensions\x3galaxy\maps\x3galaxy\sectors"/>
+  <entry name="x3g_cluster72_sector*" value="extensions\x3galaxy\maps\x3galaxy\sectors"/>
   <entry name="x3g_zone*" value="extensions\x3galaxy\maps\x3galaxy\zones"/>
 </index>
