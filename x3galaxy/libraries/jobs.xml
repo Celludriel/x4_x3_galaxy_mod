@@ -751,7 +751,7 @@
             </order>
         </orders>
         <category faction="argon" tags="[factionlogic,military,fighter]" size="ship_s" />
-        <quota galaxy="25" maxgalaxy="50"   zone="1"    />
+        <quota galaxy="25" maxgalaxy="50"       />
         <location class="galaxy" macro="x3g_galaxy_macro" relation="self" comparison="exact"  faction="argon" />
         <environment buildatshipyard="true"/>
         <ship>
@@ -812,7 +812,7 @@
         </orders>
         <category faction="argon" tags="[military,destroyer]" size="ship_l" />
         <quota      wing="2"   />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="argon" tags="[military,destroyer]" size="ship_l" />
@@ -833,7 +833,7 @@
         </orders>
         <category faction="argon" tags="[military]" size="ship_m" />
         <quota      wing="3"   />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="argon" tags="[military,medium]" size="ship_m" />
@@ -854,7 +854,7 @@
         </orders>
         <category faction="argon" tags="[military,fighter]" size="ship_s" />
         <quota      wing="4"   />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="argon" tags="[military,fighter,selection]" size="ship_s" />
@@ -874,7 +874,7 @@
         </orders>
         <category faction="argon" tags="[military,fighter]" size="ship_s" />
         <quota      wing="3"   />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="argon" tags="[military,fighter,light]" size="ship_s" />
@@ -898,7 +898,7 @@
         <basket basket="minerals" />
         <category faction="argon" tags="[freighter,miner,deepspace]" size="ship_m" />
         <quota      wing="2" variation="1"  />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="argon" tags="[miner,solid]" size="ship_m" />
@@ -923,7 +923,7 @@
         <basket basket="gases" />
         <category faction="argon" tags="[freighter,miner,deepspace]" size="ship_m" />
         <quota      wing="2" variation="1"  />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="argon" tags="[miner,liquid]" size="ship_m" />
@@ -948,7 +948,7 @@
         <basket basket="gases" />
         <category faction="argon" tags="[freighter,miner,deepspace]"  />
         <quota      wing="3" variation="1"  />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="argon" tags="[miner,solid,mixed]"  />
@@ -973,7 +973,7 @@
         <basket basket="gases" />
         <category faction="argon" tags="[freighter,miner,deepspace]"  />
         <quota      wing="3" variation="1"  />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="argon" tags="[miner,liquid,mixed]"  />
@@ -994,7 +994,7 @@
         </orders>
         <category faction="argon" tags="[military,fighter,deepspace]" size="ship_s" />
         <quota      wing="1" variation="1"  />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="argon" tags="[military,fighter,selection]" size="ship_s" />
@@ -1053,6 +1053,7 @@
                 <param name="range" value="class.zone"/>
             </order>
         </orders>
+        <category faction="faction.player" tags="[]"  />
         <quota galaxy="10"   sector="1"     />
         <location class="galaxy" macro="x3g_galaxy_macro" relation="neutral" comparison="ge"  faction="argon" />
         <environment buildatshipyard="true"/>
@@ -1106,7 +1107,7 @@
         <ship>
           <select faction="argon" tags="[miner,solid,mixed]"  />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="argon" overridenpc="true"/>
         </ship>
@@ -1132,7 +1133,7 @@
         <ship>
           <select faction="argon" tags="[miner,liquid,mixed]"  />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="argon" overridenpc="true"/>
         </ship>
@@ -1158,7 +1159,7 @@
         <ship>
           <select faction="argon" tags="[miner,solid,mixed]"  />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="argon" overridenpc="true"/>
         </ship>
@@ -1186,7 +1187,7 @@
         <ship>
           <select faction="argon" tags="[miner,liquid,mixed]"  />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="argon" overridenpc="true"/>
         </ship>
@@ -1214,7 +1215,7 @@
         <ship>
           <select faction="argon" tags="[miner,solid]" size="ship_l" />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="argon" overridenpc="true"/>
         </ship>
@@ -1242,934 +1243,13 @@
         <ship>
           <select faction="argon" tags="[miner,liquid]" size="ship_l" />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="argon" overridenpc="true"/>
         </ship>
         <subordinates>
           <subordinate job="argon_miningfleet_ml_liquid_large" />
           <subordinate job="argon_fighter_escort_s_miningfleet" />
-        </subordinates>
-        <encounters id="lone_miner"/>
-        <time interval="3600"/>
-      </job>
-      <job id="antigone_bio_trader_l" name="{20204,1301}"  >
-        <orders>
-            <order order="TradeRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="bio" />
-        <category faction="antigone" tags="[factionlogic,freighter,trader]" size="ship_l" />
-        <quota galaxy="5"  cluster="2"      />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[trader,container]" size="ship_l" />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_bio_trader_m" name="{20204,1401}"  >
-        <orders>
-            <order order="Middleman" default="true">
-                <param name="range" value="5"/>
-            </order>
-        </orders>
-        <basket basket="bio" />
-        <category faction="antigone" tags="[factionlogic,freighter,trader]" size="ship_m" />
-        <quota galaxy="18"  cluster="6" sector="4"     />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[trader,container]" size="ship_m" />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_food_trader_s" name="{20204,1801}"  >
-        <orders>
-            <order order="Middleman" default="true">
-                <param name="range" value="3"/>
-            </order>
-        </orders>
-        <basket basket="food" />
-        <category faction="antigone" tags="[factionlogic,freighter,trader]" size="ship_s" />
-        <quota galaxy="5"  cluster="2" sector="2"     />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[trader,container]" size="ship_s" />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_energycell_trader_l" name="{20204,101}"  >
-        <orders>
-            <order order="TradeRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="energycells" />
-        <category faction="antigone" tags="[factionlogic,freighter,trader]" size="ship_l" />
-        <quota galaxy="2"  cluster="1"      />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[trader,container]" size="ship_l" />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_energycell_trader_m" name="{20204,201}"  >
-        <orders>
-            <order order="TradeRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="energycells" />
-        <category faction="antigone" tags="[factionlogic,freighter,trader]" size="ship_m" />
-        <quota galaxy="13"  cluster="5"      />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[trader,container]" size="ship_m" />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_energycell_trader_s" name="{20204,201}"  >
-        <orders>
-            <order order="Middleman" default="true">
-                <param name="range" value="5"/>
-            </order>
-        </orders>
-        <basket basket="energycells" />
-        <category faction="antigone" tags="[factionlogic,freighter,trader]" size="ship_s" />
-        <quota galaxy="5"  cluster="1"      />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[trader,container]" size="ship_s" />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_equipment_trader_l" name="{20204,301}"  >
-        <orders>
-            <order order="TradeRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="equipment" />
-        <category faction="antigone" tags="[factionlogic,freighter,trader]" size="ship_l" />
-        <quota galaxy="2"  cluster="1"      />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[trader,container]" size="ship_l" />
-          <loadout>
-            <level min="0.4" max="0.7"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_equipment_trader_m" name="{20204,301}"  >
-        <orders>
-            <order order="Middleman" default="true">
-                <param name="range" value="5"/>
-            </order>
-        </orders>
-        <basket basket="equipment" />
-        <category faction="antigone" tags="[factionlogic,freighter,trader]" size="ship_m" />
-        <quota galaxy="6"  cluster="2" sector="3"     />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[trader,container]" size="ship_m" />
-          <loadout>
-            <level min="0.4" max="0.7"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_construction_trader_l" name="{20204,401}"  >
-        <orders>
-            <order order="TradeRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="construction_stations" />
-        <category faction="antigone" tags="[factionlogic,freighter,trader]" size="ship_l" />
-        <quota galaxy="2"  cluster="1"      />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[trader,container]" size="ship_l" />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_construction_trader_m" name="{20204,401}"  >
-        <orders>
-            <order order="Middleman" default="true">
-                <param name="range" value="5"/>
-            </order>
-        </orders>
-        <basket basket="construction_stations" />
-        <category faction="antigone" tags="[factionlogic,freighter,trader]" size="ship_m" />
-        <quota galaxy="10"  cluster="3"      />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[trader,container]" size="ship_m" />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_refinedgas_trader_l" name="{20204,501}"  >
-        <orders>
-            <order order="TradeRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="refined_gas" />
-        <category faction="antigone" tags="[factionlogic,freighter,trader]" size="ship_l" />
-        <quota galaxy="1"  cluster="1"      />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[trader,container]" size="ship_l" />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_refinedgas_trader_m" name="{20204,601}"  >
-        <orders>
-            <order order="TradeRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="refined_gas" />
-        <category faction="antigone" tags="[factionlogic,freighter,trader]" size="ship_m" />
-        <quota galaxy="7"  cluster="2" sector="2"     />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[trader,container]" size="ship_m" />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_refinedmineral_trader_l" name="{20204,501}"  >
-        <orders>
-            <order order="TradeRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="refined_mineral" />
-        <category faction="antigone" tags="[factionlogic,freighter,trader]" size="ship_l" />
-        <quota galaxy="1"  cluster="1"      />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[trader,container]" size="ship_l" />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_refinedmineral_trader_m" name="{20204,601}"  >
-        <orders>
-            <order order="TradeRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="refined_mineral" />
-        <category faction="antigone" tags="[factionlogic,freighter,trader]" size="ship_m" />
-        <quota galaxy="6"  cluster="3" sector="2"     />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[trader,container]" size="ship_m" />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_tech_trader_l" name="{20204,301}"  >
-        <orders>
-            <order order="TradeRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="tech" />
-        <category faction="antigone" tags="[factionlogic,freighter,trader]" size="ship_l" />
-        <quota galaxy="1"  cluster="1"      />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[trader,container]" size="ship_l" />
-          <loadout>
-            <level min="0.4" max="0.7"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_tech_trader_m" name="{20204,401}"  >
-        <orders>
-            <order order="Middleman" default="true">
-                <param name="range" value="5"/>
-            </order>
-        </orders>
-        <basket basket="tech" />
-        <category faction="antigone" tags="[factionlogic,freighter,trader]" size="ship_m" />
-        <quota galaxy="6"  cluster="2" sector="1"     />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[trader,container]" size="ship_m" />
-          <loadout>
-            <level min="0.4" max="0.7"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_destroyer_patrol_l_border_sector" name="{20204,3301}"  >
-        <orders>
-            <order order="Patrol" default="true">
-                <param name="range" value="class.cluster"/>
-            </order>
-        </orders>
-        <category faction="antigone" tags="[factionlogic,military,destroyer]" size="ship_l" />
-        <quota galaxy="1"   sector="1"     />
-        <location class="galaxy" macro="Zone001_Cluster11_Sector001_macro" relation="self" comparison="exact"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[military,destroyer]" size="ship_l" />
-          <loadout>
-            <level min="0.4" max="1.0"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="antigone_destroyer_escort_l" />
-        </subordinates>
-      </job>
-      <job id="antigone_destroyer_patrol_l_comp" name="{20204,3301}"  >
-        <orders>
-            <order order="Patrol" default="true">
-                <param name="range" value="class.zone"/>
-            </order>
-        </orders>
-        <category faction="antigone" tags="[factionlogic,military,destroyer]" size="ship_l" />
-        <quota galaxy="3" maxgalaxy="12" cluster="3"      />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="self" comparison="exact"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[military,destroyer]" size="ship_l" />
-          <loadout>
-            <level min="0.4" max="1.0"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_frigate_patrol_m_sector_exp" name="{20204,2901}"  >
-        <orders>
-            <order order="Patrol" default="true">
-                <param name="range" value="class.sector"/>
-            </order>
-        </orders>
-        <category faction="antigone" tags="[factionlogic,military,frigate]" size="ship_m" />
-        <quota galaxy="44"   sector="1"     />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="self" comparison="exact"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[military,frigate]" size="ship_m" />
-          <loadout>
-            <level min="0.4" max="1.0"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="antigone_fighter_escort_s_frigate" />
-        </subordinates>
-      </job>
-      <job id="antigone_dronecarrier_patrol_m_sector" name="{20204,5001}"  >
-        <orders>
-            <order order="Patrol" default="true">
-                <param name="range" value="class.sector"/>
-            </order>
-        </orders>
-        <category faction="antigone" tags="[factionlogic,military,frigate]" size="ship_m" />
-        <quota galaxy="5" maxgalaxy="10"  sector="3"     />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="self" comparison="exact"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[military,frigate]" size="ship_m" />
-          <loadout>
-            <level min="0.4" max="1.0"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-          <units>
-            <unit category="unitcategory.defence" min="8" max="12" />
-          </units>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_fighter_patrol_s_zone" name="{20204,2901}"  >
-        <orders>
-            <order order="Patrol" default="true">
-                <param name="range" value="class.zone"/>
-            </order>
-        </orders>
-        <category faction="antigone" tags="[factionlogic,military,fighter]" size="ship_s" />
-        <quota galaxy="19" maxgalaxy="38"   zone="1"    />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="self" comparison="exact"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[heavy,fighter]" size="ship_s" />
-          <loadout>
-            <level min="0.4" max="1.0"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="antigone_fighter_escort_s_patrol" />
-        </subordinates>
-      </job>
-      <job id="antigone_scout_patrol_s" name="{20204,2801}"  >
-        <orders>
-            <order order="Recon" default="true">
-            </order>
-        </orders>
-        <category faction="antigone" tags="[factionlogic,military,scout]" size="ship_s" />
-        <quota galaxy="2" maxgalaxy="4" cluster="2"      />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="self" comparison="lt"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[scout]" size="ship_s" />
-          <loadout>
-            <level min="0.7" max="1.0"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_destroyer_escort_l" name="{20204,3301}" startactive="false" >
-        <orders>
-            <order order="Escort" default="true">
-                <param name="formation" value="formationshape.xshapeforward"/>
-            </order>
-        </orders>
-        <category faction="antigone" tags="[military,destroyer]" size="ship_l" />
-        <quota      wing="2"   />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[military,destroyer]" size="ship_l" />
-          <loadout>
-            <level min="0" max="0.7"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="antigone_frigate_escort_m" />
-        </subordinates>
-      </job>
-      <job id="antigone_frigate_escort_m" name="{20204,2901}" startactive="false" >
-        <orders>
-            <order order="Escort" default="true">
-                <param name="formation" value="formationshape.dartvertical"/>
-            </order>
-        </orders>
-        <category faction="antigone" tags="[military]" size="ship_m" />
-        <quota      wing="3"   />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[military,medium]" size="ship_m" />
-          <loadout>
-            <level min="0" max="0.7"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="antigone_fighter_escort_s_frigate" />
-        </subordinates>
-      </job>
-      <job id="antigone_fighter_escort_s_frigate" name="{20204,2901}" startactive="false" >
-        <orders>
-            <order order="Escort" default="true">
-                <param name="formation" value="formationshape.pointguard"/>
-            </order>
-        </orders>
-        <category faction="antigone" tags="[military,fighter]" size="ship_s" />
-        <quota      wing="2"   />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[military,fighter,selection]" size="ship_s" />
-          <loadout>
-            <level min="0" max="0.7"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_fighter_escort_s_patrol" name="{20204,2901}" startactive="false" >
-        <orders>
-            <order order="Escort" default="true">
-                <param name="formation" value="formationshape.pointguard"/>
-            </order>
-        </orders>
-        <category faction="antigone" tags="[military,fighter]" size="ship_s" />
-        <quota      wing="3"   />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[military,fighter,light]" size="ship_s" />
-          <loadout>
-            <level min="0" max="0.7"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_miningfleet_m_solid_small" name="{20204,5601}" startactive="false" >
-        <orders>
-            <order order="MiningRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="minerals" />
-        <category faction="antigone" tags="[freighter,miner,deepspace]" size="ship_m" />
-        <quota      wing="2" variation="1"  />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[miner,solid]" size="ship_m" />
-          <loadout>
-            <level min="0" max="0.7"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="antigone_fighter_escort_s_miningfleet" />
-        </subordinates>
-      </job>
-      <job id="antigone_miningfleet_m_liquid_small" name="{20204,5701}" startactive="false" >
-        <orders>
-            <order order="MiningRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="gases" />
-        <category faction="antigone" tags="[freighter,miner,deepspace]" size="ship_m" />
-        <quota      wing="2" variation="1"  />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[miner,liquid]" size="ship_m" />
-          <loadout>
-            <level min="0" max="0.7"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="antigone_fighter_escort_s_miningfleet" />
-        </subordinates>
-      </job>
-      <job id="antigone_miningfleet_ml_solid_large" name="{20204,5601}" startactive="false" >
-        <orders>
-            <order order="MiningRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="gases" />
-        <category faction="antigone" tags="[freighter,miner,deepspace]"  />
-        <quota      wing="3" variation="1"  />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[miner,solid,mixed]"  />
-          <loadout>
-            <level min="0" max="0.7"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="antigone_fighter_escort_s_miningfleet" />
-        </subordinates>
-      </job>
-      <job id="antigone_miningfleet_ml_liquid_large" name="{20204,5701}" startactive="false" >
-        <orders>
-            <order order="MiningRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="gases" />
-        <category faction="antigone" tags="[freighter,miner,deepspace]"  />
-        <quota      wing="3" variation="1"  />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[miner,liquid,mixed]"  />
-          <loadout>
-            <level min="0" max="0.7"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="antigone_fighter_escort_s_miningfleet" />
-        </subordinates>
-      </job>
-      <job id="antigone_fighter_escort_s_miningfleet" name="{20204,2901}" startactive="false" >
-        <orders>
-            <order order="Escort" default="true">
-                <param name="formation" value="formationshape.pointguard"/>
-            </order>
-        </orders>
-        <category faction="antigone" tags="[military,fighter,deepspace]" size="ship_s" />
-        <quota      wing="1" variation="1"  />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[military,fighter,selection]" size="ship_s" />
-          <loadout>
-            <level min="0" max="0.7"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_construction_vessel_xl" name="{20204,5101}"  >
-        <orders>
-            <order order="FindBuildTasks" default="true">
-                <param name="maxjumps" value="6"/>
-            </order>
-        </orders>
-        <category faction="antigone" tags="[factionlogic,builder]" size="ship_xl" />
-        <quota galaxy="5"   sector="1"     />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[builder]" size="ship_xl" />
-          <loadout>
-            <level min="0.4" max="0.7"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_construction_vessel_xl_playeronly" name="{20204,5101}"  >
-        <orders>
-            <order order="FindBuildTasks" default="true">
-                <param name="maxjumps" value="6"/>
-                <param name="playeronly" value="true"/>
-            </order>
-        </orders>
-        <category faction="antigone" tags="[factionlogic,builder]" size="ship_xl" />
-        <quota galaxy="5"   sector="1"     />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[builder]" size="ship_xl" />
-          <loadout>
-            <level min="0.4" max="0.7"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="antigone_resourcescout_s_deepspace_single" name="{20204,10049}"  >
-        <orders>
-            <order order="MiningRoutine" default="true">
-                <param name="deepspace" value="true"/>
-                <param name="resourcescout" value="true"/>
-            </order>
-        </orders>
-        <basket basket="minerals" />
-        <category faction="antigone" tags="[scout,deepspace]" size="ship_s" />
-        <quota galaxy="1"        />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[scout]" size="ship_s" />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-        <encounters id="resource_scout"/>
-      </job>
-      <job id="antigone_free_miner_ml_solid_deepspace_single" name="{20204,5601}"  >
-        <orders>
-            <order order="MiningRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="minerals" />
-        <category faction="antigone" tags="[freighter,miner,deepspace]"  />
-        <quota galaxy="1"        />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="friend" comparison="ge" regionbasket="minerals" faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[miner,solid,mixed]"  />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-        <encounters id="lone_miner"/>
-        <time interval="1"/>
-      </job>
-      <job id="antigone_free_miner_ml_liquid_deepspace_single" name="{20204,5701}"  >
-        <orders>
-            <order order="MiningRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="minerals" />
-        <category faction="antigone" tags="[freighter,miner,deepspace]"  />
-        <quota galaxy="1"        />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="friend" comparison="ge" regionbasket="gasses" faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[miner,liquid,mixed]"  />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-        <encounters id="lone_miner"/>
-        <time interval="1"/>
-      </job>
-      <job id="antigone_free_miner_ml_solid_deepspace_smallgroup" name="{20204,5601}"  >
-        <orders>
-            <order order="MiningRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="minerals" />
-        <category faction="antigone" tags="[freighter,miner,deepspace]"  />
-        <quota galaxy="1"        />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="friend" comparison="ge" regionbasket="minerals" faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[miner,solid,mixed]"  />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="antigone_miningfleet_m_solid_small" />
-          <subordinate job="antigone_fighter_escort_s_miningfleet" />
-        </subordinates>
-        <encounters id="mining_group_small"/>
-        <time interval="600"/>
-      </job>
-      <job id="antigone_free_miner_ml_liquid_deepspace_smallgroup" name="{20204,5701}"  >
-        <orders>
-            <order order="MiningRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="minerals" />
-        <category faction="antigone" tags="[freighter,miner,deepspace]"  />
-        <quota galaxy="1"        />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="friend" comparison="ge" regionbasket="gasses" faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[miner,liquid,mixed]"  />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="antigone_miningfleet_m_liquid_small" />
-          <subordinate job="antigone_fighter_escort_s_miningfleet" />
-        </subordinates>
-        <encounters id="lone_miner"/>
-        <time interval="600"/>
-      </job>
-      <job id="antigone_free_miner_l_solid_deepspace_largegroup" name="{20204,5601}"  >
-        <orders>
-            <order order="MiningRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="minerals" />
-        <category faction="antigone" tags="[freighter,miner,deepspace]" size="ship_l" />
-        <quota galaxy="1"        />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="friend" comparison="ge" regionbasket="minerals" faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[miner,solid]" size="ship_l" />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="antigone_miningfleet_ml_solid_large" />
-          <subordinate job="antigone_fighter_escort_s_miningfleet" />
-        </subordinates>
-        <encounters id="mining_group_large"/>
-        <time interval="3600"/>
-      </job>
-      <job id="antigone_free_miner_l_liquid_deepspace_largegroup" name="{20204,5701}"  >
-        <orders>
-            <order order="MiningRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="gases" />
-        <category faction="antigone" tags="[freighter,miner,deepspace]" size="ship_l" />
-        <quota galaxy="1"        />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="friend" comparison="ge" regionbasket="gasses" faction="antigone" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="antigone" tags="[miner,liquid]" size="ship_l" />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="antigone" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="antigone_miningfleet_ml_liquid_large" />
-          <subordinate job="antigone_fighter_escort_s_miningfleet" />
         </subordinates>
         <encounters id="lone_miner"/>
         <time interval="3600"/>
@@ -2856,6 +1936,7 @@
                 <param name="range" value="class.zone"/>
             </order>
         </orders>
+        <category faction="faction.player" tags="[]"  />
         <quota galaxy="1"        />
         <location class="galaxy" macro="x3g_galaxy_macro" relation="neutral" comparison="ge"  faction="paranid" />
         <environment buildatshipyard="true"/>
@@ -2896,6 +1977,7 @@
                 <param name="range" value="class.cluster"/>
             </order>
         </orders>
+        <category faction="faction.player" tags="[]"  />
         <quota galaxy="14"   sector="1"     />
         <location class="galaxy" macro="x3g_galaxy_macro" relation="self" comparison="exact"  faction="paranid" />
         <environment buildatshipyard="true"/>
@@ -2934,7 +2016,7 @@
             </order>
         </orders>
         <category faction="paranid" tags="[factionlogic,military,fighter]" size="ship_s" />
-        <quota galaxy="27" maxgalaxy="54"   zone="1"    />
+        <quota galaxy="27" maxgalaxy="54"       />
         <location class="galaxy" macro="x3g_galaxy_macro" relation="self" comparison="exact"  faction="paranid" />
         <environment buildatshipyard="true"/>
         <ship>
@@ -3039,6 +2121,7 @@
         </orders>
         <category faction="paranid" tags="[military,destroyer]" size="ship_l" />
         <quota      wing="6"   />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="paranid" tags="[military,destroyer]" size="ship_l" />
@@ -3059,6 +2142,7 @@
         </orders>
         <category faction="paranid" tags="[military]" size="ship_m" />
         <quota      wing="1"   />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="paranid" tags="[military,medium]" size="ship_m" />
@@ -3079,6 +2163,7 @@
         </orders>
         <category faction="paranid" tags="[military,fighter]" size="ship_s" />
         <quota      wing="2"   />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="paranid" tags="[military,fighter,selection]" size="ship_s" />
@@ -3098,6 +2183,7 @@
         </orders>
         <category faction="paranid" tags="[military,fighter]" size="ship_s" />
         <quota      wing="2"   />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="paranid" tags="[military,fighter,light]" size="ship_s" />
@@ -3121,6 +2207,7 @@
         <basket basket="minerals" />
         <category faction="paranid" tags="[freighter,miner,deepspace]" size="ship_m" />
         <quota      wing="2" variation="1"  />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="paranid" tags="[miner,solid]" size="ship_m" />
@@ -3145,6 +2232,7 @@
         <basket basket="gases" />
         <category faction="paranid" tags="[freighter,miner,deepspace]" size="ship_m" />
         <quota      wing="2" variation="1"  />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="paranid" tags="[miner,liquid]" size="ship_m" />
@@ -3169,9 +2257,10 @@
         <basket basket="minerals" />
         <category faction="paranid" tags="[freighter,miner,deepspace]"  />
         <quota      wing="3" variation="1"  />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
-          <select faction="paranid" tags="[miner,solid,mixed]" size="ship_m" />
+          <select faction="paranid" tags="[miner,solid,mixed]"  />
           <loadout>
             <level min="0" max="0.7"/>
           </loadout>
@@ -3191,11 +2280,12 @@
             </order>
         </orders>
         <basket basket="gases" />
-        <category faction="paranid" tags="[freighter,miner,deepspace]" size="ship_m" />
+        <category faction="paranid" tags="[freighter,miner,deepspace]"  />
         <quota      wing="2" variation="1"  />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
-          <select faction="paranid" tags="[miner,liquid,mixed]" size="ship_m" />
+          <select faction="paranid" tags="[miner,liquid,mixed]"  />
           <loadout>
             <level min="0" max="0.7"/>
           </loadout>
@@ -3213,6 +2303,7 @@
         </orders>
         <category faction="paranid" tags="[military,fighter]" size="ship_s" />
         <quota      wing="1" variation="1"  />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="paranid" tags="[military,fighter,selection]" size="ship_s" />
@@ -3241,7 +2332,7 @@
         <ship>
           <select faction="paranid" tags="[miner,solid,mixed]"  />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="paranid" overridenpc="true"/>
         </ship>
@@ -3267,7 +2358,7 @@
         <ship>
           <select faction="paranid" tags="[miner,liquid,mixed]"  />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="paranid" overridenpc="true"/>
         </ship>
@@ -3293,7 +2384,7 @@
         <ship>
           <select faction="paranid" tags="[miner,solid,mixed]"  />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="paranid" overridenpc="true"/>
         </ship>
@@ -3321,7 +2412,7 @@
         <ship>
           <select faction="paranid" tags="[miner,liquid,mixed]"  />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="paranid" overridenpc="true"/>
         </ship>
@@ -3349,7 +2440,7 @@
         <ship>
           <select faction="paranid" tags="[miner,solid]" size="ship_l" />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="paranid" overridenpc="true"/>
         </ship>
@@ -3377,7 +2468,7 @@
         <ship>
           <select faction="paranid" tags="[miner,liquid]" size="ship_l" />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="paranid" overridenpc="true"/>
         </ship>
@@ -4070,6 +3161,7 @@
                 <param name="range" value="class.cluster"/>
             </order>
         </orders>
+        <category faction="faction.player" tags="[]"  />
         <quota galaxy="13"   sector="1"     />
         <location class="galaxy" macro="x3g_galaxy_macro" relation="self" comparison="exact"  faction="holyorder" />
         <environment buildatshipyard="true"/>
@@ -4112,7 +3204,7 @@
             </order>
         </orders>
         <category faction="holyorder" tags="[factionlogic,military,fighter]" size="ship_s" />
-        <quota galaxy="40" maxgalaxy="80"   zone="1"    />
+        <quota galaxy="40" maxgalaxy="80"       />
         <location class="galaxy" macro="x3g_galaxy_macro" relation="self" comparison="exact"  faction="holyorder" />
         <environment buildatshipyard="true"/>
         <ship>
@@ -4217,6 +3309,7 @@
         </orders>
         <category faction="holyorder" tags="[military,destroyer]" size="ship_l" />
         <quota      wing="6"   />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="holyorder" tags="[military,destroyer]" size="ship_l" />
@@ -4238,6 +3331,7 @@
         </orders>
         <category faction="holyorder" tags="[military]" size="ship_m" />
         <quota      wing="1"   />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="holyorder" tags="[military,medium]" size="ship_m" />
@@ -4259,6 +3353,7 @@
         </orders>
         <category faction="holyorder" tags="[military]" size="ship_m" />
         <quota      wing="2"   />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="holyorder" tags="[military,medium,corvette]" size="ship_m" />
@@ -4279,6 +3374,7 @@
         </orders>
         <category faction="holyorder" tags="[military,fighter]" size="ship_s" />
         <quota      wing="2"   />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="holyorder" tags="[military,fighter,selection]" size="ship_s" />
@@ -4298,6 +3394,7 @@
         </orders>
         <category faction="holyorder" tags="[military,fighter]" size="ship_s" />
         <quota      wing="2"   />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="holyorder" tags="[military,fighter,light]" size="ship_s" />
@@ -4321,6 +3418,7 @@
         <basket basket="minerals" />
         <category faction="holyorder" tags="[freighter,miner,deepspace]" size="ship_m" />
         <quota      wing="2" variation="1"  />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="holyorder" tags="[miner,solid]" size="ship_m" />
@@ -4345,6 +3443,7 @@
         <basket basket="gases" />
         <category faction="holyorder" tags="[freighter,miner,deepspace]" size="ship_m" />
         <quota      wing="2" variation="1"  />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="holyorder" tags="[miner,liquid]" size="ship_m" />
@@ -4369,9 +3468,10 @@
         <basket basket="minerals" />
         <category faction="holyorder" tags="[freighter,miner,deepspace]"  />
         <quota      wing="3" variation="1"  />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
-          <select faction="holyorder" tags="[miner,solid,mixed]" size="ship_m" />
+          <select faction="holyorder" tags="[miner,solid,mixed]"  />
           <loadout>
             <level min="0" max="0.7"/>
           </loadout>
@@ -4391,11 +3491,12 @@
             </order>
         </orders>
         <basket basket="gases" />
-        <category faction="holyorder" tags="[freighter,miner,deepspace]" size="ship_m" />
+        <category faction="holyorder" tags="[freighter,miner,deepspace]"  />
         <quota      wing="2" variation="1"  />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
-          <select faction="holyorder" tags="[miner,liquid,mixed]" size="ship_m" />
+          <select faction="holyorder" tags="[miner,liquid,mixed]"  />
           <loadout>
             <level min="0" max="0.7"/>
           </loadout>
@@ -4413,6 +3514,7 @@
         </orders>
         <category faction="holyorder" tags="[military,fighter]" size="ship_s" />
         <quota      wing="1" variation="1"  />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="holyorder" tags="[military,fighter,selection]" size="ship_s" />
@@ -4441,7 +3543,7 @@
         <ship>
           <select faction="holyorder" tags="[miner,solid,mixed]"  />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="holyorder" overridenpc="true"/>
         </ship>
@@ -4467,7 +3569,7 @@
         <ship>
           <select faction="holyorder" tags="[miner,liquid,mixed]"  />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="holyorder" overridenpc="true"/>
         </ship>
@@ -4493,7 +3595,7 @@
         <ship>
           <select faction="holyorder" tags="[miner,solid,mixed]"  />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="holyorder" overridenpc="true"/>
         </ship>
@@ -4521,7 +3623,7 @@
         <ship>
           <select faction="holyorder" tags="[miner,liquid,mixed]"  />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="holyorder" overridenpc="true"/>
         </ship>
@@ -4549,7 +3651,7 @@
         <ship>
           <select faction="holyorder" tags="[miner,solid]" size="ship_l" />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="holyorder" overridenpc="true"/>
         </ship>
@@ -4577,7 +3679,7 @@
         <ship>
           <select faction="holyorder" tags="[miner,liquid]" size="ship_l" />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="holyorder" overridenpc="true"/>
         </ship>
@@ -5270,6 +4372,7 @@
                 <param name="range" value="class.zone"/>
             </order>
         </orders>
+        <category faction="faction.player" tags="[]"  />
         <quota galaxy="1"        />
         <location class="galaxy" macro="x3g_galaxy_macro" relation="neutral" comparison="ge"  faction="teladi" />
         <environment buildatshipyard="true"/>
@@ -5332,7 +4435,7 @@
             </order>
         </orders>
         <category faction="teladi" tags="[factionlogic,military,fighter]" size="ship_s" />
-        <quota galaxy="50" maxgalaxy="100"   zone="3"    />
+        <quota galaxy="50" maxgalaxy="100"       />
         <location class="galaxy" macro="x3g_galaxy_macro" relation="self" comparison="exact"  faction="[teladi,ministry]" />
         <environment buildatshipyard="true"/>
         <ship>
@@ -5373,6 +4476,7 @@
         </orders>
         <category faction="teladi" tags="[military,destroyer]" size="ship_l" />
         <quota      wing="3" variation="2"  />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="teladi" tags="[military,destroyer]" size="ship_l" />
@@ -5394,6 +4498,7 @@
         </orders>
         <category faction="teladi" tags="[military]" size="ship_m" />
         <quota      wing="2" variation="1"  />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="teladi" tags="[military,medium]" size="ship_m" />
@@ -5414,6 +4519,7 @@
         </orders>
         <category faction="teladi" tags="[military,fighter]" size="ship_s" />
         <quota      wing="4" variation="4"  />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="[teladi,ministry,antigone]" tags="[military,fighter,selection]" size="ship_s" />
@@ -5433,6 +4539,7 @@
         </orders>
         <category faction="teladi" tags="[military,fighter]" size="ship_s" />
         <quota      wing="3" variation="3"  />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="[teladi,ministry,antigone]" tags="[military,fighter,light]" size="ship_s" />
@@ -5456,6 +4563,7 @@
         <basket basket="minerals" />
         <category faction="teladi" tags="[freighter,miner,deepspace]" size="ship_m" />
         <quota      wing="2" variation="1"  />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="teladi" tags="[miner,solid]" size="ship_m" />
@@ -5480,6 +4588,7 @@
         <basket basket="gases" />
         <category faction="teladi" tags="[freighter,miner,deepspace]" size="ship_m" />
         <quota      wing="2" variation="1"  />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="teladi" tags="[miner,liquid]" size="ship_m" />
@@ -5504,9 +4613,10 @@
         <basket basket="minerals" />
         <category faction="teladi" tags="[freighter,miner,deepspace]"  />
         <quota      wing="3" variation="1"  />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
-          <select faction="teladi" tags="[miner,solid,mixed]" size="ship_m" />
+          <select faction="teladi" tags="[miner,solid,mixed]"  />
           <loadout>
             <level min="0" max="0.7"/>
           </loadout>
@@ -5526,11 +4636,12 @@
             </order>
         </orders>
         <basket basket="gases" />
-        <category faction="teladi" tags="[freighter,miner,deepspace]" size="ship_m" />
+        <category faction="teladi" tags="[freighter,miner,deepspace]"  />
         <quota      wing="2" variation="1"  />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
-          <select faction="teladi" tags="[miner,liquid,mixed]" size="ship_m" />
+          <select faction="teladi" tags="[miner,liquid,mixed]"  />
           <loadout>
             <level min="0" max="0.7"/>
           </loadout>
@@ -5548,6 +4659,7 @@
         </orders>
         <category faction="teladi" tags="[military,fighter]" size="ship_s" />
         <quota      wing="1" variation="1"  />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="teladi" tags="[military,fighter,selection]" size="ship_s" />
@@ -5599,7 +4711,7 @@
         <ship>
           <select faction="teladi" tags="[miner,solid,mixed]"  />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="teladi" overridenpc="true"/>
         </ship>
@@ -5625,7 +4737,7 @@
         <ship>
           <select faction="teladi" tags="[miner,liquid,mixed]"  />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="teladi" overridenpc="true"/>
         </ship>
@@ -5651,7 +4763,7 @@
         <ship>
           <select faction="teladi" tags="[miner,solid,mixed]"  />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="teladi" overridenpc="true"/>
         </ship>
@@ -5679,7 +4791,7 @@
         <ship>
           <select faction="teladi" tags="[miner,liquid,mixed]"  />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="teladi" overridenpc="true"/>
         </ship>
@@ -5707,7 +4819,7 @@
         <ship>
           <select faction="teladi" tags="[miner,solid]" size="ship_l" />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="teladi" overridenpc="true"/>
         </ship>
@@ -5735,7 +4847,7 @@
         <ship>
           <select faction="teladi" tags="[miner,liquid]" size="ship_l" />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="teladi" overridenpc="true"/>
         </ship>
@@ -5745,211 +4857,6 @@
         </subordinates>
         <encounters id="lone_miner"/>
         <time interval="3600"/>
-      </job>
-      <job id="ministry_food_trader_s" name="{20204,1801}"  >
-        <orders>
-            <order order="Middleman" default="true">
-                <param name="range" value="5"/>
-            </order>
-        </orders>
-        <basket basket="food" />
-        <category faction="teladi" tags="[factionlogic,freighter,trader]" size="ship_s" />
-        <quota galaxy="70"  cluster="25" sector="10"     />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="ministry" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="ministry" tags="[trader,container]" size="ship_s" />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="ministry" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="ministry_destroyer_patrol_l_comp" name="{20204,3301}"  >
-        <orders>
-            <order order="Patrol" default="true">
-                <param name="range" value="class.cluster"/>
-            </order>
-        </orders>
-        <category faction="ministry" tags="[factionlogic,military,destroyer]" size="ship_l" />
-        <quota galaxy="3" maxgalaxy="12" cluster="3"      />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="[teladi,ministry]" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="ministry" tags="[military,destroyer]" size="ship_l" />
-          <loadout>
-            <level min="0.4" max="1.0"/>
-          </loadout>
-          <owner exact="ministry" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="ministry_frigate_police_patrol_m" name="{20204,2901}"  >
-        <orders>
-            <order order="Recon" default="true">
-                <param name="police" value="true"/>
-            </order>
-        </orders>
-        <category faction="ministry" tags="[factionlogic,military,frigate]" size="ship_m" />
-        <quota galaxy="60"   sector="1"     />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="[teladi,ministry]" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="ministry" tags="[military,frigate]" size="ship_m" />
-          <loadout>
-            <level min="0.4" max="1.0"/>
-          </loadout>
-          <owner exact="ministry" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="ministry_fighter_escort_s_patrol" />
-        </subordinates>
-      </job>
-      <job id="ministry_dronecarrier_patrol_m_sector" name="{20204,2901}"  >
-        <orders>
-            <order order="Patrol" default="true">
-                <param name="range" value="class.sector"/>
-            </order>
-        </orders>
-        <category faction="ministry" tags="[factionlogic,military,frigate]" size="ship_m" />
-        <quota galaxy="16" maxgalaxy="32"  sector="3"     />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="[teladi,ministry]" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="ministry" tags="[military,frigate]" size="ship_m" />
-          <loadout>
-            <level min="0.4" max="1.0"/>
-          </loadout>
-          <owner exact="ministry" overridenpc="true"/>
-          <units>
-            <unit category="unitcategory.defence" min="11" max="17" />
-          </units>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="ministry_destroyer_escort_l" name="{20204,3301}" startactive="false" >
-        <orders>
-            <order order="Escort" default="true">
-                <param name="formation" value="formationshape.pointguard"/>
-            </order>
-        </orders>
-        <category faction="ministry" tags="[military,destroyer]" size="ship_l" />
-        <quota      wing="2" variation="1"  />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="ministry" tags="[military,destroyer]" size="ship_l" />
-          <loadout>
-            <level min="0" max="0.7"/>
-          </loadout>
-          <owner exact="ministry" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="ministry_frigate_escort_m" />
-        </subordinates>
-      </job>
-      <job id="ministry_frigate_escort_m" name="{20204,2901}" startactive="false" >
-        <orders>
-            <order order="Escort" default="true">
-                <param name="formation" value="formationshape.dartvertical"/>
-                <param name="formationparam" value="2500m"/>
-            </order>
-        </orders>
-        <category faction="ministry" tags="[military]" size="ship_m" />
-        <quota      wing="2" variation="1"  />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="ministry" tags="[military,medium]" size="ship_m" />
-          <loadout>
-            <level min="0" max="0.7"/>
-          </loadout>
-          <owner exact="ministry" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="ministry_fighter_escort_s_frigate" />
-        </subordinates>
-      </job>
-      <job id="ministry_fighter_escort_s_frigate" name="{20204,2901}" startactive="false" >
-        <orders>
-            <order order="Escort" default="true">
-                <param name="formation" value="formationshape.pointguard"/>
-            </order>
-        </orders>
-        <category faction="ministry" tags="[military,fighter]" size="ship_s" />
-        <quota      wing="5" variation="1"  />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="ministry" tags="[military,fighter,selection]" size="ship_s" />
-          <loadout>
-            <level min="0" max="0.7"/>
-          </loadout>
-          <owner exact="ministry" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="ministry_fighter_escort_s_patrol" name="{20204,2901}" startactive="false" >
-        <orders>
-            <order order="Escort" default="true">
-                <param name="formation" value="formationshape.pointguard"/>
-            </order>
-        </orders>
-        <category faction="ministry" tags="[military,fighter]" size="ship_s" />
-        <quota      wing="3" variation="3"  />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="ministry" tags="[military,fighter,light]" size="ship_s" />
-          <loadout>
-            <level min="0" max="0.7"/>
-          </loadout>
-          <owner exact="ministry" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="ministry_construction_vessel_xl" name="{20204,5101}"  >
-        <orders>
-            <order order="FindBuildTasks" default="true">
-                <param name="maxjumps" value="6"/>
-            </order>
-        </orders>
-        <category faction="ministry" tags="[factionlogic,builder]" size="ship_xl" />
-        <quota galaxy="5"   sector="1"     />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="teladi" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="ministry" tags="[builder]" size="ship_xl" />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="ministry" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="ministry_construction_vessel_xl_playeronly" name="{20204,5101}"  >
-        <orders>
-            <order order="FindBuildTasks" default="true">
-                <param name="maxjumps" value="6"/>
-                <param name="playeronly" value="true"/>
-            </order>
-        </orders>
-        <category faction="ministry" tags="[factionlogic,builder]" size="ship_xl" />
-        <quota galaxy="10"   sector="1"     />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="ge"  faction="teladi" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="ministry" tags="[builder]" size="ship_xl" />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="ministry" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
       </job>
       <job id="xenon_free_miner_m_mineral" name="{20204,1901}"  >
         <orders>
@@ -5997,7 +4904,7 @@
         <ship>
           <select faction="xenon" tags="[miner,solid]" size="ship_m" />
           <loadout>
-            <level min="0" max="0.4"/>
+            <level min="0" max="0.7"/>
           </loadout>
           <owner exact="xenon" overridenpc="true"/>
         </ship>
@@ -6073,7 +4980,7 @@
             </order>
         </orders>
         <category faction="xenon" tags="[factionlogic,military,fighter]" size="ship_s" />
-        <quota galaxy="47" maxgalaxy="94"   zone="1"    />
+        <quota galaxy="47" maxgalaxy="94"       />
         <location class="galaxy" macro="x3g_galaxy_macro" relation="self" comparison="exact"  faction="xenon" />
         <environment buildatshipyard="true"/>
         <ship>
@@ -6181,6 +5088,7 @@
         </orders>
         <category faction="xenon" tags="[military]" size="ship_m" />
         <quota      wing="2" variation="1"  />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="xenon" tags="[military,medium]" size="ship_m" />
@@ -6201,6 +5109,7 @@
         </orders>
         <category faction="xenon" tags="[military]" size="ship_xl" />
         <quota      wing="2"   />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="xenon" tags="[military,destroyer]" size="ship_xl" />
@@ -6222,6 +5131,7 @@
         </orders>
         <category faction="xenon" tags="[military]" size="ship_m" />
         <quota      wing="3"   />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="xenon" tags="[military,medium]" size="ship_m" />
@@ -6241,6 +5151,7 @@
         </orders>
         <category faction="xenon" tags="[military,fighter]" size="ship_s" />
         <quota      wing="4"   />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="xenon" tags="[military,fighter,selection]" size="ship_s" />
@@ -6259,6 +5170,7 @@
         </orders>
         <category faction="xenon" tags="[military,fighter]" size="ship_s" />
         <quota      wing="2"   />
+        <location class="galaxy" macro="x3g_galaxy_macro" relation="member" comparison="not"   />
         <environment buildatshipyard="true"/>
         <ship>
           <select faction="xenon" tags="[military,fighter,light]" size="ship_s" />
@@ -6266,380 +5178,6 @@
             <level min="0" max="0.7"/>
           </loadout>
           <owner exact="xenon" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="hatikvah_plunderer_l_cluster" name="{20204,4101}"  disabled="false">
-        <orders>
-            <order order="Plunder" default="true">
-                <param name="range_internal" value="'cluster'"/>
-                <param name="plundermode" value="0"/>
-            </order>
-        </orders>
-        <basket basket="pirate_container" />
-        <category faction="hatikvah" tags="[plunderer]" size="ship_l" />
-        <quota galaxy="2"   sector="1"     />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="self" comparison="lt"  faction="xenon" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="hatikvah" tags="[plunderer]" size="ship_l" />
-          <loadout>
-            <level min="0" max="1.0"/>
-          </loadout>
-          <owner exact="hatikvah" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="hatikvah_scavenger_m_cluster" name="{20204,4301}"  disabled="false">
-        <orders>
-            <order order="Plunder" default="true">
-                <param name="range_internal" value="'cluster'"/>
-                <param name="plundermode" value="0"/>
-            </order>
-        </orders>
-        <basket basket="pirate_container" />
-        <category faction="hatikvah" tags="[plunderer]" size="ship_m" />
-        <quota galaxy="15"   sector="1"     />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="self" comparison="lt"  faction="xenon" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="hatikvah" tags="[plunderer]" size="ship_m" />
-          <loadout>
-            <level min="0" max="1.0"/>
-          </loadout>
-          <owner exact="hatikvah" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="hatikvah_miningfleet_m_solid_small" name="{20204,5601}" startactive="false" >
-        <orders>
-            <order order="MiningRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="minerals" />
-        <category faction="hatikvah" tags="[freighter,miner,deepspace]" size="ship_m" />
-        <quota      wing="2" variation="1"  />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="hatikvah" tags="[miner,solid]" size="ship_m" />
-          <loadout>
-            <level min="0" max="0.7"/>
-          </loadout>
-          <owner exact="hatikvah" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="hatikvah_fighter_escort_s_miningfleet" />
-        </subordinates>
-      </job>
-      <job id="hatikvah_miningfleet_m_liquid_small" name="{20204,5701}" startactive="false" >
-        <orders>
-            <order order="MiningRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="gases" />
-        <category faction="hatikvah" tags="[freighter,miner,deepspace]" size="ship_m" />
-        <quota      wing="2" variation="1"  />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="hatikvah" tags="[miner,liquid]" size="ship_m" />
-          <loadout>
-            <level min="0" max="0.7"/>
-          </loadout>
-          <owner exact="hatikvah" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="hatikvah_fighter_escort_s_miningfleet" />
-        </subordinates>
-      </job>
-      <job id="hatikvah_miningfleet_ml_solid_large" name="{20204,5601}" startactive="false" >
-        <orders>
-            <order order="MiningRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="gases" />
-        <category faction="hatikvah" tags="[freighter,miner,deepspace]"  />
-        <quota      wing="3" variation="1"  />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="hatikvah" tags="[miner,solid,mixed]"  />
-          <loadout>
-            <level min="0" max="0.7"/>
-          </loadout>
-          <owner exact="hatikvah" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="hatikvah_fighter_escort_s_miningfleet" />
-        </subordinates>
-      </job>
-      <job id="hatikvah_miningfleet_ml_liquid_large" name="{20204,5701}" startactive="false" >
-        <orders>
-            <order order="MiningRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="gases" />
-        <category faction="hatikvah" tags="[freighter,miner,deepspace]"  />
-        <quota      wing="3" variation="1"  />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="hatikvah" tags="[miner,liquid,mixed]"  />
-          <loadout>
-            <level min="0" max="0.7"/>
-          </loadout>
-          <owner exact="hatikvah" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="hatikvah_fighter_escort_s_miningfleet" />
-        </subordinates>
-      </job>
-      <job id="hatikvah_fighter_escort_s_miningfleet" name="{20204,2901}" startactive="false" >
-        <orders>
-            <order order="Escort" default="true">
-                <param name="formation" value="formationshape.pointguard"/>
-            </order>
-        </orders>
-        <category faction="hatikvah" tags="[military,fighter,deepspace]" size="ship_s" />
-        <quota      wing="1" variation="1"  />
-        <location class="galaxy" macro="x3g_galaxy_macro"     />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="hatikvah" tags="[military,fighter,selection]" size="ship_s" />
-          <loadout>
-            <level min="0" max="0.7"/>
-          </loadout>
-          <owner exact="hatikvah" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="hatikvah_resourcescout_sm_deepspace_single" name="{20204,10049}"  >
-        <orders>
-            <order order="MiningRoutine" default="true">
-                <param name="deepspace" value="true"/>
-                <param name="resourcescout" value="true"/>
-            </order>
-        </orders>
-        <basket basket="minerals" />
-        <category faction="hatikvah" tags="[scout]"  />
-        <quota galaxy="4"  cluster="1"      />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="self" comparison="lt"  faction="xenon" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="hatikvah" tags="[plunderer,mixed]"  />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="hatikvah" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-        <encounters id="resource_scout"/>
-      </job>
-      <job id="hatikvah_free_miner_ml_liquid_deepspace_single" name="{20204,5701}"  >
-        <orders>
-            <order order="MiningRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="gases" />
-        <category faction="argon" tags="[freighter,miner,deepspace]"  />
-        <quota galaxy="1"        />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="friend" comparison="ge" regionbasket="gases" faction="hatikvah" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="hatikvah" tags="[miner,liquid,mixed]"  />
-          <loadout>
-            <level min="0" max="0.4"/>
-          </loadout>
-          <owner exact="hatikvah" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-        <encounters id="lone_miner"/>
-      </job>
-      <job id="hatikvah_scavenger_sm_deepspace_single" name="{20204,4201}"  >
-        <orders>
-            <order order="Plunder" default="true">
-                <param name="range_internal" value="'cluster'"/>
-                <param name="plundermode" value="0"/>
-                <param name="deepspace" value="true"/>
-            </order>
-        </orders>
-        <basket basket="pirate_container" />
-        <category faction="argon" tags="[freighter,miner,deepspace]"  />
-        <quota galaxy="1"        />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="self" comparison="lt"  faction="xenon" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="hatikvah" tags="[plunderer,mixed]"  />
-          <loadout>
-            <level min="0" max="1.0"/>
-          </loadout>
-          <owner exact="hatikvah" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-        <encounters id="lone_plunderer"/>
-      </job>
-      <job id="hatikvah_free_miner_l_solid_deepspace_largegroup" name="{20204,5601}"  >
-        <orders>
-            <order order="MiningRoutine" default="true">
-                <param name="minbuy" value="0"/>
-                <param name="maxbuy" value="5"/>
-                <param name="minsell" value="0"/>
-                <param name="maxsell" value="5"/>
-            </order>
-        </orders>
-        <basket basket="minerals" />
-        <category faction="argon" tags="[freighter,miner,deepspace]" size="ship_l" />
-        <quota galaxy="1"        />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="friend" comparison="ge" regionbasket="minerals" faction="hatikvah" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="hatikvah" tags="[miner,solid,heavy]" size="ship_l" />
-          <loadout>
-            <level min="0" max="0.7"/>
-          </loadout>
-          <owner exact="hatikvah" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="hatikvah_miningfleet_ml_solid_large" />
-          <subordinate job="hatikvah_fighter_escort_s_miningfleet" />
-        </subordinates>
-        <encounters id="mining_group_large"/>
-      </job>
-      <job id="scaleplate_plunderer_l_cluster" name="{20204,4101}"  disabled="false">
-        <orders>
-            <order order="Plunder" default="true">
-                <param name="range_internal" value="'cluster'"/>
-                <param name="plundermode" value="1"/>
-            </order>
-        </orders>
-        <basket basket="pirate_container" />
-        <category faction="scaleplate" tags="[plunderer]" size="ship_l" />
-        <quota galaxy="7"   sector="1"     />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="self" comparison="lt"  faction="xenon" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="scaleplate" tags="[plunderer]" size="ship_l" />
-          <loadout>
-            <level min="0" max="1.0"/>
-          </loadout>
-          <owner exact="scaleplate" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="scaleplate_scavenger_m_cluster" name="{20204,4301}"  disabled="false">
-        <orders>
-            <order order="Plunder" default="true">
-                <param name="range_internal" value="'cluster'"/>
-                <param name="plundermode" value="0"/>
-            </order>
-        </orders>
-        <basket basket="pirate_container" />
-        <category faction="scaleplate" tags="[plunderer]" size="ship_m" />
-        <quota galaxy="24"   sector="1"     />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="self" comparison="lt"  faction="xenon" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="scaleplate" tags="[plunderer]" size="ship_m" />
-          <loadout>
-            <level min="0" max="1.0"/>
-          </loadout>
-          <owner exact="scaleplate" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="scaleplate_smuggler_s" name="{20204,10009}"  disabled="false">
-        <orders>
-            <order order="TradeRoutine" default="true">
-                <param name="maxbuy" value="30"/>
-                <param name="maxsell" value="30"/>
-                <param name="usecover" value="true"/>
-            </order>
-        </orders>
-        <basket basket="global_illegal" />
-        <category faction="scaleplate" tags="[trader]" size="ship_s" />
-        <quota galaxy="30"   sector="1"     />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="self" comparison="lt"  faction="xenon" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="scaleplate" tags="[trader]" size="ship_s" />
-          <loadout>
-            <level min="0" max="1.0"/>
-          </loadout>
-          <owner exact="scaleplate" overridenpc="true"/>
-        </ship>
-        <subordinates>
-        </subordinates>
-      </job>
-      <job id="scaleplate_scavenger_sm_deepspace" name="{20204,4301}"  disabled="false">
-        <orders>
-            <order order="Plunder" default="true">
-                <param name="range_internal" value="'cluster'"/>
-                <param name="plundermode" value="0"/>
-                <param name="deepspace" value="true"/>
-            </order>
-        </orders>
-        <basket basket="pirate_container" />
-        <category faction="scaleplate" tags="[plunderer]"  />
-        <quota galaxy="18"   sector="1"     />
-        <location class="galaxy" macro="x3g_galaxy_macro" relation="self" comparison="lt"  faction="xenon" />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="scaleplate" tags="[plunderer]"  />
-          <loadout>
-            <level min="0" max="1.0"/>
-          </loadout>
-          <owner exact="scaleplate" overridenpc="true"/>
-        </ship>
-        <subordinates>
-          <subordinate job="scaleplate_fighter_escort_s" />
-        </subordinates>
-        <encounters id="lone_plunderer"/>
-      </job>
-      <job id="scaleplate_fighter_escort_s" name="{20204,3501}" startactive="false" >
-        <orders>
-            <order order="Escort" default="true">
-                <param name="formation" value="formationshape.xshapeback"/>
-            </order>
-        </orders>
-        <category faction="scaleplate" tags="[plunderer,light]" size="ship_s" />
-        <quota      wing="2" variation="2"  />
-        <environment buildatshipyard="true"/>
-        <ship>
-          <select faction="scaleplate" tags="[escort,light]" size="ship_s" />
-          <loadout>
-            <level min="0" max="0.7"/>
-          </loadout>
-          <owner exact="scaleplate" overridenpc="true"/>
         </ship>
         <subordinates>
         </subordinates>
