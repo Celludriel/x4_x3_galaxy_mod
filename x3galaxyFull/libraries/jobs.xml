@@ -1212,7 +1212,7 @@
         <location class="galaxy" macro="x3gf_galaxy_macro" relation="friend" comparison="ge" regionbasket="minerals" faction="argon" />
         <environment buildatshipyard="true"/>
         <ship>
-          <select faction="argon" tags="[miner,solid,mixed]"  />
+          <select faction="argon" tags="[miner,solid]" size="ship_l" />
           <loadout>
             <level min="0" max="0.4"/>
           </loadout>
@@ -1240,7 +1240,7 @@
         <location class="galaxy" macro="x3gf_galaxy_macro" relation="friend" comparison="ge" regionbasket="gasses" faction="argon" />
         <environment buildatshipyard="true"/>
         <ship>
-          <select faction="argon" tags="[miner,liquid,mixed]"  />
+          <select faction="argon" tags="[miner,liquid]" size="ship_l" />
           <loadout>
             <level min="0" max="0.4"/>
           </loadout>
@@ -2133,7 +2133,7 @@
         <location class="galaxy" macro="x3gf_galaxy_macro" relation="friend" comparison="ge" regionbasket="minerals" faction="antigone" />
         <environment buildatshipyard="true"/>
         <ship>
-          <select faction="antigone" tags="[miner,solid,mixed]"  />
+          <select faction="antigone" tags="[miner,solid]" size="ship_l" />
           <loadout>
             <level min="0" max="0.4"/>
           </loadout>
@@ -2161,7 +2161,7 @@
         <location class="galaxy" macro="x3gf_galaxy_macro" relation="friend" comparison="ge" regionbasket="gasses" faction="antigone" />
         <environment buildatshipyard="true"/>
         <ship>
-          <select faction="antigone" tags="[miner,liquid,mixed]"  />
+          <select faction="antigone" tags="[miner,liquid]" size="ship_l" />
           <loadout>
             <level min="0" max="0.4"/>
           </loadout>
@@ -3347,7 +3347,7 @@
         <location class="galaxy" macro="x3gf_galaxy_macro" relation="friend" comparison="ge" regionbasket="minerals" faction="paranid" />
         <environment buildatshipyard="true"/>
         <ship>
-          <select faction="paranid" tags="[miner,solid,mixed]"  />
+          <select faction="paranid" tags="[miner,solid]" size="ship_l" />
           <loadout>
             <level min="0" max="0.4"/>
           </loadout>
@@ -3375,7 +3375,7 @@
         <location class="galaxy" macro="x3gf_galaxy_macro" relation="friend" comparison="ge" regionbasket="gasses" faction="paranid" />
         <environment buildatshipyard="true"/>
         <ship>
-          <select faction="paranid" tags="[miner,liquid,mixed]"  />
+          <select faction="paranid" tags="[miner,liquid]" size="ship_l" />
           <loadout>
             <level min="0" max="0.4"/>
           </loadout>
@@ -4547,7 +4547,7 @@
         <location class="galaxy" macro="x3gf_galaxy_macro" relation="friend" comparison="ge" regionbasket="minerals" faction="holyorder" />
         <environment buildatshipyard="true"/>
         <ship>
-          <select faction="holyorder" tags="[miner,solid,mixed]"  />
+          <select faction="holyorder" tags="[miner,solid]" size="ship_l" />
           <loadout>
             <level min="0" max="0.4"/>
           </loadout>
@@ -4575,7 +4575,7 @@
         <location class="galaxy" macro="x3gf_galaxy_macro" relation="friend" comparison="ge" regionbasket="gasses" faction="holyorder" />
         <environment buildatshipyard="true"/>
         <ship>
-          <select faction="holyorder" tags="[miner,liquid,mixed]"  />
+          <select faction="holyorder" tags="[miner,liquid]" size="ship_l" />
           <loadout>
             <level min="0" max="0.4"/>
           </loadout>
@@ -5705,7 +5705,7 @@
         <location class="galaxy" macro="x3gf_galaxy_macro" relation="friend" comparison="ge" regionbasket="minerals" faction="teladi" />
         <environment buildatshipyard="true"/>
         <ship>
-          <select faction="teladi" tags="[miner,solid,mixed]"  />
+          <select faction="teladi" tags="[miner,solid]" size="ship_l" />
           <loadout>
             <level min="0" max="0.4"/>
           </loadout>
@@ -5733,7 +5733,7 @@
         <location class="galaxy" macro="x3gf_galaxy_macro" relation="friend" comparison="ge" regionbasket="gasses" faction="teladi" />
         <environment buildatshipyard="true"/>
         <ship>
-          <select faction="teladi" tags="[miner,liquid,mixed]"  />
+          <select faction="teladi" tags="[miner,liquid]" size="ship_l" />
           <loadout>
             <level min="0" max="0.4"/>
           </loadout>
@@ -5966,11 +5966,11 @@
         <location class="galaxy" macro="x3gf_galaxy_macro" relation="member" comparison="ge" regionbasket="minerals_xenon" faction="xenon" />
         <environment buildatshipyard="true"/>
         <ship>
-          <select faction="argon" tags="[miner,solid]" size="ship_l" />
+          <select faction="xenon" tags="[miner,solid]" size="ship_m" />
           <loadout>
             <level min="0" max="0.7"/>
           </loadout>
-          <owner exact="argon" overridenpc="true"/>
+          <owner exact="xenon" overridenpc="true"/>
           <cargo>
             <wares multiple="true">
               <fillpercent min="0" max="100" profile="inversebell"/>
